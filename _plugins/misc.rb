@@ -1,6 +1,5 @@
 require 'liquid'
-# Commented out html-proofer as it's not needed for local development
-# require 'html-proofer'
+require 'html-proofer'
 
 module Jekyll
   module MiscFilters
