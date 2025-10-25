@@ -15,8 +15,12 @@ phd:
   description: PhD Student
 
 research-assistant:
-  icon: fa-solid fa-user-clock
+  icon: fa-solid fa-graduation-cap
   description: Research Assistant
+
+masters:
+  icon: fa-solid fa-user-tie
+  description: Master's Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
