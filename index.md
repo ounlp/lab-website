@@ -3,19 +3,7 @@
 
 # OUNLP
 
-Advancing natural language understanding for dialogue, reasoning, and human-AI collaboration.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+Advancing natural language understanding for dialogue, reasoning, and human-A collaboration.
 
 {% include section.html %}
 
