@@ -14,8 +14,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="jie.cao@ou.edu"
+  link="jie.cao@ou.edu"
 %}
 {%
   include button.html
@@ -27,7 +27,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://www.google.com/maps/search/?api=1&query=Devon+Energy+Hall+Norman+OK"
 %}
 
 {% include section.html %}
@@ -57,21 +57,21 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+OUNLP Lab
+University of Oklahoma
+Principal Investigator: Dr. Jie Cao
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+Devon Energy Hall, 210
+110 W Boyd St
+Norman, OK 73019
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+Email: jie.cao@ou.edu
+Phone: (405) 000-0000
+Please reach out to schedule a visit or meeting.
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

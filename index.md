@@ -3,7 +3,7 @@
 
 # OUNLP
 
-Advancing natural language understanding for dialogue, reasoning, and human-A collaboration.
+The OUNLP Lab studies how machines understand, generate, and interact through human language. We develop models and systems for dialogue, discourse, reasoning, and trustworthy human-AI collaboration.
 
 {% include section.html %}
 
