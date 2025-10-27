@@ -19,12 +19,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
   link="https://www.google.com/maps/search/?api=1&query=Devon+Energy+Hall+Norman+OK"
@@ -57,20 +51,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-OUNLP Lab
-University of Oklahoma
+OUNLP Lab<br>
+University of Oklahoma<br>
 Principal Investigator: Dr. Jie Cao
 {% endcapture %}
 
 {% capture col2 %}
-Devon Energy Hall, 210
-110 W Boyd St
-Norman, OK 73019
+Devon Energy Hall, 210<br>
+110 W Boyd St<br>
+Norman, OK 73019<br>
 {% endcapture %}
 
 {% capture col3 %}
-Email: jie.cao@ou.edu
-Phone: (405) 000-0000
+Email: jie.cao@ou.edu<br>
 Please reach out to schedule a visit or meeting.
 {% endcapture %}
 
