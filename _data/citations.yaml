@@ -248,5 +248,6 @@
   date: '2025-12-01'
   link: https://doi.org/g977xq
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
+  type: paper
   plugin: sources.py
   file: sources.yaml

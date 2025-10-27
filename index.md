@@ -11,8 +11,7 @@ The OUNLP Lab studies how machines understand, generate, and interact through hu
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+We study multi-party/multi-modal dialogue, LLM/agent alignment, structured prediction, and trustworthy deployment to build reliable human–AI language systems.
 {%
   include button.html
   link="research"
@@ -34,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ongoing work includes classroom/tutoring discourse analytics, domain-specific agents (e.g., hydrology, materials), symbolic-neural structured prediction, and robust evaluation.
 
 {%
   include button.html
@@ -59,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Led by Assistant Professor Jie Cao at OU’s School of Computer Science, OUNLP is a collaborative group of students and partners focused on NLP, ML, dialogue/discourse, and trustworthy AI.
 
 {%
   include button.html
