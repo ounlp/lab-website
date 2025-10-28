@@ -10,4 +10,4 @@ links:
   linkedin: https://www.linkedin.com/in/cuong-huynh-43823434b/
 ---
 
-Cuong Huynh is Sophemore student at Oklahoma University. 
+Cuong Huynh is Sophemore student at University of Oklahoma. 
