@@ -28,8 +28,13 @@ log("Compiling sources")
 # compiled list of sources
 sources = []
 
-# in-order list of plugins to run
-plugins = ["google-scholar", "pubmed", "orcid", "sources"]
+# in-order list of plugins to run (controls which citation sources are processed)
+plugins = [
+    "google-scholar",
+    "pubmed",
+    # "orcid",  # Temporarily disabled - uncomment to re-enable ORCID lookups
+    "sources"
+]
 
 # loop through plugins
 for plugin in plugins:
