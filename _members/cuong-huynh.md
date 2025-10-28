@@ -1,7 +1,7 @@
 ---
 name: Ricky Huynh
 image: images/ricky-huynh.png
-description: Research Assistant - Sophemore Student
+description: Sophemore Student
 role: research-assistant
 links:
   email: cuong@ou.edu
