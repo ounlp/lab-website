@@ -1,6 +1,6 @@
 ---
 name: Ricky Huynh
-image: images/ricky-huynh.jpg
+image: images/ricky-huynh.png
 description: Research Assistant - Sophemore Student
 role: research-assistant
 links:
