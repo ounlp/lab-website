@@ -1,12 +1,12 @@
 ---
 name: Arman Radmanesh
-image: images/armanradmaenesh.jpg
+image: images/arman-radmaenesh.jpg
 description: Research Assistant - Masters Student
 role: research-assistant
 links:
   email: radmanesh@ou.edu
   website: https://armanradmanesh.com
-  github: https://github.com/radmanesh/
+  github: radmanesh
   linkedin: https://www.linkedin.com/in/armanradmanesh/
 ---
 

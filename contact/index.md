@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-For inquiries about research, collaboration, or joining OUNLP, please contact us using the links below.
+Our lab is part of [The University of Oklahoma](https://www.ou.edu/)'s [School of Computer Science](https://www.ou.edu/coe/cs). We are a collaborative group within the OU NLP (OUNLP) Lab, working across language, learning, and intelligent systems. The lab is located on the 2nd floor of Devon Energy Hall at the Norman campus, with members collaborating both on campus and remotely.
 
 {%
   include button.html
@@ -19,7 +19,7 @@ For inquiries about research, collaboration, or joining OUNLP, please contact us
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps/search/?api=1&query=Devon+Energy+Hall+Norman+OK"
+  link="https://www.google.com/maps/place/Devon+Energy+Hall/@35.2105344,-97.4424059,17z/data=!4m6!3m5!1s0x87b269d42f861525:0xe12554826d3823c5!8m2!3d35.2108355!4d-97.4418355!16s%2Fg%2F11r_vn3k3k"
 %}
 
 {% include section.html %}
@@ -28,8 +28,7 @@ For inquiries about research, collaboration, or joining OUNLP, please contact us
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/gallogy.jpg"
 %}
 
 {% endcapture %}
@@ -38,31 +37,9 @@ For inquiries about research, collaboration, or joining OUNLP, please contact us
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/devon.jpg"
 %}
 
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-OUNLP Lab<br>
-University of Oklahoma<br>
-Principal Investigator: Dr. Jie Cao
-{% endcapture %}
-
-{% capture col2 %}
-Devon Energy Hall, 210<br>
-110 W Boyd St<br>
-Norman, OK 73019<br>
-{% endcapture %}
-
-{% capture col3 %}
-Email: jie.cao@ou.edu<br>
-Please reach out to schedule a visit or meeting.
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}

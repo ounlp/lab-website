@@ -15,7 +15,7 @@ and human–AI interaction. Get to know the people driving our research.
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html dark=true %}
 
 Moments from our work, research, and fun — snapshots of the OUNLP community in action.
 
@@ -23,7 +23,7 @@ Moments from our work, research, and fun — snapshots of the OUNLP community in
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/ricky-in-lab.jpg" %}
 {% include figure.html image="images/photo.jpg" %}
 {% include figure.html image="images/photo.jpg" %}
 
