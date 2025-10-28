@@ -1,14 +1,10 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
-role: principal-investigator
-affiliation: University of Colorado
-aliases:
-  - J. Smith
-  - J Smith
+name: Joshua Wiseman
+image: images/joshua-wiseman.jpg
+role: Human
+affiliation: University of Oklahoma
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  website: https://github.com/XixWISExiX
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
