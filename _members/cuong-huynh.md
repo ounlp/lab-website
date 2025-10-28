@@ -10,4 +10,4 @@ links:
   linkedin: https://www.linkedin.com/in/cuong-huynh-43823434b/
 ---
 
-Cuong Huynh is Sophemore student at University of Oklahoma. 
+I am Cuong Huynh,a sophomore at the University of Oklahoma majoring in Computer Science with a minor in Mathematics. 
