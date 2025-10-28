@@ -1,6 +1,6 @@
 ---
 name: Jie Cao
-image: images/jie.png
+image: images/jie-cao.png
 role: principal-investigator
 affiliation: School of Computer Science, University of Oklahoma
 links:
@@ -8,7 +8,7 @@ links:
   google-scholar: https://scholar.google.com/citations?user=McBrjX4AAAAJ
   linkedin: https://www.linkedin.com/in/jie-cao-64093b68/
   github: https://github.com/jiecao-ou
-  orcid:
+  orcid: 0000-0001-8268-954X
 ---
 
 Dr. Jie Cao is an Assistant Professor in the School of Computer Science at the University of Oklahoma and the director of the OUNLP Lab. His research centers on natural language processing and machine learning, with a particular focus on dialogue and discourse modeling, structured prediction, large-language-model alignment and agentic systems, multi-modal communication, and trustworthy AI.
