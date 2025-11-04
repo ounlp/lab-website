@@ -4,7 +4,8 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.7"
 
-gem "html-proofer", "~> 5.0"
+# Pin html-proofer to version compatible with Ruby 3.1.6
+gem "html-proofer", "~> 4.4"
 
 # Pin sass-embedded to a stable version compatible with Ruby 3.1.6
 gem "sass-embedded", "~> 1.69.5"
