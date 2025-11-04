@@ -1,7 +1,7 @@
 ---
 name: Jie Cao
 image: images/jie-cao.png
-role: pi
+role: principal-investigator
 affiliation: School of Computer Science, University of Oklahoma
 links:
   home-page: https://mlciv.com
