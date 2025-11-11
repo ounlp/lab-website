@@ -1,6 +1,6 @@
 ---
 name: Ava Batson-Perez
-image: images/ava-batson.jpg
+image: images/avabatsonperez.jpg
 description: Research Assistant - Undergraduate Student
 role: research-assistant
 links:
