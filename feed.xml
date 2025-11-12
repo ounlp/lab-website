@@ -1,1 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ounlp.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ounlp.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2025-11-12T23:38:23+00:00</updated><id>https://ounlp.github.io/lab-website/feed.xml</id><title type="html">OUNLP — Natural Language Processing Lab</title><subtitle>Research on dialogue &amp; discourse, structured prediction, large‑language‑model alignment and agentic systems, multimodal interaction, and trustworthy AI for education and healthcare.</subtitle><entry><title type="html">Example post 3</title><link href="https://ounlp.github.io/lab-website/2023/02/23/example-post-3.html" rel="alternate" type="text/html" title="Example post 3" /><published>2023-02-23T00:00:00+00:00</published><updated>2025-11-12T23:37:40+00:00</updated><id>https://ounlp.github.io/lab-website/2023/02/23/example-post-3</id><content type="html" xml:base="https://ounlp.github.io/lab-website/2023/02/23/example-post-3.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>john-doe</name></author><category term="biology," /><category term="medicine" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ounlp.github.io/lab-website/images/photo.jpg" /><media:content medium="image" url="https://ounlp.github.io/lab-website/images/photo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example post 2</title><link href="https://ounlp.github.io/lab-website/2021/09/30/example-post-2.html" rel="alternate" type="text/html" title="Example post 2" /><published>2021-09-30T00:00:00+00:00</published><updated>2025-11-12T23:37:40+00:00</updated><id>https://ounlp.github.io/lab-website/2021/09/30/example-post-2</id><content type="html" xml:base="https://ounlp.github.io/lab-website/2021/09/30/example-post-2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>jane-smith</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry><entry><title type="html">Example post 1</title><link href="https://ounlp.github.io/lab-website/2019/01/07/example-post-1.html" rel="alternate" type="text/html" title="Example post 1" /><published>2019-01-07T00:00:00+00:00</published><updated>2025-11-12T23:37:40+00:00</updated><id>https://ounlp.github.io/lab-website/2019/01/07/example-post-1</id><content type="html" xml:base="https://ounlp.github.io/lab-website/2019/01/07/example-post-1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>sarah-johnson</name></author><category term="biology" /><category term="medicine" /><category term="big data" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ounlp.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ounlp.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2025-11-12T23:54:45+00:00</updated><id>https://ounlp.github.io/lab-website/feed.xml</id><title type="html">OUNLP — Natural Language Processing Lab</title><subtitle>Research on dialogue &amp; discourse, structured prediction, large‑language‑model alignment and agentic systems, multimodal interaction, and trustworthy AI for education and healthcare.</subtitle><entry><title type="html">AgentBeats SDK, AgentX–AgentBeats Competition, and OUNLP Project</title><link href="https://ounlp.github.io/lab-website/2025/11/12/agent-beats.html" rel="alternate" type="text/html" title="AgentBeats SDK, AgentX–AgentBeats Competition, and OUNLP Project" /><published>2025-11-12T00:00:00+00:00</published><updated>2025-11-12T23:54:13+00:00</updated><id>https://ounlp.github.io/lab-website/2025/11/12/agent-beats</id><content type="html" xml:base="https://ounlp.github.io/lab-website/2025/11/12/agent-beats.html"><![CDATA[<h1 id="agentbeats-sdk-agentic-ai-mooc-and-ounlp-work-on-multi-agent-evaluation">AgentBeats SDK, Agentic AI MOOC, and OUNLP Work on Multi-Agent Evaluation</h1>
+
+<p>This post highlights our participation in the <strong>AgentX–AgentBeats Competition</strong> and the <strong>Berkeley Agentic AI MOOC</strong>, both of which focus on building reliable, verifiable multi-agent systems. The OUNLP lab is contributing by developing agentic evaluation pipelines grounded in real-world tasks and reproducible verifiers.</p>
+
+<h2 id="agentbeats-a-standardized-platform-for-agent-evaluation">AgentBeats: A Standardized Platform for Agent Evaluation</h2>
+
+<p>The <strong>AgentBeats SDK</strong>, developed by Sierra, provides a unified framework for testing and evaluating multi-agent systems. It introduces structured agent roles and deterministic verifiers that allow researchers to run reproducible experiments over complex tasks.</p>
+
+<p>AgentBeats uses two core agent roles:</p>
+
+<ul>
+  <li>
+    <p><strong>Green Agent (Evaluator &amp; Host):</strong>
+Loads tasks, configures environments, executes verification logic, and reports evaluation metrics.</p>
+  </li>
+  <li>
+    <p><strong>White Agent (Participant):</strong>
+Receives the task and performs the required operations—producing code, solving problems, or interacting with tools.</p>
+  </li>
+</ul>
+
+<p>This design mirrors real-world engineering workflows where one component generates artifacts and another independently verifies their correctness.</p>
+
+<h2 id="insights-from-the-berkeley-agentic-ai-mooc">Insights from the Berkeley Agentic AI MOOC</h2>
+
+<p>Across the MOOC, invited speakers from OpenAI, DeepMind, Microsoft, Berkeley RDI, and Sierra emphasized principles required for dependable agentic systems:</p>
+
+<ul>
+  <li><strong>τ²-Bench-style dual-control testing</strong>, enabling stable, reproducible evaluations.</li>
+  <li><strong>Verifier-driven correctness</strong>, where outputs are tested via DOM comparison, unit tests, or environment states.</li>
+  <li><strong>Dataset curation for benchmark reliability</strong>, as demonstrated by SWE-bench Verified.</li>
+  <li>Ensuring <strong>task separability and diversity</strong>, so evaluations measure meaningful generalization.</li>
+</ul>
+
+<p>These lessons directly inform how our lab approaches agent design and benchmarking.</p>
+
+<h2 id="ounlp-project-agentifying-the-design2code-pipeline">OUNLP Project: Agentifying the Design2Code Pipeline</h2>
+
+<p>Our lab is building a <strong>green-agent-powered evaluation system</strong> for the <strong>Design2Code</strong> framework—a visual-to-code pipeline that translates webpage images or sketches into responsive HTML/CSS.</p>
+
+<p>Our agentic integration includes:</p>
+
+<ul>
+  <li>A <strong>green agent</strong> that orchestrates task loading, environment setup, and verification.</li>
+  <li>Treating each Design2Code translation as an <strong>AgentBeats episode</strong> for consistent benchmarking.</li>
+  <li>Verification logic that checks:
+    <ul>
+      <li>layout and structural fidelity</li>
+      <li>HTML/CSS validity</li>
+      <li>visual similarity to ground-truth screenshots</li>
+    </ul>
+  </li>
+  <li>A <strong>white agent</strong> capable of multi-turn reasoning, enabling clarifying questions before producing final code.</li>
+</ul>
+
+<p>This transforms Design2Code from a generative model into a <strong>fully verifiable agentic task</strong>, suitable for research, benchmarking, and competition submissions.</p>
+
+<h2 id="looking-forward">Looking Forward</h2>
+
+<p>As we continue through the MOOC and competition:</p>
+
+<ul>
+  <li>The green-agent evaluator will be completed with full orchestration and metric reporting.</li>
+  <li>Multi-turn and tool-assisted workflows will be added for the white agent.</li>
+  <li>We plan to explore new agent roles and coordination patterns emerging in the AgentBeats ecosystem.</li>
+  <li>Additional task contributions will be prepared for the broader community.</li>
+</ul>
+
+<p>Agentic AI is rapidly evolving from single-shot prompting toward dependable, autonomous systems. Platforms like AgentBeats give us a testbed to study, measure, and improve these emerging capabilities—and OUNLP is excited to be part of this development.</p>]]></content><author><name>arman-radmanesh</name></author><category term="agentic-ai," /><category term="llm-agents," /><category term="agentbeats," /><category term="design2code" /><summary type="html"><![CDATA[AgentBeats SDK, Agentic AI MOOC, and OUNLP Work on Multi-Agent Evaluation]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ounlp.github.io/lab-website/images/agentbeats-banner.jpeg" /><media:content medium="image" url="https://ounlp.github.io/lab-website/images/agentbeats-banner.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
