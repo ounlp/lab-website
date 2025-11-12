@@ -1,3 +1,7 @@
+- id: doi:10.48550/arXiv.2510.17139
+  image: https://arxiv.org/pdf/2510.17139
+  type: paper
+
 - id: doi:10.1016/j.jhydrol.2025.134145
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
   type: paper
@@ -5,7 +9,17 @@
     - deep learning
     - hydrology
 
-- id: doi:10.48550/arXiv.2510.17139
-  image: https://arxiv.org/pdf/2510.17139
+- id: doi:10.48550/arXiv.2508.02936
   type: paper
 
+- id: doi:10.48550/arXiv.2502.13107
+  type: paper
+
+- id: doi:10.1109/TVCG.2024.3514996
+  type: paper
+
+- id: doi:10.5281/zenodo.15870176
+  type: paper
+
+- id: doi:10.48550/arxiv.2412.13395
+  type: paper

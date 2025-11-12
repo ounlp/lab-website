@@ -1,5 +1,23 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.48550/arXiv.2510.17139
+  title: Rethinking On-policy Optimization for Query Augmentation
+  authors:
+  - Zhichao Xu
+  - Shengyao Zhuang
+  - Xueguang Ma
+  - Bingsen Chen
+  - Yijun Tian
+  - Fengran Mo
+  - Jie Cao
+  - Vivek Srikumar
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g98bgt
+  image: https://arxiv.org/pdf/2510.17139
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.jhydrol.2025.134145
   title: A Mamba-type of deep state space model for reservoir release simulation with
     a large-scale verification over 441 dams across CONUS
@@ -19,21 +37,93 @@
   - hydrology
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arXiv.2510.17139
-  title: Rethinking On-policy Optimization for Query Augmentation
+- id: doi:10.48550/arXiv.2508.02936
+  title: 'AQUAH: Automatic Quantification and Unified Agent in Hydrology'
   authors:
-  - Zhichao Xu
-  - Shengyao Zhuang
-  - Xueguang Ma
-  - Bingsen Chen
-  - Yijun Tian
-  - Fengran Mo
+  - Songkun Yan
+  - Zhi Li
+  - Siyu Zhu
+  - Yixin Wen
+  - Mofan Zhang
+  - Mengye Chen
   - Jie Cao
-  - Vivek Srikumar
+  - Yang Hong
   publisher: arXiv
   date: '2025-01-01'
-  link: https://doi.org/g98bgt
-  image: https://arxiv.org/pdf/2510.17139
+  link: https://doi.org/g977zr
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2502.13107
+  title: 'MatterChat: A Multi-Modal LLM for Material Science'
+  authors:
+  - Yingheng Tang
+  - Wenbin Xu
+  - Jie Cao
+  - Weilu Gao
+  - Steve Farrell
+  - Benjamin Erichson
+  - Michael W. Mahoney
+  - Andy Nonaka
+  - Zhi Yao
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g977zs
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TVCG.2024.3514996
+  title: "\u201CUnderstanding Robustness Lottery\u201D: A Geometric Visual Comparative\
+    \ Analysis of Neural Network Pruning Approaches"
+  authors:
+  - Zhimin Li
+  - Shusen Liu
+  - Xin Yu
+  - Kailkhura Bhavya
+  - Jie Cao
+  - James Daniel Diffenderfer
+  - Peer-Timo Bremer
+  - Valerio Pascucci
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2025-09-01'
+  link: https://doi.org/g977zt
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.5281/zenodo.15870176
+  title: 'Towards Actionable Pedagogical Feedback: A Multi-Perspective Analysis of
+    Mathematics Teaching and Tutoring Dialogue'
+  authors:
+  - ' Jannatun Naim'
+  - ' Jie Cao'
+  - ' Fareen Tasneem'
+  - ' Jennifer Jacobs'
+  - ' Brent Milne'
+  - ' James Martin'
+  - ' Tamara Sumner'
+  publisher: International Educational Data Mining Society
+  date: '2025-07-12'
+  link: https://doi.org/g977zp
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arxiv.2412.13395
+  title: Enhancing Talk Moves Analysis in Mathematics Tutoring through Classroom Teaching
+    Discourse
+  authors:
+  - Jie Cao
+  - Abhijit Suresh
+  - Jennifer Jacobs
+  - Charis Clevenger
+  - Amanda Howard
+  - Chelsea Brown
+  - Brent Milne
+  - Tom Fischaber
+  - Tamara Sumner
+  - James H. Martin
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/g977zq
   type: paper
   plugin: sources.py
   file: sources.yaml
