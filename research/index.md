@@ -14,7 +14,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="A Mamba-type of deep state space model for reservoir release simulation with a large-scale verification over 441 dams across CONUS" style="rich" %}
 
 {% include section.html %}
 

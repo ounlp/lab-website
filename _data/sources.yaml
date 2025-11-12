@@ -1,27 +1,65 @@
 - id: doi:10.1016/j.jhydrol.2025.134145
+  desciption: "Integrating deep learning with reservoir simulation for interpretable water management in hydrology"
+  date: 2025-12-01
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
   type: paper
   tags:
+    - reservoir simulation
     - deep learning
+    - water management
+    - interpretability
     - hydrology
 
 - id: doi:10.48550/arXiv.2510.17139
   image: https://arxiv.org/html/2510.17139v1/figures/opqe-fever-sparse.png
   type: paper
+  tags:
+    - query augmentation
+    - information retrieval
+    - large language models
+    - reinforcement learning
 
 - id: doi:10.48550/arXiv.2508.02936
   type: paper
+  tags:
+    - hydrologic modeling
+    - language agents
+    - vision LLM
+    - automatic data retrieval
+    - simulation
 
 - id: doi:10.48550/arXiv.2502.13107
   image: https://arxiv.org/html/2502.13107v3/x4.png
   type: paper
+  tags:
+    - materials science
+    - multi‑modal LLM
+    - structure‑aware modeling
+    - property prediction
+    - interatomic potential
 
 - id: doi:10.1109/TVCG.2024.3514996
   image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
   type: paper
+  tags:
+    - neural network pruning
+    - robustness
+    - visual analysis
+    - geometric comparative analysis
 
 - id: doi:10.5281/zenodo.15870176
   type: paper
+  tags:
+    - pedagogical feedback
+    - mathematics education
+    - talk moves
+    - discourse analysis
+    - tutoring dialogue
 
 - id: doi:10.48550/arxiv.2412.13395
   type: paper
+  tags:
+    - mathematics tutoring
+    - SAGA22 dataset
+    - pretraining
+    - dialogue context

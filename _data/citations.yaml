@@ -12,10 +12,15 @@
   publisher: Journal of Hydrology
   date: '2025-12-01'
   link: https://doi.org/g977xq
+  desciption: Integrating deep learning with reservoir simulation for interpretable
+    water management in hydrology
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
   type: paper
   tags:
+  - reservoir simulation
   - deep learning
+  - water management
+  - interpretability
   - hydrology
   plugin: sources.py
   file: sources.yaml
@@ -35,6 +40,11 @@
   link: https://doi.org/g98bgt
   image: https://arxiv.org/html/2510.17139v1/figures/opqe-fever-sparse.png
   type: paper
+  tags:
+  - query augmentation
+  - information retrieval
+  - large language models
+  - reinforcement learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2508.02936
@@ -52,6 +62,12 @@
   date: '2025-01-01'
   link: https://doi.org/g977zr
   type: paper
+  tags:
+  - hydrologic modeling
+  - language agents
+  - vision LLM
+  - automatic data retrieval
+  - simulation
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2502.13107
@@ -71,6 +87,12 @@
   link: https://doi.org/g977zs
   image: https://arxiv.org/html/2502.13107v3/x4.png
   type: paper
+  tags:
+  - materials science
+  - "multi\u2011modal LLM"
+  - "structure\u2011aware modeling"
+  - property prediction
+  - interatomic potential
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TVCG.2024.3514996
@@ -90,6 +112,11 @@
   link: https://doi.org/g977zt
   image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
   type: paper
+  tags:
+  - neural network pruning
+  - robustness
+  - visual analysis
+  - geometric comparative analysis
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.5281/zenodo.15870176
@@ -107,6 +134,12 @@
   date: '2025-07-12'
   link: https://doi.org/g977zp
   type: paper
+  tags:
+  - pedagogical feedback
+  - mathematics education
+  - talk moves
+  - discourse analysis
+  - tutoring dialogue
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arxiv.2412.13395
@@ -127,5 +160,10 @@
   date: '2024-01-01'
   link: https://doi.org/g977zq
   type: paper
+  tags:
+  - mathematics tutoring
+  - SAGA22 dataset
+  - pretraining
+  - dialogue context
   plugin: sources.py
   file: sources.yaml
