@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+At OUNLP, we explore the frontier of natural language processing and machine learning with the goal of building intelligent, trustworthy, and practical AI systems. Our work spans multi-party, multi-modal dialogue and discourse analysis (in domains like education and mental health), agentic models and domain-specific “world” models for human-AI teaming, efficient structured-prediction and symbolic methods to augment neural networks, and the robust deployment and evaluation of trustworthy AI.
 
 {% include section.html %}
 

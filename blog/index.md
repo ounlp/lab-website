@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This space is where OUNLP members write about the ideas, experiments, and discoveries that shape our work. From new papers and demos to reflections on conferences, workshops, and research journeys, our blog captures the evolving story of the lab and the people behind it.
 
 {% include section.html %}
 
