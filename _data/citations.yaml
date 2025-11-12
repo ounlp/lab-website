@@ -1,23 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.48550/arXiv.2510.17139
-  title: Rethinking On-policy Optimization for Query Augmentation
-  authors:
-  - Zhichao Xu
-  - Shengyao Zhuang
-  - Xueguang Ma
-  - Bingsen Chen
-  - Yijun Tian
-  - Fengran Mo
-  - Jie Cao
-  - Vivek Srikumar
-  publisher: arXiv
-  date: '2025-01-01'
-  link: https://doi.org/g98bgt
-  image: https://arxiv.org/pdf/2510.17139
-  type: paper
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1016/j.jhydrol.2025.134145
   title: A Mamba-type of deep state space model for reservoir release simulation with
     a large-scale verification over 441 dams across CONUS
@@ -35,6 +17,24 @@
   tags:
   - deep learning
   - hydrology
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2510.17139
+  title: Rethinking On-policy Optimization for Query Augmentation
+  authors:
+  - Zhichao Xu
+  - Shengyao Zhuang
+  - Xueguang Ma
+  - Bingsen Chen
+  - Yijun Tian
+  - Fengran Mo
+  - Jie Cao
+  - Vivek Srikumar
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g98bgt
+  image: https://arxiv.org/pdf/2510.17139
+  type: paper
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2508.02936
