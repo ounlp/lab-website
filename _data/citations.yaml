@@ -69,6 +69,7 @@
   publisher: arXiv
   date: '2025-01-01'
   link: https://doi.org/g977zs
+  image: https://arxiv.org/html/2502.13107v3/x4.png
   type: paper
   plugin: sources.py
   file: sources.yaml
@@ -87,6 +88,7 @@
   publisher: IEEE Transactions on Visualization and Computer Graphics
   date: '2025-09-01'
   link: https://doi.org/g977zt
+  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
   type: paper
   plugin: sources.py
   file: sources.yaml

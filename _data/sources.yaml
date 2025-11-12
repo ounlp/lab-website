@@ -13,9 +13,11 @@
   type: paper
 
 - id: doi:10.48550/arXiv.2502.13107
+  image: https://arxiv.org/html/2502.13107v3/x4.png
   type: paper
 
 - id: doi:10.1109/TVCG.2024.3514996
+  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
   type: paper
 
 - id: doi:10.5281/zenodo.15870176
