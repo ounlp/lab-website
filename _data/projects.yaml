@@ -11,7 +11,7 @@
 - title: "OUNLP at TSAR 2025 Shared: Task Multi-Round Text Simplifier via Code Generation"
   subtitle: a subtitle
   group: featured
-  image: images/OUNLP at TSAR 2025 Shared Task MultiRound Text Simplifier via Code Generation
+  image: images/text-simplification-project.png
   link: https://github.com/Rickie2k6/Sentence_Simplification
   description: For multi-round text simplification
   repo: Rickie2k6/Sentence_Simplification
