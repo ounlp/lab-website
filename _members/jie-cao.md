@@ -5,9 +5,9 @@ role: pi
 affiliation: School of Computer Science, University of Oklahoma
 links:
   home-page: https://mlciv.com
-  google-scholar: https://scholar.google.com/citations?user=McBrjX4AAAAJ
-  linkedin: https://www.linkedin.com/in/jie-cao-64093b68/
-  github: https://github.com/jiecao-ou
+  google-scholar: McBrjX4AAAAJ
+  linkedin: jie-cao-64093b68
+  github: jiecao-ou
   orcid: 0000-0001-8268-954X
 ---
 
