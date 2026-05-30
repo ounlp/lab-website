@@ -20,19 +20,25 @@ and human–AI interaction. Get to know the people driving our research.
 
 ## Graduate Students
 
-{% include list.html data="members" component="portrait" filter="role == 'phd' or role == 'masters'" %}
+{% include list.html data="members" component="portrait" filter="(role == 'phd' or role == 'masters') and alumni != true" %}
 
 {% include section.html %}
 
 ## Undergraduate Students
 
-{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and alumni != true" %}
 
 {% include section.html %}
 
 ## External Student Collaborators
 
-{% include list.html data="members" component="portrait" filter="role == 'research-assistant'" %}
+{% include list.html data="members" component="portrait" filter="role == 'research-assistant' and alumni != true" %}
+
+{% include section.html %}
+
+## Alumni
+
+{% include list.html data="members" component="portrait" filter="alumni == true" %}
 
 {% include section.html dark=true %}
 

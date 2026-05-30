@@ -1,9 +1,9 @@
 ---
 name: Joshua Wiseman
 image: images/joshua-wiseman.jpg
-description: Alumnus (M.S. 2025) — Northrop Grumman
+description: M.S. 2025 → Northrop Grumman
 role: masters
-affiliation: University of Oklahoma
+alumni: true
 links:
   website: https://github.com/XixWISExiX
 ---
