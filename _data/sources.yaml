@@ -32,6 +32,10 @@
   - simulation
   image: images/papers/songkun2025sea.jpg
 - id: doi:10.48550/arXiv.2502.13107
+  title: 'MatterChat: A Multimodal Large Language Model for Materials Science'
+  publisher: Nature Machine Intelligence
+  date: '2026-04-01'
+  link: https://doi.org/10.1038/s42256-026-01214-y
   image: images/papers/matterchat.jpg
   type: paper
   tags:

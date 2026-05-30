@@ -17,7 +17,7 @@ Explore our publications by research theme:
 
 ## Highlighted
 
-{% include citation.html lookup="A Mamba-type of deep state space model for reservoir release simulation with a large-scale verification over 441 dams across CONUS" style="rich" %}
+{% include citation.html lookup="MatterChat" style="rich" %}
 
 {% include section.html %}
 
