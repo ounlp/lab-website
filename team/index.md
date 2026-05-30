@@ -27,8 +27,8 @@ Moments from our work, research, and fun — snapshots of the OUNLP community in
 {% capture content %}
 
 {% include figure.html image="images/ricky-in-lab.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/gallogy.jpg" %}
+{% include figure.html image="images/devon.jpg" %}
 
 {% endcapture %}
 

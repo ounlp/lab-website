@@ -7,8 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+A selection of the software, datasets, shared-task systems, and demos built by the OUNLP Lab.
+Our projects turn research on dialogue, structured prediction, and trustworthy human–AI collaboration into open, reusable tools. Browse by tag or search below.
 
 {% include tags.html tags="publication, resource, website" %}
 
