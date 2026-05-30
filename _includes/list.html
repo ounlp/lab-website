@@ -11,11 +11,26 @@
   | reverse
 %}
 
+{% assign mbn = include.merge_before | plus: 0 %}
+{% assign earlier_printed = false %}
+
 {% for year in years %}
   {% assign data = year.items %}
+  {% assign yn = year.name | plus: 0 %}
+  {% assign heading_id = year.name %}
+  {% assign heading_text = year.name %}
+  {% assign show_heading = true %}
+  {% if mbn > 0 and yn > 0 and yn < mbn %}
+    {% assign heading_id = "earlier" %}
+    {% assign heading_text = "Earlier" %}
+    {% if earlier_printed %}{% assign show_heading = false %}{% endif %}
+    {% assign earlier_printed = true %}
+  {% endif %}
 
+  {% if years.size > 1 and show_heading %}
+    {{--}}<h3 id="{{ heading_id }}">{{ heading_text }}</h3>
+  {% endif %}
   {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
