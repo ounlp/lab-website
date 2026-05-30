@@ -62,7 +62,7 @@ We study multi-party/multi-modal dialogue, LLM/agent alignment, structured predi
 
 {%
   include feature.html
-  image="images/ricky-in-lab.jpg"
+  image="images/devon.jpg"
   link="team"
   title="Our Team"
   flip=true
