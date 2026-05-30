@@ -13,7 +13,7 @@ Courses taught and assisted by members of the OUNLP Lab.
 
 {% capture text %}
 
-In Spring and Fall 2025, Dr. Cao taught this graduate-level course on Natural Language Processing at the University of Oklahoma.
+A graduate-level introduction to modern natural language processing.
 
 {%
   include button.html
@@ -30,13 +30,13 @@ In Spring and Fall 2025, Dr. Cao taught this graduate-level course on Natural La
   include feature.html
   image="images/teaching/nlp-ou.svg"
   link="https://canvas.ou.edu/courses/388014/"
-  title="Natural Language Processing — CS 5293 (OU)"
+  title="Spring & Fall 2025"
   text=text
 %}
 
 {% capture text %}
 
-In Fall 2023, Dr. Cao co-taught Natural Language Processing with Prof. James Martin at CU Boulder, focusing on LLMs, in-context learning, and dialogue.
+Co-taught with Prof. James Martin, focusing on LLMs, in-context learning, and dialogue.
 
 {%
   include button.html
@@ -53,14 +53,14 @@ In Fall 2023, Dr. Cao co-taught Natural Language Processing with Prof. James Mar
   include feature.html
   image="images/teaching/nlp-cu.svg"
   link="https://canvas.colorado.edu/courses/95371/"
-  title="Natural Language Processing — CSCI-LING 5832 (CU Boulder)"
+  title="Fall 2023"
   flip=true
   text=text
 %}
 
 {% capture text %}
 
-In Fall 2016 and 2018, Dr. Cao served as a teaching assistant for Machine Learning, taught by Prof. Vivek Srikumar at the University of Utah.
+Teaching assistant for Prof. Vivek Srikumar's graduate Machine Learning course.
 
 {%
   include button.html
@@ -77,13 +77,13 @@ In Fall 2016 and 2018, Dr. Cao served as a teaching assistant for Machine Learni
   include feature.html
   image="images/teaching/ml-utah.svg"
   link="https://svivek.com/teaching/machine-learning/spring2024/"
-  title="Machine Learning — CS 6350 (University of Utah)"
+  title="Fall 2016 & 2018"
   text=text
 %}
 
 {% capture text %}
 
-In Spring 2019, Dr. Cao served as a teaching assistant for Structured Prediction, taught by Prof. Vivek Srikumar at the University of Utah.
+Teaching assistant for Prof. Vivek Srikumar's course on structured prediction.
 
 {%
   include button.html
@@ -100,7 +100,7 @@ In Spring 2019, Dr. Cao served as a teaching assistant for Structured Prediction
   include feature.html
   image="images/teaching/sp-utah.svg"
   link="https://svivek.com/teaching/structured-prediction/spring2021/"
-  title="Structured Prediction — CS 6355 (University of Utah)"
+  title="Spring 2019"
   flip=true
   text=text
 %}
