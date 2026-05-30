@@ -70,6 +70,7 @@
   - simulation
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/songkun2025sea.jpg
 - id: doi:10.48550/arXiv.2502.13107
   title: 'MatterChat: A Multi-Modal LLM for Material Science'
   authors:
@@ -142,6 +143,7 @@
   - tutoring dialogue
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/naim2025edm.jpg
 - id: doi:10.48550/arxiv.2412.13395
   title: Enhancing Talk Moves Analysis in Mathematics Tutoring through Classroom Teaching
     Discourse
@@ -167,6 +169,7 @@
   - dialogue context
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/talkmove-coling-2024.jpg
 - title: 'HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic
     Model Calibration via Simulator-Grounded RL'
   authors:
@@ -219,6 +222,7 @@
   - large language models
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/huynh-cao-2025-ounlp.jpg
 - title: Do LLMs Encode Frame Semantics? Evidence from Frame Identification
   authors:
   - Jayanth Krishna Chundru
@@ -236,6 +240,7 @@
   - probing
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/jayanth2025emnlp.jpg
 - title: Classifying Tutor Discursive Moves at Scale in Mathematics Classrooms with
     Large Language Models
   authors:
@@ -256,6 +261,7 @@
   - large language models
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/talkmove-llm-2024.jpg
 - title: Comparing Neural Question Generation Architectures for Reading Comprehension
   authors:
   - E. Margaret Perkoff
@@ -272,6 +278,7 @@
   - education
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/qg-bea23.jpg
 - title: Mind the Gap between the Application Track and the Real World
   authors:
   - Ananya Ganesh
@@ -290,6 +297,7 @@
   - generalization
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/ananya-acl23.jpg
 - title: A Comparative Analysis of Automatic Speech Recognition Errors in Small Group
     Classroom Discourse
   authors:
@@ -313,6 +321,7 @@
   - education
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/cao-umap23.jpg
 - title: Designing an AI Partner for Jigsaw Classrooms
   authors:
   - Jie Cao
@@ -333,6 +342,7 @@
   - education
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/cao-jigsaw23.jpg
 - title: "Dependency Dialogue Acts \u2014 Annotation Scheme and Case Study"
   authors:
   - Jon Cai
@@ -357,6 +367,7 @@
   - discourse parsing
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/jon-dda2022.jpg
 - title: Inductive Biases for Deep Linguistic Structured Prediction with Independent
     Factorization
   authors:
@@ -372,6 +383,7 @@
   - dissertation
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/dissertation-proquest.jpg
 - title: Database Workload Characterization with Query Plan Encoders
   authors:
   - Debjyoti Paul
@@ -388,6 +400,7 @@
   - contrastive learning
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/cao2021dbqencoder.jpg
 - title: A Comparative Study on Schema-Guided Dialogue State Tracking
   authors:
   - Jie Cao
@@ -401,6 +414,7 @@
   - schema-guided dialogue
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/cao2021comparative.jpg
 - title: 'Amazon at MRP 2019: Parsing Meaning Representations with Lexical and Phrasal
     Anchoring'
   authors:
@@ -418,6 +432,7 @@
   - shared task
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/cao2019amazon.jpg
 - title: 'Observing Dialogue in Therapy: Categorizing and Forecasting Behavioral Codes'
   authors:
   - Jie Cao
@@ -437,6 +452,7 @@
   - mental health
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/cao2019observing.jpg
 - title: Rhetorically Controlled Encoder-Decoder for Modern Chinese Poetry Generation
   authors:
   - Zhiqiang Liu
@@ -455,6 +471,7 @@
   - controllable generation
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/rhetorical-poetry2019.jpg
 - title: End-to-end Gated Self-attentive Memory Network for Dialog Response Selection
   authors:
   - Shuo Sun
@@ -474,6 +491,7 @@
   - memory networks
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/jie2019dstc.jpg
 - title: A Distributed SVM Method Based on the Iterative MapReduce
   authors:
   - Xijiang Ke
@@ -489,6 +507,7 @@
   - distributed learning
   plugin: sources.py
   file: sources.yaml
+  image: images/papers/ke2015distributed.jpg
 - title: 'JRBridge: A Framework of Large-Scale Statistical Computing for R'
   authors:
   - Xia Xie
