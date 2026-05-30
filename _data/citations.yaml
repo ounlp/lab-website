@@ -90,14 +90,14 @@
   publisher: arXiv
   date: '2025-01-01'
   link: https://doi.org/g977zs
-  image: https://arxiv.org/html/2502.13107v3/x4.png
+  image: images/papers/matterchat.jpg
   type: paper
   tags:
   - AI for Science
   - LLM Agents
   - materials science
-  - "multi\u2011modal LLM"
-  - "structure\u2011aware modeling"
+  - "multi-modal LLM"
+  - "structure-aware modeling"
   - property prediction
   - interatomic potential
   plugin: sources.py
@@ -117,7 +117,7 @@
   publisher: IEEE Transactions on Visualization and Computer Graphics
   date: '2025-09-01'
   link: https://doi.org/g977zt
-  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
+  image: images/papers/vis-pruning.jpg
   type: paper
   tags:
   - Trustworthy AI
@@ -404,7 +404,6 @@
   type: paper
   tags:
   - Structured Prediction
-  - structured prediction
   - inductive bias
   - parsing
   - dissertation
