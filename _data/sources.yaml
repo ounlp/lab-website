@@ -5,6 +5,7 @@
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
   type: paper
   tags:
+  - AI for Science
   - reservoir simulation
   - deep learning
   - water management
@@ -14,6 +15,7 @@
   image: https://arxiv.org/html/2510.17139v1/figures/opqe-fever-sparse.png
   type: paper
   tags:
+  - LLM Agents
   - query augmentation
   - information retrieval
   - large language models
@@ -21,6 +23,8 @@
 - id: doi:10.48550/arXiv.2508.02936
   type: paper
   tags:
+  - AI for Science
+  - LLM Agents
   - hydrologic modeling
   - language agents
   - vision LLM
@@ -31,6 +35,8 @@
   image: https://arxiv.org/html/2502.13107v3/x4.png
   type: paper
   tags:
+  - AI for Science
+  - LLM Agents
   - materials science
   - multi‑modal LLM
   - structure‑aware modeling
@@ -40,6 +46,7 @@
   image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
   type: paper
   tags:
+  - Trustworthy AI
   - neural network pruning
   - robustness
   - visual analysis
@@ -47,6 +54,8 @@
 - id: doi:10.5281/zenodo.15870176
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - pedagogical feedback
   - mathematics education
   - talk moves
@@ -56,6 +65,8 @@
 - id: doi:10.48550/arxiv.2412.13395
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - mathematics tutoring
   - SAGA22 dataset
   - pretraining
@@ -76,6 +87,8 @@
   link: https://arxiv.org/abs/2605.17792
   type: paper
   tags:
+  - AI for Science
+  - LLM Agents
   - hydrology
   - language agents
   - reinforcement learning
@@ -90,6 +103,7 @@
   link: https://aclanthology.org/2026.eacl-long.285/
   type: paper
   tags:
+  - Structured Prediction
   - machine translation
   - classical Chinese
   - sequence tagging
@@ -103,6 +117,8 @@
   link: https://aclanthology.org/2025.tsar-1.19/
   type: paper
   tags:
+  - AI for Education
+  - LLM Agents
   - text simplification
   - code generation
   - readability
@@ -119,6 +135,7 @@
   link: https://aclanthology.org/2025.emnlp-main.1499/
   type: paper
   tags:
+  - Structured Prediction
   - frame semantics
   - frame identification
   - large language models
@@ -139,6 +156,8 @@
   link: https://doi.org/10.1145/3657604.3664664
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - discourse analysis
   - math tutoring
   - large language models
@@ -154,6 +173,7 @@
   link: https://aclanthology.org/2023.bea-1.47/
   type: paper
   tags:
+  - AI for Education
   - question generation
   - reading comprehension
   - education
@@ -171,6 +191,7 @@
   link: https://aclanthology.org/2023.acl-short.156/
   type: paper
   tags:
+  - Trustworthy AI
   - NLP applications
   - evaluation
   - generalization
@@ -193,6 +214,8 @@
   link: https://dl.acm.org/doi/10.1145/3565472.3595606
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - speech recognition
   - classroom discourse
   - education
@@ -211,6 +234,8 @@
   link: https://aichildinteraction.github.io/preprint/AIAIC23_paper_7399.pdf
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - AI partner
   - classroom interaction
   - dialogue
@@ -235,6 +260,7 @@
   link: https://arxiv.org/abs/2302.12944
   type: paper
   tags:
+  - Dialogue and Discourse
   - dialogue acts
   - annotation
   - discourse parsing
@@ -248,6 +274,7 @@
   link: https://www.proquest.com/docview/2777357718
   type: paper
   tags:
+  - Structured Prediction
   - structured prediction
   - inductive bias
   - parsing
@@ -264,6 +291,7 @@
   link: https://dl.acm.org/doi/10.14778/3503585.3503600
   type: paper
   tags:
+  - Structured Prediction
   - databases
   - query plan encoding
   - contrastive learning
@@ -277,6 +305,7 @@
   link: https://aclanthology.org/2021.naacl-main.62/
   type: paper
   tags:
+  - Dialogue and Discourse
   - dialogue state tracking
   - schema-guided dialogue
   image: images/papers/cao2021comparative.jpg
@@ -292,6 +321,7 @@
   link: https://aclanthology.org/K19-2013/
   type: paper
   tags:
+  - Structured Prediction
   - meaning representation parsing
   - semantic parsing
   - shared task
@@ -309,6 +339,7 @@
   link: https://aclanthology.org/P19-1563/
   type: paper
   tags:
+  - Dialogue and Discourse
   - psychotherapy
   - dialogue
   - behavioral coding
@@ -328,6 +359,7 @@
   link: https://aclanthology.org/P19-1192/
   type: paper
   tags:
+  - Structured Prediction
   - poetry generation
   - controllable generation
   image: images/papers/rhetorical-poetry2019.jpg
@@ -345,6 +377,7 @@
   link: http://workshop.colips.org/dstc7/papers/13.pdf
   type: paper
   tags:
+  - Dialogue and Discourse
   - dialogue
   - response selection
   - memory networks

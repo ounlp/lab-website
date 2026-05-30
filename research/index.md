@@ -9,6 +9,10 @@ nav:
 
 At OUNLP, we explore the frontier of natural language processing and machine learning with the goal of building intelligent, trustworthy, and practical AI systems. Our work spans multi-party, multi-modal dialogue and discourse analysis (in domains like education and mental health), agentic models and domain-specific “world” models for human-AI teaming, efficient structured-prediction and symbolic methods to augment neural networks, and the robust deployment and evaluation of trustworthy AI.
 
+Explore our publications by research theme:
+
+{% include tags.html tags="Dialogue and Discourse, AI for Education, LLM Agents, AI for Science, Structured Prediction, Trustworthy AI" %}
+
 {% include section.html %}
 
 ## Highlighted

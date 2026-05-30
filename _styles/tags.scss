@@ -32,3 +32,17 @@
 .tag[data-active] {
   background: var(--light-gray);
 }
+
+// research-cluster keywords: rendered as filled, primary-colored chips so the
+// lab's research themes stand out and are easy to filter by
+.tag[data-theme] {
+  background: var(--primary);
+  color: var(--background);
+  font-weight: var(--semi-bold);
+}
+
+.tag[data-theme]:hover,
+.tag[data-theme][data-active] {
+  background: var(--text);
+  color: var(--background);
+}
