@@ -14,14 +14,9 @@ permissions:
   pull-requests: write
 
 jobs:
+  # refresh citations on push. the site itself is built and deployed by the
+  # "Deploy Jekyll site to Pages" workflow (jekyll.yml) via GitHub Actions.
   update-citations:
     # skip first run because nothing enabled or setup yet
     if: github.run_number != 1
     uses: ./.github/workflows/update-citations.yaml
-
-  build-site:
-    needs: update-citations
-    # deploy even if the citation refresh fails or is skipped, so a transient
-    # manubot / Google Scholar hiccup never blocks the live site from updating
-    if: ${{ always() }}
-    uses: ./.github/workflows/build-site.yaml
