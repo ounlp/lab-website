@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9d174d"/>
+      <stop offset="1" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g opacity="0.30" stroke="#ffffff" stroke-width="8" stroke-linecap="round"><line x1="930" y1="210" x2="820" y2="330"/><line x1="930" y1="210" x2="1050" y2="320"/><line x1="820" y1="330" x2="770" y2="470"/><line x1="820" y1="330" x2="900" y2="470"/><line x1="1050" y1="320" x2="1040" y2="470"/></g>
+  <g opacity="0.18" fill="#ffffff"><circle cx="930" cy="210" r="26"/><circle cx="820" cy="330" r="26"/><circle cx="1050" cy="320" r="26"/><circle cx="770" cy="470" r="26"/><circle cx="900" cy="470" r="26"/><circle cx="1040" cy="470" r="26"/></g>
+  <text x="90" y="180" fill="#ffffff" fill-opacity="0.82" font-size="30" font-weight="600" letter-spacing="4">TEACHING ASSISTANT</text>
+  <text x="88" y="400" fill="#ffffff" font-size="80" font-weight="800" letter-spacing="-1">Structured Prediction</text>
+  <line x1="92" y1="456" x2="320" y2="456" stroke="#ffffff" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+  <text x="90" y="535" fill="#ffffff" font-size="46" font-weight="700">CS 6355</text>
+  <text x="90" y="583" fill="#ffffff" fill-opacity="0.85" font-size="32" font-weight="500">University of Utah</text>
+</svg>

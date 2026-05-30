@@ -28,7 +28,7 @@ In Spring and Fall 2025, Dr. Cao taught this graduate-level course on Natural La
 
 {%
   include feature.html
-  image="images/slp3.jpg"
+  image="images/teaching/nlp-ou.svg"
   link="https://canvas.ou.edu/courses/388014/"
   title="Natural Language Processing — CS 5293 (OU)"
   text=text
@@ -51,7 +51,7 @@ In Fall 2023, Dr. Cao co-taught Natural Language Processing with Prof. James Mar
 
 {%
   include feature.html
-  image="images/slp3.jpg"
+  image="images/teaching/nlp-cu.svg"
   link="https://canvas.colorado.edu/courses/95371/"
   title="Natural Language Processing — CSCI-LING 5832 (CU Boulder)"
   flip=true
@@ -75,7 +75,7 @@ In Fall 2016 and 2018, Dr. Cao served as a teaching assistant for Machine Learni
 
 {%
   include feature.html
-  image="images/uofu-ml.jpg"
+  image="images/teaching/ml-utah.svg"
   link="https://svivek.com/teaching/machine-learning/spring2024/"
   title="Machine Learning — CS 6350 (University of Utah)"
   text=text
@@ -98,7 +98,7 @@ In Spring 2019, Dr. Cao served as a teaching assistant for Structured Prediction
 
 {%
   include feature.html
-  image="images/uofu-sp.jpg"
+  image="images/teaching/sp-utah.svg"
   link="https://svivek.com/teaching/structured-prediction/spring2021/"
   title="Structured Prediction — CS 6355 (University of Utah)"
   flip=true
