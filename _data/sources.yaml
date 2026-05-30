@@ -31,8 +31,18 @@
   - automatic data retrieval
   - simulation
   image: images/papers/songkun2025sea.jpg
-- id: doi:10.48550/arXiv.2502.13107
+- id: doi:10.1038/s42256-026-01214-y
   title: 'MatterChat: A Multimodal Large Language Model for Materials Science'
+  authors:
+  - Yingheng Tang
+  - Wenbin Xu
+  - Jie Cao
+  - Weilu Gao
+  - Steve Farrell
+  - Benjamin Erichson
+  - Michael W. Mahoney
+  - Andy Nonaka
+  - Zhi Yao
   publisher: Nature Machine Intelligence
   date: '2026-04-01'
   link: https://doi.org/10.1038/s42256-026-01214-y
