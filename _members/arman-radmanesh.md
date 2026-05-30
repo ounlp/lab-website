@@ -1,8 +1,8 @@
 ---
 name: Arman Radmanesh
 image: images/arman-radmaenesh.jpg
-description: Research Assistant - Masters Student
-role: research-assistant
+description: Master's Student in Data Science & Analytics
+role: masters
 links:
   email: radmanesh@ou.edu
   website: https://armanradmanesh.com

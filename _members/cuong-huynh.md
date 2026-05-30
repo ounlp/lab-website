@@ -1,8 +1,8 @@
 ---
 name: Ricky Huynh
 image: images/ricky-huynh.jpg
-description: Sophomore Student
-role: research-assistant
+description: Undergraduate Researcher in Computer Science
+role: undergrad
 links:
   email: cuong@ou.edu
   github: Rickie2k6
