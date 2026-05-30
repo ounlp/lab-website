@@ -32,18 +32,18 @@
   - simulation
   image: images/papers/songkun2025sea.jpg
 - id: doi:10.48550/arXiv.2502.13107
-  image: https://arxiv.org/html/2502.13107v3/x4.png
+  image: images/papers/matterchat.jpg
   type: paper
   tags:
   - AI for Science
   - LLM Agents
   - materials science
-  - multi‑modal LLM
-  - structure‑aware modeling
+  - multi-modal LLM
+  - structure-aware modeling
   - property prediction
   - interatomic potential
 - id: doi:10.1109/TVCG.2024.3514996
-  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
+  image: images/papers/vis-pruning.jpg
   type: paper
   tags:
   - Trustworthy AI
@@ -275,7 +275,6 @@
   type: paper
   tags:
   - Structured Prediction
-  - structured prediction
   - inductive bias
   - parsing
   - dissertation
