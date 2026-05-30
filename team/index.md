@@ -12,11 +12,27 @@ and human–AI interaction. Get to know the people driving our research.
 
 {% include section.html %}
 
+## Principal Investigator
+
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Graduate Students
+
+{% include list.html data="members" component="portrait" filter="role == 'phd' or role == 'masters'" %}
+
+{% include section.html %}
+
+## Undergraduate Students
+
+{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+
+{% include section.html %}
+
+## External Student Collaborators
+
+{% include list.html data="members" component="portrait" filter="role == 'research-assistant'" %}
 
 {% include section.html dark=true %}
 
