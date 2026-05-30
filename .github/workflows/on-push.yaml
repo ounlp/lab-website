@@ -21,4 +21,7 @@ jobs:
 
   build-site:
     needs: update-citations
+    # deploy even if the citation refresh fails or is skipped, so a transient
+    # manubot / Google Scholar hiccup never blocks the live site from updating
+    if: ${{ always() }}
     uses: ./.github/workflows/build-site.yaml
