@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a0000"/>
+      <stop offset="1" stop-color="#cc0000"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g opacity="0.16" fill="#ffffff"><circle cx="800" cy="470" r="13"/><circle cx="845" cy="420" r="13"/><circle cx="890" cy="440" r="13"/><circle cx="940" cy="360" r="13"/><circle cx="995" cy="380" r="13"/><circle cx="1045" cy="300" r="13"/><circle cx="1085" cy="250" r="13"/></g>
+  <polyline points="790,485 1095,235" fill="none" stroke="#ffffff" stroke-width="9" stroke-dasharray="4 22" stroke-linecap="round" opacity="0.5"/>
+  <line x1="780" y1="540" x2="780" y2="210" stroke="#ffffff" stroke-width="7" opacity="0.3" stroke-linecap="round"/>
+  <line x1="780" y1="540" x2="1110" y2="540" stroke="#ffffff" stroke-width="7" opacity="0.3" stroke-linecap="round"/>
+  <text x="90" y="180" fill="#ffffff" font-size="30" font-weight="600" letter-spacing="4">TEACHING ASSISTANT</text>
+  <text x="88" y="400" fill="#ffffff" font-size="80" font-weight="800" letter-spacing="-1">Machine Learning</text>
+  <line x1="92" y1="456" x2="320" y2="456" stroke="#ffffff" stroke-opacity="0.75" stroke-width="5" stroke-linecap="round"/>
+  <text x="90" y="535" fill="#ffffff" font-size="46" font-weight="700">CS 6350</text>
+  <text x="90" y="583" fill="#ffffff" fill-opacity="0.9" font-size="32" font-weight="500">University of Utah</text>
+</svg>

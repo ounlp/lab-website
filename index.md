@@ -5,6 +5,20 @@
 
 The OUNLP Lab studies how machines understand, generate, and interact through human language. We develop models and systems for dialogue, discourse, reasoning, and trustworthy human-AI collaboration.
 
+{%
+  include button.html
+  link="research"
+  text="Explore our research"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+%}
+{%
+  include button.html
+  link="team"
+  text="Meet the team"
+  icon="fa-solid fa-users"
+%}
+
 {% include section.html %}
 
 ## Highlights
@@ -25,7 +39,7 @@ We study multi-party/multi-modal dialogue, LLM/agent alignment, structured predi
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/gallogy.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -48,7 +62,7 @@ Ongoing work includes classroom/tutoring discourse analytics, domain-specific ag
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/agentbeats-banner.jpeg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -73,7 +87,7 @@ Ongoing work includes classroom/tutoring discourse analytics, domain-specific ag
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/ricky-in-lab.jpg"
   link="team"
   title="Our Team"
   text=text

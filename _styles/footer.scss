@@ -9,7 +9,14 @@ footer {
   gap: 20px;
   padding: 40px;
   line-height: var(--spacing);
+  background: var(--background);
+  border-top: 2px solid var(--primary);
   box-shadow: var(--shadow);
+}
+
+// remove muddy background-image bleed-through; keep footer clean and solid
+footer.background::before {
+  opacity: 0;
 }
 
 footer a {

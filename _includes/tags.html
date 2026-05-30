@@ -21,6 +21,7 @@
       <a
         href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
+        {% if site.data.themes contains tag %}data-theme="true"{% endif %}
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}

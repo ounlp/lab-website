@@ -17,6 +17,7 @@
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
   type: paper
   tags:
+  - AI for Science
   - reservoir simulation
   - deep learning
   - water management
@@ -41,6 +42,7 @@
   image: https://arxiv.org/html/2510.17139v1/figures/opqe-fever-sparse.png
   type: paper
   tags:
+  - LLM Agents
   - query augmentation
   - information retrieval
   - large language models
@@ -63,11 +65,14 @@
   link: https://doi.org/g977zr
   type: paper
   tags:
+  - AI for Science
+  - LLM Agents
   - hydrologic modeling
   - language agents
   - vision LLM
   - automatic data retrieval
   - simulation
+  image: images/papers/songkun2025sea.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2502.13107
@@ -88,6 +93,8 @@
   image: https://arxiv.org/html/2502.13107v3/x4.png
   type: paper
   tags:
+  - AI for Science
+  - LLM Agents
   - materials science
   - "multi\u2011modal LLM"
   - "structure\u2011aware modeling"
@@ -113,6 +120,7 @@
   image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/2945/11105772/10787269/li3-3514996-small.gif
   type: paper
   tags:
+  - Trustworthy AI
   - neural network pruning
   - robustness
   - visual analysis
@@ -135,11 +143,14 @@
   link: https://doi.org/g977zp
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - pedagogical feedback
   - mathematics education
   - talk moves
   - discourse analysis
   - tutoring dialogue
+  image: images/papers/naim2025edm.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arxiv.2412.13395
@@ -161,9 +172,388 @@
   link: https://doi.org/g977zq
   type: paper
   tags:
+  - AI for Education
+  - Dialogue and Discourse
   - mathematics tutoring
   - SAGA22 dataset
   - pretraining
   - dialogue context
+  image: images/papers/talkmove-coling-2024.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: 'HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic
+    Model Calibration via Simulator-Grounded RL'
+  authors:
+  - Zhi Li
+  - Songkun Yan
+  - Jie Cao
+  - Mofan Zhang
+  - Anjiang Wei
+  - Jinwoong Yoo
+  - Yang Hong
+  publisher: arXiv
+  date: '2026-05-01'
+  link: https://arxiv.org/abs/2605.17792
+  type: paper
+  tags:
+  - AI for Science
+  - LLM Agents
+  - hydrology
+  - language agents
+  - reinforcement learning
+  - model calibration
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Translation via Annotation: A Computational Study of Translating Classical
+    Chinese into Japanese'
+  authors:
+  - Zilong Li
+  - Jie Cao
+  publisher: EACL 2026
+  date: '2026-03-01'
+  link: https://aclanthology.org/2026.eacl-long.285/
+  type: paper
+  tags:
+  - Structured Prediction
+  - machine translation
+  - classical Chinese
+  - sequence tagging
+  - low-resource NLP
+  plugin: sources.py
+  file: sources.yaml
+- title: 'OUNLP at TSAR 2025 Shared Task: Multi-Round Text Simplifier via Code Generation'
+  authors:
+  - Cuong Huynh
+  - Jie Cao
+  publisher: TSAR 2025 (EMNLP Workshop)
+  date: '2025-11-01'
+  link: https://aclanthology.org/2025.tsar-1.19/
+  type: paper
+  tags:
+  - AI for Education
+  - LLM Agents
+  - text simplification
+  - code generation
+  - readability
+  - large language models
+  image: images/papers/huynh-cao-2025-ounlp.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Do LLMs Encode Frame Semantics? Evidence from Frame Identification
+  authors:
+  - Jayanth Krishna Chundru
+  - Rudrashis Poddar
+  - Jie Cao
+  - Tianyu Jiang
+  publisher: EMNLP 2025
+  date: '2025-11-01'
+  link: https://aclanthology.org/2025.emnlp-main.1499/
+  type: paper
+  tags:
+  - Structured Prediction
+  - frame semantics
+  - frame identification
+  - large language models
+  - probing
+  image: images/papers/jayanth2025emnlp.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Classifying Tutor Discursive Moves at Scale in Mathematics Classrooms with
+    Large Language Models
+  authors:
+  - Baptiste Moreau-Pernet
+  - Yu Tian
+  - Sandra Sawaya
+  - Peter Foltz
+  - Jie Cao
+  - Brent Milne
+  - Thomas Christie
+  publisher: Learning @ Scale (L@S) 2024
+  date: '2024-07-01'
+  link: https://doi.org/10.1145/3657604.3664664
+  type: paper
+  tags:
+  - AI for Education
+  - Dialogue and Discourse
+  - discourse analysis
+  - math tutoring
+  - large language models
+  image: images/papers/talkmove-llm-2024.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Comparing Neural Question Generation Architectures for Reading Comprehension
+  authors:
+  - E. Margaret Perkoff
+  - Abhidip Bhattacharyya
+  - Jon Cai
+  - Jie Cao
+  publisher: BEA 2023 (ACL Workshop)
+  date: '2023-07-01'
+  link: https://aclanthology.org/2023.bea-1.47/
+  type: paper
+  tags:
+  - AI for Education
+  - question generation
+  - reading comprehension
+  - education
+  image: images/papers/qg-bea23.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Mind the Gap between the Application Track and the Real World
+  authors:
+  - Ananya Ganesh
+  - Jie Cao
+  - E. Margaret Perkoff
+  - Rosy Southwell
+  - Martha Palmer
+  - Katharina Kann
+  publisher: ACL 2023
+  date: '2023-07-01'
+  link: https://aclanthology.org/2023.acl-short.156/
+  type: paper
+  tags:
+  - Trustworthy AI
+  - NLP applications
+  - evaluation
+  - generalization
+  image: images/papers/ananya-acl23.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: A Comparative Analysis of Automatic Speech Recognition Errors in Small Group
+    Classroom Discourse
+  authors:
+  - Jie Cao
+  - Ananya Ganesh
+  - Jon Cai
+  - Rosy Southwell
+  - E. Margaret Perkoff
+  - Michael Regan
+  - Katharina Kann
+  - James Martin
+  - Martha Palmer
+  - Sidney D'Mello
+  publisher: UMAP 2023
+  date: '2023-06-01'
+  link: https://dl.acm.org/doi/10.1145/3565472.3595606
+  type: paper
+  tags:
+  - AI for Education
+  - Dialogue and Discourse
+  - speech recognition
+  - classroom discourse
+  - education
+  image: images/papers/cao-umap23.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Designing an AI Partner for Jigsaw Classrooms
+  authors:
+  - Jie Cao
+  - Rachel Dickler
+  - Marie Grace
+  - Alessandro Roncone
+  - Leanne Hirshfield
+  - Marilyn Walker
+  - Martha Palmer
+  publisher: AIAIC 2023 (Workshop)
+  date: '2023-06-01'
+  link: https://aichildinteraction.github.io/preprint/AIAIC23_paper_7399.pdf
+  type: paper
+  tags:
+  - AI for Education
+  - Dialogue and Discourse
+  - AI partner
+  - classroom interaction
+  - dialogue
+  - education
+  image: images/papers/cao-jigsaw23.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: "Dependency Dialogue Acts \u2014 Annotation Scheme and Case Study"
+  authors:
+  - Jon Cai
+  - Brendan D. King
+  - E. Margaret Perkoff
+  - Shiran Dudy
+  - Jie Cao
+  - Marie Grace
+  - Natalia Wojarnik
+  - Ananya Ganesh
+  - James Martin
+  - Martha Palmer
+  - Marilyn Walker
+  - Jeffrey Flanigan
+  publisher: IWSDS 2023
+  date: '2023-02-01'
+  link: https://arxiv.org/abs/2302.12944
+  type: paper
+  tags:
+  - Dialogue and Discourse
+  - dialogue acts
+  - annotation
+  - discourse parsing
+  image: images/papers/jon-dda2022.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Inductive Biases for Deep Linguistic Structured Prediction with Independent
+    Factorization
+  authors:
+  - Jie Cao
+  publisher: PhD Dissertation, University of Utah
+  date: '2022-05-01'
+  link: https://www.proquest.com/docview/2777357718
+  type: paper
+  tags:
+  - Structured Prediction
+  - structured prediction
+  - inductive bias
+  - parsing
+  - dissertation
+  image: images/papers/dissertation-proquest.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Database Workload Characterization with Query Plan Encoders
+  authors:
+  - Debjyoti Paul
+  - Jie Cao
+  - Feifei Li
+  - Vivek Srikumar
+  publisher: PVLDB (VLDB 2022)
+  date: '2021-12-01'
+  link: https://dl.acm.org/doi/10.14778/3503585.3503600
+  type: paper
+  tags:
+  - Structured Prediction
+  - databases
+  - query plan encoding
+  - contrastive learning
+  image: images/papers/cao2021dbqencoder.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: A Comparative Study on Schema-Guided Dialogue State Tracking
+  authors:
+  - Jie Cao
+  - Yi Zhang
+  publisher: NAACL 2021
+  date: '2021-06-01'
+  link: https://aclanthology.org/2021.naacl-main.62/
+  type: paper
+  tags:
+  - Dialogue and Discourse
+  - dialogue state tracking
+  - schema-guided dialogue
+  image: images/papers/cao2021comparative.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Amazon at MRP 2019: Parsing Meaning Representations with Lexical and Phrasal
+    Anchoring'
+  authors:
+  - Jie Cao
+  - Yi Zhang
+  - Adel Youssef
+  - Vivek Srikumar
+  publisher: CoNLL 2019 (MRP Shared Task)
+  date: '2019-11-01'
+  link: https://aclanthology.org/K19-2013/
+  type: paper
+  tags:
+  - Structured Prediction
+  - meaning representation parsing
+  - semantic parsing
+  - shared task
+  image: images/papers/cao2019amazon.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Observing Dialogue in Therapy: Categorizing and Forecasting Behavioral Codes'
+  authors:
+  - Jie Cao
+  - Michael Tanana
+  - Zac Imel
+  - Eric Poitras
+  - David Atkins
+  - Vivek Srikumar
+  publisher: ACL 2019
+  date: '2019-07-01'
+  link: https://aclanthology.org/P19-1563/
+  type: paper
+  tags:
+  - Dialogue and Discourse
+  - psychotherapy
+  - dialogue
+  - behavioral coding
+  - mental health
+  image: images/papers/cao2019observing.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: Rhetorically Controlled Encoder-Decoder for Modern Chinese Poetry Generation
+  authors:
+  - Zhiqiang Liu
+  - Zuohui Fu
+  - Jie Cao
+  - Gerard de Melo
+  - Yik-Cheung Tam
+  - Cheng Niu
+  - Jie Zhou
+  publisher: ACL 2019
+  date: '2019-07-01'
+  link: https://aclanthology.org/P19-1192/
+  type: paper
+  tags:
+  - Structured Prediction
+  - poetry generation
+  - controllable generation
+  image: images/papers/rhetorical-poetry2019.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: End-to-end Gated Self-attentive Memory Network for Dialog Response Selection
+  authors:
+  - Shuo Sun
+  - Yik-Cheung Tam
+  - Jie Cao
+  - Canxiang Yan
+  - Zuohui Fu
+  - Cheng Niu
+  - Jie Zhou
+  publisher: AAAI DSTC7 Workshop 2019
+  date: '2019-01-01'
+  link: http://workshop.colips.org/dstc7/papers/13.pdf
+  type: paper
+  tags:
+  - Dialogue and Discourse
+  - dialogue
+  - response selection
+  - memory networks
+  image: images/papers/jie2019dstc.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: A Distributed SVM Method Based on the Iterative MapReduce
+  authors:
+  - Xijiang Ke
+  - Hai Jin
+  - Xia Xie
+  - Jie Cao
+  publisher: IEEE ICSC 2015
+  date: '2015-02-01'
+  type: paper
+  tags:
+  - support vector machines
+  - MapReduce
+  - distributed learning
+  image: images/papers/ke2015distributed.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: 'JRBridge: A Framework of Large-Scale Statistical Computing for R'
+  authors:
+  - Xia Xie
+  - Jie Cao
+  - Hai Jin
+  - Xijiang Ke
+  - Wenzhi Cao
+  publisher: IEEE APSCC 2012
+  date: '2012-12-01'
+  type: paper
+  tags:
+  - distributed computing
+  - statistical computing
+  - R
   plugin: sources.py
   file: sources.yaml

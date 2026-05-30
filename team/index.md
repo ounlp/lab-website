@@ -12,11 +12,33 @@ and human–AI interaction. Get to know the people driving our research.
 
 {% include section.html %}
 
+## Principal Investigator
+
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Graduate Students
+
+{% include list.html data="members" component="portrait" filter="(role == 'phd' or role == 'masters') and alumni != true" %}
+
+{% include section.html %}
+
+## Undergraduate Students
+
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and alumni != true" %}
+
+{% include section.html %}
+
+## External Student Collaborators
+
+{% include list.html data="members" component="portrait" filter="role == 'research-assistant' and alumni != true" %}
+
+{% include section.html %}
+
+## Alumni
+
+{% include list.html data="members" component="portrait" filter="alumni == true" %}
 
 {% include section.html dark=true %}
 
@@ -27,8 +49,8 @@ Moments from our work, research, and fun — snapshots of the OUNLP community in
 {% capture content %}
 
 {% include figure.html image="images/ricky-in-lab.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/gallogy.jpg" %}
+{% include figure.html image="images/devon.jpg" %}
 
 {% endcapture %}
 
