@@ -96,8 +96,8 @@
   - AI for Science
   - LLM Agents
   - materials science
-  - "multi-modal LLM"
-  - "structure-aware modeling"
+  - multi-modal LLM
+  - structure-aware modeling
   - property prediction
   - interatomic potential
   plugin: sources.py
