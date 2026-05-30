@@ -1,8 +1,9 @@
 ---
 title: Projects
-nav:
-  order: 2
-  tooltip: Software, datasets, and more
+# nav entry hidden for now — re-add to show Projects in the menu again:
+# nav:
+#   order: 2
+#   tooltip: Software, datasets, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects

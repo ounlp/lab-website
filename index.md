@@ -47,31 +47,6 @@ We study multi-party/multi-modal dialogue, LLM/agent alignment, structured predi
 
 {% capture text %}
 
-Ongoing work includes classroom/tutoring discourse analytics, domain-specific agents (e.g., hydrology, materials), symbolic-neural structured prediction, and robust evaluation.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/agentbeats-banner.jpeg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
  Led by Assistant Professor Jie Cao at OU’s School of Computer Science, OUNLP is a collaborative group of students and partners focused on NLP, ML, dialogue/discourse, and trustworthy AI.
 
 {%
@@ -90,5 +65,6 @@ Ongoing work includes classroom/tutoring discourse analytics, domain-specific ag
   image="images/ricky-in-lab.jpg"
   link="team"
   title="Our Team"
+  flip=true
   text=text
 %}
