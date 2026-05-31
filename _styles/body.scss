@@ -1,6 +1,11 @@
 ---
 ---
 
+html {
+  // slightly larger, more comfortable base size (scales all rem units)
+  font-size: 17px;
+}
+
 body {
   display: flex;
   flex-direction: column;
