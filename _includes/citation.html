@@ -105,6 +105,28 @@
         {% if citation.tags.size > 0 or citation.repo %}
           {% include tags.html tags=citation.tags repo=citation.repo %}
         {% endif %}
+
+        {% if citation.title %}
+          {% assign _yr = citation.date | date: "%Y" %}
+          {% assign _lname = citation.authors | first | default: "anon" | split: " " | last | downcase | replace: ".", "" | replace: "'", "" %}
+          {% assign _bibkey = _lname | append: _yr %}
+          {%- capture _bib -%}
+@article{ {{ _bibkey }},
+  title = { {{ citation.title }} },
+  author = { {{ citation.authors | join: " and " }} },
+  journal = { {{ citation.publisher }} },
+  year = { {{ _yr }} }{% if citation.link %},
+  url = { {{ citation.link }} }{% endif %}
+}
+          {%- endcapture -%}
+          <details class="citation-bib">
+            <summary>{% include icon.html icon="fa-solid fa-quote-right" %}BibTeX</summary>
+            <div class="citation-bib-box">
+              <button class="citation-bib-copy" type="button" data-tooltip="Copy" aria-label="copy BibTeX" onclick="copyBibtex(this)">{% include icon.html icon="fa-solid fa-copy" %}</button>
+              <pre><code>{{ _bib | escape }}</code></pre>
+            </div>
+          </details>
+        {% endif %}
       {% endif %}
     </div>
   </div>
