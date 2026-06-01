@@ -1,7 +1,7 @@
 ---
 name: Arman Radmanesh
 image: images/arman-radmaenesh.jpg
-description: Master's Student in Data Science & Analytics
+description: Master, DSA
 role: masters
 links:
   email: radmanesh@ou.edu

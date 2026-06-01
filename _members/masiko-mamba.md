@@ -1,6 +1,6 @@
 ---
 name: Masiko Mamba
 image: images/avatar-placeholder.svg
-description: Undergraduate Researcher, B.S. in Computer Science
+description: Undergrad, CS
 role: undergrad
 ---

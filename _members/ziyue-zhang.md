@@ -1,7 +1,7 @@
 ---
 name: Ziyue Zhang(Zoe)
 image: images/ziyue-zhang.jpg
-description: PhD Student in Data Science & Analytics
+description: Ph.D., DSA
 role: phd
 links: 
   email: Ziyue.Zhang-1@ou.edu

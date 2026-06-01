@@ -2,7 +2,7 @@
 ---
 
 $page: 1080px;
-$pad-y: 80px;
+$pad-y: 44px;
 $pad-x: 48px;
 $mobile: 700px;
 
@@ -11,14 +11,33 @@ section {
   transition: background var(--transition), color var(--transition);
 }
 
+// the section's own padding controls the spacing; drop the leading/trailing
+// margins of the inner content so there's no extra background after the text
+section > :first-child {
+  margin-top: 0;
+}
+
+section > :last-child {
+  margin-bottom: 0;
+}
+
 section[data-size="wide"] {
   padding: $pad-y $pad-x;
+}
+
+// the first section holds the page title + intro; sit it close to the header
+main > section:first-of-type {
+  padding-top: 8px;
 }
 
 @media (max-width: $mobile) {
   section,
   section[data-size="wide"] {
-    padding: 48px 24px;
+    padding: 40px 24px;
+  }
+
+  main > section:first-of-type {
+    padding-top: 6px;
   }
 }
 

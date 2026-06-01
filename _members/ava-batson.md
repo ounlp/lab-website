@@ -1,7 +1,7 @@
 ---
 name: Ava Batson-Perez
 image: images/avabatson-perez.jpg
-description: Undergraduate Researcher in Computer Science
+description: Undergrad, CS
 role: undergrad
 links:
   email: Ava.D.Batson.Perez-1@ou.edu
