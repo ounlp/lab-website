@@ -6,14 +6,21 @@
   justify-content: stretch;
   align-items: center;
   flex-direction: column;
-  width: 350px;
-  max-width: calc(100% - 20px - 20px);
-  margin: 20px;
+  width: 360px;
+  max-width: calc(100% - 16px - 16px);
+  margin: 16px;
   background: var(--background);
+  border: solid 1px var(--light-gray);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
   vertical-align: top;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 56px -18px var(--overlay);
 }
 
 .card[data-style="small"] {
@@ -34,7 +41,7 @@
   flex-direction: column;
   gap: 20px;
   max-width: 100%;
-  padding: 20px;
+  padding: 28px;
 }
 
 .card-text > * {

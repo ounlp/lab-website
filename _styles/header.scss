@@ -1,9 +1,9 @@
 ---
 ---
 
-$logo-big: 80px;
+$logo-big: 96px;
 $logo: 40px;
-$big-padding: 100px;
+$big-padding: 150px;
 $collapse: 700px;
 $sticky: true;
 
@@ -158,19 +158,20 @@ header[data-big] {
   .title-text {
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 18px;
     text-align: center;
   }
 
   .title {
-    font-size: 2.6rem;
+    font-size: 3.4rem;
     font-weight: var(--extra-bold);
-    letter-spacing: -0.02em;
-    line-height: 1.1;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
   }
 
   .subtitle {
     font-size: var(--large);
-    max-width: 640px;
+    max-width: 720px;
+    line-height: 1.5;
   }
 }
