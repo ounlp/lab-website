@@ -2,7 +2,6 @@
 name: Jie Cao
 image: images/jie-cao.png
 role: pi
-affiliation: School of Computer Science, University of Oklahoma
 links:
   home-page: https://mlciv.com
   google-scholar: McBrjX4AAAAJ

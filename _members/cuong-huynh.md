@@ -1,7 +1,7 @@
 ---
 name: Ricky Huynh
 image: images/ricky-huynh.jpg
-description: Undergraduate Researcher in Computer Science
+description: Undergrad, CS
 role: undergrad
 links:
   email: cuong@ou.edu

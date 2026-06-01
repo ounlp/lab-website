@@ -1,7 +1,7 @@
 ---
 name: Yiming (Steven) Liu
 image: images/yiming-liu.jpg
-description: PhD Student in Computer Science
+description: Ph.D., CS
 role: phd
 links:
   email: ymliu@ou.edu

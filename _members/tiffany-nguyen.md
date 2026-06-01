@@ -1,7 +1,7 @@
 ---
 name: Tiffany Nguyen
 image: images/tiffany-nguyen.jpg
-description: Undergraduate Researcher in Computer Science
+description: Undergrad, CS
 role: undergrad
 links:
   email: tiffanybnguyen@ou.edu

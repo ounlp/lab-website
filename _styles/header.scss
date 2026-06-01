@@ -1,9 +1,9 @@
 ---
 ---
 
-$logo-big: 96px;
-$logo: 40px;
-$big-padding: 150px;
+$logo-big: 72px;
+$logo: 34px;
+$big-padding: 56px;
 $collapse: 700px;
 $sticky: true;
 
@@ -13,7 +13,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 10px 20px;
   box-shadow: var(--shadow);
 
   @if $sticky {
@@ -158,12 +158,12 @@ header[data-big] {
   .title-text {
     flex-direction: column;
     align-items: center;
-    gap: 18px;
+    gap: 12px;
     text-align: center;
   }
 
   .title {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
     font-weight: var(--extra-bold);
     letter-spacing: -0.03em;
     line-height: 1.05;
@@ -171,7 +171,7 @@ header[data-big] {
 
   .subtitle {
     font-size: var(--large);
-    max-width: 720px;
-    line-height: 1.5;
+    max-width: 700px;
+    line-height: 1.45;
   }
 }
