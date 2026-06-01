@@ -1,16 +1,25 @@
 ---
 ---
 
-$page: 1000px;
-$padding: 40px;
+$page: 1080px;
+$pad-y: 80px;
+$pad-x: 48px;
+$mobile: 700px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $pad-y max($pad-x, calc((100% - $page) / 2));
   transition: background var(--transition), color var(--transition);
 }
 
 section[data-size="wide"] {
-  padding: $padding;
+  padding: $pad-y $pad-x;
+}
+
+@media (max-width: $mobile) {
+  section,
+  section[data-size="wide"] {
+    padding: 48px 24px;
+  }
 }
 
 section[data-size="full"] {

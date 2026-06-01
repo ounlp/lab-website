@@ -33,9 +33,9 @@
   --code: "Roboto Mono", monospace;
 
   // font sizes
-  --large: 1.2rem;
-  --xl: 1.4rem;
-  --xxl: 1.6rem;
+  --large: 1.25rem;
+  --xl: 1.5rem;
+  --xxl: 1.75rem;
 
   // font weights
   --thin: 300;
@@ -46,10 +46,10 @@
 
   // text line spacing
   --spacing: 2;
-  --compact: 1.6;
+  --compact: 1.7;
 
   // effects
-  --rounded: 10px;
-  --shadow: 0 6px 24px -8px var(--overlay);
+  --rounded: 16px;
+  --shadow: 0 12px 44px -16px var(--overlay);
   --transition: 0.2s ease;
 }
