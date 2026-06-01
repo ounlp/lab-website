@@ -48,7 +48,7 @@
   link: https://doi.org/10.1038/s42256-026-01214-y
   bibtex: |
     @article{tang2026matterchat,
-      title = {MatterChat: A Multimodal Large Language Model for Materials Science},
+      title = {A Multimodal Large Language Model for Materials Science},
       author = {Yingheng Tang and Wenbin Xu and Jie Cao and Weilu Gao and Steve Farrell and Benjamin Erichson and Michael W. Mahoney and Andy Nonaka and Zhi Yao},
       journal = {Nature Machine Intelligence},
       year = {2026},
