@@ -17,7 +17,7 @@ Explore our publications by research theme:
 
 ## Highlighted
 
-{% include citation.html lookup="MatterChat" style="rich" %}
+{% include citation.html lookup="doi:10.1038/s42256-026-01214-y" style="rich" %}
 
 {% include section.html %}
 

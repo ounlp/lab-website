@@ -76,7 +76,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s42256-026-01214-y
-  title: 'MatterChat: A Multimodal Large Language Model for Materials Science'
+  title: A Multimodal Large Language Model for Materials Science
   authors:
   - Yingheng Tang
   - Wenbin Xu
