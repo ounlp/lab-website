@@ -107,18 +107,58 @@
         {% endif %}
 
         {% if citation.title %}
-          {% assign _yr = citation.date | date: "%Y" %}
-          {% assign _lname = citation.authors | first | default: "anon" | split: " " | last | downcase | replace: ".", "" | replace: "'", "" %}
-          {% assign _bibkey = _lname | append: _yr %}
-          {%- capture _bib -%}
-@article{ {{ _bibkey }},
-  title = { {{ citation.title }} },
-  author = { {{ citation.authors | join: " and " }} },
-  journal = { {{ citation.publisher }} },
-  year = { {{ _yr }} }{% if citation.link %},
-  url = { {{ citation.link }} }{% endif %}
-}
-          {%- endcapture -%}
+          {%- comment -%} braces and newline as vars so the BibTeX stays clean {%- endcomment -%}
+          {%- assign _ob = "{" -%}
+          {%- assign _cb = "}" -%}
+          {%- capture _nl %}
+{% endcapture -%}
+
+          {%- if citation.bibtex -%}
+            {%- assign _bib = citation.bibtex | strip -%}
+          {%- else -%}
+            {%- comment -%} citation key: first-author surname + year + first title word {%- endcomment -%}
+            {%- assign _yr = citation.date | date: "%Y" -%}
+            {%- assign _lname = citation.authors | first | default: "anon" | split: " " | last | downcase | replace: ".", "" | replace: "'", "" | replace: "-", "" -%}
+            {%- assign _twords = citation.title | downcase | replace: ":", "" | replace: ",", "" | replace: "?", "" | replace: ".", "" | replace: "'", "" | replace: '"', "" | replace: "“", "" | replace: "”", "" | replace: "‘", "" | replace: "’", "" | replace: "—", " " | replace: "-", "" | split: " " -%}
+            {%- assign _tword = _twords | first -%}
+            {%- if _tword == "a" or _tword == "an" or _tword == "the" -%}
+              {%- assign _tword = _twords[1] -%}
+            {%- endif -%}
+            {%- assign _bibkey = _lname | append: _yr | append: _tword -%}
+
+            {%- comment -%} infer entry type and venue field from the venue/publisher {%- endcomment -%}
+            {%- assign _pl = citation.publisher | default: "" | downcase -%}
+            {%- assign _etype = "inproceedings" -%}
+            {%- assign _venuekey = "booktitle" -%}
+            {%- if _pl contains "arxiv" or _pl contains "preprint" -%}
+              {%- assign _etype = "misc" -%}
+            {%- elsif _pl contains "dissertation" or _pl contains "thesis" -%}
+              {%- assign _etype = "phdthesis" -%}
+            {%- elsif _pl contains "journal" or _pl contains "nature" or _pl contains "pvldb" or _pl contains "vldb" or _pl contains "transactions" -%}
+              {%- assign _etype = "article" -%}
+              {%- assign _venuekey = "journal" -%}
+            {%- endif -%}
+
+            {%- assign _auth = citation.authors | join: " and " -%}
+            {%- assign _bib = "@" | append: _etype | append: _ob | append: _bibkey | append: "," | append: _nl -%}
+            {%- assign _bib = _bib | append: "  title = " | append: _ob | append: citation.title | append: _cb | append: "," | append: _nl -%}
+            {%- assign _bib = _bib | append: "  author = " | append: _ob | append: _auth | append: _cb | append: "," | append: _nl -%}
+            {%- if _etype == "phdthesis" -%}
+              {%- assign _school = citation.publisher | replace: "PhD Dissertation, ", "" | replace: "Dissertation, ", "" -%}
+              {%- assign _bib = _bib | append: "  school = " | append: _ob | append: _school | append: _cb | append: "," | append: _nl -%}
+            {%- elsif _etype == "misc" -%}
+              {%- assign _bib = _bib | append: "  howpublished = " | append: _ob | append: "arXiv preprint" | append: _cb | append: "," | append: _nl -%}
+            {%- elsif citation.publisher -%}
+              {%- assign _bib = _bib | append: "  " | append: _venuekey | append: " = " | append: _ob | append: citation.publisher | append: _cb | append: "," | append: _nl -%}
+            {%- endif -%}
+            {%- if _yr and _yr != "" -%}
+              {%- assign _bib = _bib | append: "  year = " | append: _ob | append: _yr | append: _cb | append: "," | append: _nl -%}
+            {%- endif -%}
+            {%- if citation.link -%}
+              {%- assign _bib = _bib | append: "  url = " | append: _ob | append: citation.link | append: _cb | append: _nl -%}
+            {%- endif -%}
+            {%- assign _bib = _bib | append: _cb -%}
+          {%- endif -%}
           <details class="citation-bib">
             <summary>{% include icon.html icon="fa-solid fa-quote-right" %}BibTeX</summary>
             <div class="citation-bib-box">
