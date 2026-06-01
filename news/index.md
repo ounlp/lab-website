@@ -56,20 +56,4 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 - **07/2024** — Our paper on dialogue classification via LLM fine-tuning is accepted to [L@S 2024](https://dl.acm.org/doi/10.1145/3657604.3664664).
 - **02/2024** — Invited talk "Modularized Conversational Modeling" at Emory University and Georgia State University.
 
-## 2023
-
-- **11/2023** — Taught NLP ([CSCI-LING 5832](https://canvas.colorado.edu/courses/95371/)) with [James Martin](https://home.cs.colorado.edu/~martin/), creating new materials on LLMs, in-context learning, and dialogue generation.
-- **05/2023** — Our paper on question generation is accepted to [BEA 2023](https://sig-edu.org/bea/2023).
-- **05/2023** — A short paper, "Mind the Gap between the Application Track and the Real World", is accepted to [ACL 2023](https://2023.aclweb.org/).
-- **04/2023** — Our paper "A Comparative Analysis of Automatic Speech Recognition Errors in Small Group Classroom Discourse" is accepted to [UMAP 2023](https://www.um.org/umap2023/).
-- **03/2023** — Research on conversational simulation for small-group discussion awarded an iSAT Trainee Grant.
-- **02/2023** — Our paper on an AI agent for Jigsaw classrooms is accepted to [AIAIC 2023](https://aichildinteraction.github.io/).
-
-## 2022
-
-- **12/2022** — Our paper on Dependency Dialogue Acts is accepted to [IWSDS 2023](https://sites.google.com/view/iwsds2023/home).
-- **12/2022** — Invited talk on database workload characterization at Microsoft's Gray Systems Lab.
-- **08/2022** — Joined the [NSF AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) as a postdoctoral researcher.
-- **06/2022** — New preprint on [visual analysis of neural network pruning](https://arxiv.org/abs/2206.07918).
-
 </div>
