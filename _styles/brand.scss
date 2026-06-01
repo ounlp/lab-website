@@ -35,3 +35,10 @@ header[data-big] .title-text .title {
   color: #708977; /* Prairie Sage */
   opacity: 1;
 }
+
+/* white header on inner pages (home uses its own layout) */
+header.background { background: rgba(255,255,255,.9); backdrop-filter: blur(10px); }
+header.background::before { opacity: 0 !important; }   /* kill photo + overlay */
+header { box-shadow: 0 1px 0 var(--light-gray); }
+header, header a { color: var(--text); }
+nav > a:hover { color: var(--primary); }
