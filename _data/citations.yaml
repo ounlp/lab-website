@@ -14,7 +14,7 @@
   link: https://doi.org/g977xq
   desciption: Integrating deep learning with reservoir simulation for interpretable
     water management in hydrology
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S0022169425014830-gr1.jpg
+  image: images/papers/jhydrol2025.jpg
   type: paper
   tags:
   - AI for Science
@@ -39,7 +39,7 @@
   publisher: arXiv
   date: '2025-01-01'
   link: https://doi.org/g98bgt
-  image: https://arxiv.org/html/2510.17139v1/figures/opqe-fever-sparse.png
+  image: images/papers/opqe2510.jpg
   type: paper
   tags:
   - LLM Agents
@@ -200,7 +200,7 @@
   publisher: arXiv
   date: '2026-05-01'
   link: https://arxiv.org/abs/2605.17792
-  image: images/papers/hydroagent2026.svg
+  image: images/papers/hydroagent2026.jpg
   type: paper
   tags:
   - AI for Science
@@ -219,7 +219,7 @@
   publisher: EACL 2026
   date: '2026-03-01'
   link: https://aclanthology.org/2026.eacl-long.285/
-  image: images/papers/translation-eacl2026.svg
+  image: images/papers/translation-eacl2026.jpg
   type: paper
   tags:
   - Structured Prediction
@@ -263,7 +263,7 @@
   - frame identification
   - large language models
   - probing
-  image: images/papers/jayanth2025emnlp.jpg
+  image: images/papers/jayanth2025emnlp.svg
   plugin: sources.py
   file: sources.yaml
 - title: Classifying Tutor Discursive Moves at Scale in Mathematics Classrooms with

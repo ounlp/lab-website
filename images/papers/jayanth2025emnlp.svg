@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Frame Identification accuracy results table">
+  <rect width="600" height="400" fill="#ffffff"/>
+  <text x="300" y="40" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#1e293b">Frame Identification Accuracy</text>
+  <text x="300" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#64748b">FrameNet, accuracy (%)</text>
+
+  <!-- header -->
+  <line x1="48" y1="92" x2="552" y2="92" stroke="#1e293b" stroke-width="2"/>
+  <text x="60"  y="112" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#1e293b">Method</text>
+  <text x="430" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#1e293b">FN 1.5</text>
+  <text x="520" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#1e293b">FN 1.7</text>
+  <line x1="48" y1="124" x2="552" y2="124" stroke="#94a3b8" stroke-width="1"/>
+
+  <!-- prior SOTA rows -->
+  <text x="60"  y="152" font-family="Georgia, serif" font-size="15" fill="#334155">KGFI (2021)</text>
+  <text x="430" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#334155">92.1</text>
+  <text x="520" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#334155">92.4</text>
+
+  <text x="60"  y="180" font-family="Georgia, serif" font-size="15" fill="#334155">COFFTEA (2023)</text>
+  <text x="430" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#334155">92.5</text>
+  <text x="520" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#334155">92.6</text>
+
+  <text x="60"  y="208" font-family="Georgia, serif" font-size="15" fill="#334155">Devasier et al. (2024)</text>
+  <text x="430" y="208" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#334155">91.7</text>
+  <text x="520" y="208" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#334155">92.3</text>
+
+  <line x1="48" y1="228" x2="552" y2="228" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- ours rows highlighted -->
+  <rect x="48" y="236" width="504" height="34" fill="#eff6ff"/>
+  <text x="60"  y="259" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1d4ed8">Direct-QA few-shot (Ours)</text>
+  <text x="430" y="259" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1d4ed8">83.3</text>
+  <text x="520" y="259" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1d4ed8">83.5</text>
+
+  <rect x="48" y="272" width="504" height="34" fill="#dbeafe"/>
+  <text x="60"  y="295" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1e3a8a">QA Fine-Tuning (Ours)</text>
+  <text x="430" y="295" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1e3a8a">91.7</text>
+  <text x="520" y="295" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1e3a8a">91.9</text>
+
+  <line x1="48" y1="306" x2="552" y2="306" stroke="#1e293b" stroke-width="2"/>
+
+  <text x="300" y="344" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#475569">Prompting alone reaches ~83%; QA fine-tuning</text>
+  <text x="300" y="364" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#475569">closes the gap to supervised state of the art.</text>
+</svg>
