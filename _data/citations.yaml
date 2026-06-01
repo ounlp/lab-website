@@ -90,16 +90,12 @@
   publisher: Nature Machine Intelligence
   date: '2026-04-01'
   link: https://doi.org/10.1038/s42256-026-01214-y
-  bibtex: |
-    @article{tang2026matterchat,
-      title = {A Multimodal Large Language Model for Materials Science},
-      author = {Yingheng Tang and Wenbin Xu and Jie Cao and Weilu Gao and Steve Farrell and Benjamin Erichson and Michael W. Mahoney and Andy Nonaka and Zhi Yao},
-      journal = {Nature Machine Intelligence},
-      year = {2026},
-      doi = {10.1038/s42256-026-01214-y},
-      url = {https://doi.org/10.1038/s42256-026-01214-y},
-      publisher = {Nature Publishing Group}
-    }
+  bibtex: "@article{tang2026matterchat,\n  title = {A Multimodal Large Language Model\
+    \ for Materials Science},\n  author = {Yingheng Tang and Wenbin Xu and Jie Cao\
+    \ and Weilu Gao and Steve Farrell and Benjamin Erichson and Michael W. Mahoney\
+    \ and Andy Nonaka and Zhi Yao},\n  journal = {Nature Machine Intelligence},\n\
+    \  year = {2026},\n  doi = {10.1038/s42256-026-01214-y},\n  url = {https://doi.org/10.1038/s42256-026-01214-y},\n\
+    \  publisher = {Nature Publishing Group}\n}\n"
   image: images/papers/matterchat.jpg
   type: paper
   tags:
