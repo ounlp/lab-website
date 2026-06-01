@@ -5,15 +5,18 @@ $wrap: 800px;
 
 .feature {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 64px;
-  margin: 64px 0;
+  gap: 48px;
+  margin: 48px 0;
 }
 
 .feature-image {
-  flex-shrink: 0;
-  width: 40%;
+  display: block;
+  flex: 0 0 42%;
+  width: 42%;
+  min-width: 42%;
+  height: auto;
   aspect-ratio: 3 / 2;
   border-radius: var(--rounded);
   overflow: hidden;
@@ -27,14 +30,20 @@ $wrap: 800px;
 }
 
 .feature-text {
-  flex-grow: 1;
+  flex: 1;
+  text-align: left;
+}
+
+.feature-text p {
+  text-align: left;
 }
 
 .feature-title {
   font-size: var(--large);
-  text-align: center;
+  text-align: left;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  margin-top: 0;
 }
 
 .feature[data-flip] {

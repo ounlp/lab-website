@@ -7,5 +7,13 @@
       {% include content.html content=content %}
     </main>
     {% include footer.html %}
+    <script>
+      (function(){
+        var hdr=document.getElementById('hdr');
+        if(!hdr) return;
+        var onScroll=function(){ hdr.classList.toggle('scrolled', window.scrollY>8); };
+        window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+      })();
+    </script>
   </body>
 </html>

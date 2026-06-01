@@ -46,6 +46,11 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 .home-header .hp-nav a.cta { background:var(--storm); color:#fff; }
 .home-header .hp-nav a.cta:hover { background:var(--storm-deep); color:#fff; }
 
+/* mobile hamburger toggle (shared header; hidden on desktop) */
+.home-header .nav-toggle { display:none; appearance:none; -webkit-appearance:none; position:relative; width:34px; height:34px; margin:0; border:1px solid var(--line); border-radius:9px; background:#fff; cursor:pointer; flex:0 0 auto; }
+.home-header .nav-toggle::after { content:"\f0c9"; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); font-family:"Font Awesome 6 Free"; font-weight:900; font-size:15px; color:var(--ink); }
+.home-header .nav-toggle:checked::after { content:"\f00d"; }
+
 /* ---------- buttons ---------- */
 .home-page .btn { display:inline-flex; align-items:center; gap:9px; font-family:"Manrope",sans-serif; font-weight:600; font-size:15px; text-decoration:none; border-radius:12px; padding:13px 22px; background:var(--storm); color:#fff; border:1px solid var(--storm); transition:.16s ease; cursor:pointer; }
 .home-page .btn:hover { background:var(--storm-deep); border-color:var(--storm-deep); transform:translateY(-1px); }
@@ -82,13 +87,13 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 .area h3 { font-family:"Manrope",sans-serif; font-weight:700; font-size:18px; margin:0 0 8px; letter-spacing:-.01em; }
 .area p { margin:0; font-size:14.5px; color:var(--btext); line-height:1.55; }
 
-/* ---------- feature ---------- */
-.feature { display:grid; grid-template-columns:1.05fr .95fr; gap:54px; align-items:center; }
-.feature .media { border-radius:18px; overflow:hidden; border:1px solid var(--line); box-shadow:0 30px 60px -34px rgba(31,36,48,.5); }
-.feature .media img { width:100%; height:420px; object-fit:cover; }
-.feature .label { font-family:"Jost",sans-serif; text-transform:uppercase; letter-spacing:.24em; font-size:12px; color:var(--sage); margin-bottom:14px; }
-.feature h2 { font-family:"Manrope",sans-serif; font-weight:800; font-size:32px; letter-spacing:-.02em; margin:0 0 16px; line-height:1.12; border:none; padding:0; text-align:left; }
-.feature p { color:var(--btext); font-size:16.5px; margin:0 0 18px; line-height:1.6; }
+/* ---------- feature (scoped to home so it doesn't leak onto inner pages) ---------- */
+.home-page .feature { display:grid; grid-template-columns:1.05fr .95fr; gap:54px; align-items:center; }
+.home-page .feature .media { border-radius:18px; overflow:hidden; border:1px solid var(--line); box-shadow:0 30px 60px -34px rgba(31,36,48,.5); }
+.home-page .feature .media img { width:100%; height:420px; object-fit:cover; }
+.home-page .feature .label { font-family:"Jost",sans-serif; text-transform:uppercase; letter-spacing:.24em; font-size:12px; color:var(--sage); margin-bottom:14px; }
+.home-page .feature h2 { font-family:"Manrope",sans-serif; font-weight:800; font-size:32px; letter-spacing:-.02em; margin:0 0 16px; line-height:1.12; border:none; padding:0; text-align:left; }
+.home-page .feature p { color:var(--btext); font-size:16.5px; margin:0 0 18px; line-height:1.6; }
 
 /* ---------- team ---------- */
 .team-band { background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
@@ -134,10 +139,21 @@ footer.home-footer { display:block; background:var(--ink); color:#c9c9c4; paddin
 .home-footer .socials i, .home-footer .socials svg { width:17px; height:17px; }
 
 @media (max-width:900px){
-  .home-header .hp-nav { display:none; }
+  .home-header .nav-toggle { display:block; }
+  /* collapse nav into a dropdown revealed by the hamburger */
+  .home-header .hp-wrap.nav-row { position:relative; }
+  .home-header .hp-nav {
+    display:none; position:absolute; right:0; top:calc(100% + 6px);
+    flex-direction:column; align-items:stretch; gap:2px;
+    background:#fff; border:1px solid var(--line); border-radius:12px;
+    padding:8px; box-shadow:0 18px 40px -22px rgba(31,36,48,.5);
+    width:220px; max-width:calc(100vw - 80px); z-index:60;
+  }
+  .home-header .nav-toggle:checked ~ .hp-nav { display:flex; }
+  .home-header .hp-nav a { text-align:left; }
   .areas { grid-template-columns:1fr 1fr; }
-  .feature { grid-template-columns:1fr; gap:30px; }
-  .feature .media img { height:300px; }
+  .home-page .feature { grid-template-columns:1fr; gap:30px; }
+  .home-page .feature .media img { height:300px; }
   .team-grid { grid-template-columns:1fr 1fr; }
   .join { grid-template-columns:1fr; }
   .join .actions { justify-content:flex-start; }
