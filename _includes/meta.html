@@ -50,8 +50,12 @@
 
 <title>{{ fulltitle }}</title>
 
+<!-- OUNLP favicons: SVG (modern) -> PNG (sized) -> ICO (legacy) + Apple touch -->
 {% if svgicon %}<link rel="icon" type="image/svg+xml" href="{{ "images/favicon.svg" | relative_url }}">{% endif %}
-<link rel="icon" href="{{ icon }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16.png" | relative_url }}">
+<link rel="icon" href="{{ "images/favicon.ico" | relative_url }}" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | relative_url }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">

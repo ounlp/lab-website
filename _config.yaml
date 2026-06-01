@@ -3,8 +3,9 @@
 # by actions/configure-pages, url is needed here for correct absolute links
 # (feed, sitemap, social meta)
 url: "https://ounlp.org"
-title: OUNLP — Natural Language Processing Lab
-subtitle: University of Oklahoma, School of Computer Science
+# --- OUNLP brand: title/subtitle render as the logo wordmark + tagline ---
+title: OUNLP
+subtitle: OU Natural Language Processing Lab
 description: Research on dialogue & discourse, structured prediction, large‑language‑model alignment and agentic systems, multimodal interaction, and trustworthy AI for education and healthcare.
 header: images/background.jpg
 footer: images/background.jpg

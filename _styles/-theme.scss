@@ -31,6 +31,9 @@
   --heading: "Manrope", sans-serif;
   --body: "Inter", sans-serif;
   --code: "Roboto Mono", monospace;
+  // OUNLP logotype — used by the header title/subtitle (see brand.scss).
+  // Listing "Jost" here also makes the theme's google_fonts filter load it.
+  --logotype: "Jost", sans-serif;
 
   // font sizes
   --large: 1.25rem;
