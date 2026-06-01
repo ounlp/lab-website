@@ -2,7 +2,7 @@
 # deployed via GitHub Actions (jekyll.yml); baseurl is injected at build time
 # by actions/configure-pages, url is needed here for correct absolute links
 # (feed, sitemap, social meta)
-url: "https://ounlp.github.io"
+url: "https://ounlp.org"
 title: OUNLP — Natural Language Processing Lab
 subtitle: University of Oklahoma, School of Computer Science
 description: Research on dialogue & discourse, structured prediction, large‑language‑model alignment and agentic systems, multimodal interaction, and trustworthy AI for education and healthcare.
