@@ -123,6 +123,7 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 
 /* ---------- footer (override theme `footer{}`) ---------- */
 footer.home-footer { display:block; background:var(--ink); color:#c9c9c4; padding:56px 0 38px; text-align:left; }
+.home-footer .hp-wrap { max-width:1180px; margin:0 auto; padding:0 40px; }
 .home-footer .foot-top { display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap; align-items:flex-start; }
 .home-footer .foot-brand { display:flex; align-items:center; gap:13px; }
 .home-footer .foot-brand .mk { height:38px; }
