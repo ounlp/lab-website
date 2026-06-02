@@ -131,7 +131,7 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 .join .btn.ghost:hover { border-color:#fff; color:#fff; }
 
 /* ---------- footer (override theme `footer{}`) ---------- */
-footer.home-footer { display:block; background:var(--ink); color:#c9c9c4; padding:56px 0 38px; text-align:left; }
+footer.home-footer { display:block; background:#1F2430; color:#c9c9c4; padding:56px 0 38px; text-align:left; }
 .home-footer .hp-wrap { max-width:1180px; margin:0 auto; padding:0 40px; }
 .home-footer .foot-top { display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap; align-items:flex-start; }
 .home-footer .foot-brand { display:flex; align-items:center; gap:13px; }
@@ -168,19 +168,25 @@ footer.home-footer { display:block; background:var(--ink); color:#c9c9c4; paddin
   --storm:#9aa2d4; --storm-deep:#828bc6;
   background:#0f1218; color:var(--ink);
 }
-[data-dark="true"] .home-page header.home-header { background:rgba(15,18,24,.82); }
-[data-dark="true"] .home-page header.home-header.scrolled { box-shadow:0 8px 30px -22px rgba(0,0,0,.7); }
-[data-dark="true"] .home-page .home-header .nav-toggle { background:#1d2431; border-color:var(--line); }
-[data-dark="true"] .home-page .home-header .nav-toggle::after { color:var(--ink); }
+/* header dark mode — applies on EVERY page (homepage + inner) since the
+   sticky header is a shared component; not scoped to .home-page so inner
+   pages don't keep a white bar over a dark body */
+[data-dark="true"] header.home-header { background:rgba(15,18,24,.82); border-bottom-color:transparent; }
+[data-dark="true"] header.home-header.scrolled { border-bottom-color:#2a3140; box-shadow:0 8px 30px -22px rgba(0,0,0,.7); }
+[data-dark="true"] .home-header .b-word,
+[data-dark="true"] .home-header .hp-nav a { color:#e7eaf0; }
+[data-dark="true"] .home-header .hp-nav a:hover { color:#9aa2d4; background:#1d2431; }
+[data-dark="true"] .home-header .nav-toggle { background:#1d2431; border-color:#2a3140; }
+[data-dark="true"] .home-header .nav-toggle::after { color:#e7eaf0; }
+@media (max-width:900px){
+  [data-dark="true"] .home-header .hp-nav { background:#141922; border-color:#2a3140; box-shadow:0 18px 40px -22px rgba(0,0,0,.7); }
+}
 [data-dark="true"] .home-page .area { background:#141922; }
 [data-dark="true"] .home-page .person { background:#141922; }
 [data-dark="true"] .home-page .btn { background:#454d78; border-color:#454d78; color:#fff; }
 [data-dark="true"] .home-page .btn:hover { background:#525c8e; border-color:#525c8e; }
 [data-dark="true"] .home-page .btn.ghost { background:transparent; color:var(--ink); border-color:var(--line); }
 [data-dark="true"] .home-page .btn.ghost:hover { border-color:var(--storm); color:var(--storm); background:transparent; }
-@media (max-width:900px){
-  [data-dark="true"] .home-page .home-header .hp-nav { background:#141922; border-color:var(--line); box-shadow:0 18px 40px -22px rgba(0,0,0,.7); }
-}
 
 @media (max-width:900px){
   .home-header .nav-toggle { display:block; }
