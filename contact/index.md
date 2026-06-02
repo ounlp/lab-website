@@ -9,12 +9,12 @@ nav:
 
 Our lab is part of [The University of Oklahoma](https://www.ou.edu/)'s [School of Computer Science](https://www.ou.edu/coe/cs). We are a collaborative group within the OU NLP (OUNLP) Lab, working across language, learning, and intelligent systems. The lab is located on the 2nd floor of Devon Energy Hall at the Norman campus, with members collaborating both on campus and remotely.
 
-{%
-  include button.html
-  type="email"
-  text="jie.cao@ou.edu"
-  link="jie.cao@ou.edu"
-%}
+<div class="button-wrapper">
+  <a class="button js-email" data-u="oac.eij" data-d="ude.uo" href="#" data-style="" aria-label="Email">
+    {% include icon.html icon="fa-solid fa-envelope" %}
+    <span class="js-email-addr"><noscript>jie.cao [at] ou [dot] edu</noscript></span>
+  </a>
+</div>
 {%
   include button.html
   type="address"

@@ -14,7 +14,9 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(gh run *)"
+      "Bash(gh run *)",
+      "Bash(curl -s http://127.0.0.1:4001/contact/)",
+      "Bash(git status *)"
     ]
   }
 }

@@ -1,0 +1,19 @@
+{%- comment -%}
+  Renders the lab email as a mailto link assembled in JavaScript at
+  runtime (see _scripts/email.js), so the plaintext address never appears
+  in the served HTML — defeating naive email-scraping bots. Jekyll/kramdown
+  decode numeric HTML entities at build time, so entity-encoding alone does
+  not survive the build; hence the JS approach. The user/domain are stored
+  reversed and split (no literal "@") so a regex scraper finds no address.
+  A <noscript> fallback keeps it human-readable without JS.
+
+  The reversed parts below MUST stay in sync with site.links.email:
+    jie.cao@ou.edu  ->  user "jie.cao" reversed = "oac.eij"
+                        domain "ou.edu" reversed = "ude.uo"
+
+  Optional params:
+    include.text   — override visible text (defaults to the live address)
+    include.class  — extra class(es) on the <a>
+    include.label  — aria-label (defaults to "Email")
+{%- endcomment -%}
+<a class="js-email{% if include.class %} {{ include.class }}{% endif %}" data-u="oac.eij" data-d="ude.uo"{% if include.text %} data-text="{{ include.text }}"{% endif %} href="#" aria-label="{{ include.label | default: "Email" }}">{% if include.text %}{{ include.text }}{% else %}<span class="js-email-addr"><noscript>jie.cao [at] ou [dot] edu</noscript></span>{% endif %}</a>
