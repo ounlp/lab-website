@@ -46,8 +46,14 @@
       .map((element) => element.dataset[attr])
       .join(" ");
 
+  // current tag match mode: "any" (OR) or "all" (AND)
+  const getMatchMode = () =>
+    new URLSearchParams(window.location.search).get("match") === "all"
+      ? "all"
+      : "any";
+
   // determine if element should show up in results based on query
-  const elementMatches = (element, { terms, phrases, tags }) => {
+  const elementMatches = (element, { terms, phrases, tags }, matchMode) => {
     // tag elements within element
     const tagElements = [...element.querySelectorAll(".tag")];
 
@@ -64,16 +70,21 @@
     const hasTag = (string) =>
       tagElements.some((tag) => normalizeTag(tag.innerText) === string);
 
+    // tag match: "all" requires every selected tag (AND), "any" requires
+    // at least one (OR)
+    const tagsMatch =
+      matchMode === "all" ? tags.every(hasTag) : tags.some(hasTag);
+
     // match logic
     return (
       (terms.every(hasText) || !terms.length) &&
       (phrases.some(hasText) || !phrases.length) &&
-      (tags.some(hasTag) || !tags.length)
+      (tagsMatch || !tags.length)
     );
   };
 
   // loop through elements, hide/show based on query, and return results info
-  const filterElements = (parts) => {
+  const filterElements = (parts, matchMode) => {
     let elements = document.querySelectorAll(elementSelector);
 
     // results info
@@ -83,7 +94,7 @@
 
     // filter elements
     for (const element of elements) {
-      if (elementMatches(element, parts)) {
+      if (elementMatches(element, parts, matchMode)) {
         element.style.display = "";
         x++;
       } else element.style.display = "none";
@@ -160,31 +171,75 @@
     });
   };
 
+  // reflect the current Any/All toggle state in the UI
+  const updateMatchToggle = (matchMode) => {
+    const toggles = document.querySelectorAll(".match-toggle");
+    const hasTags = splitQuery(currentQuery()).tags.length > 0;
+    toggles.forEach((toggle) => {
+      toggle.style.display = hasTags ? "" : "none";
+      toggle.querySelectorAll("[data-mode]").forEach((btn) => {
+        btn.toggleAttribute("data-active", btn.dataset.mode === matchMode);
+      });
+    });
+  };
+
   // run search with query
   const runSearch = (query = "") => {
+    const matchMode = getMatchMode();
     const parts = splitQuery(query);
-    const [x, n] = filterElements(parts);
+    const [x, n] = filterElements(parts, matchMode);
     updateSearchBox(query);
     updateInfoBox(query, x, n);
     updateTags(query);
+    updateMatchToggle(matchMode);
     highlightMatches(parts);
   };
 
-  // update url based on query
-  const updateUrl = (query = "") => {
+  // current search query from url
+  const currentQuery = () =>
+    new URLSearchParams(window.location.search).get("search") || "";
+
+  // build a search query string from a list of normalized tag slugs,
+  // preserving any non-tag terms/phrases already in the current query
+  const buildQuery = (tags) => {
+    const parts = (currentQuery().match(/"[^"]*"|\S+/g) || []).filter(
+      (part) => !/^"?\s*tag:/i.test(part)
+    );
+    const tagParts = tags.map((tag) => `"tag: ${tag}"`);
+    return [...parts, ...tagParts].join(" ").trim();
+  };
+
+  // update url based on query and match mode
+  const updateUrl = (query = "", matchMode = getMatchMode()) => {
     const url = new URL(window.location);
     let params = new URLSearchParams(url.search);
     params.set("search", query);
+    if (matchMode === "all") params.set("match", "all");
+    else params.delete("match");
     url.search = params.toString();
     window.history.replaceState(null, null, url);
   };
 
-  // search based on url param
-  const searchFromUrl = () => {
-    const query =
-      new URLSearchParams(window.location.search).get("search") || "";
+  // toggle a tag in/out of the current selection (multi-select)
+  window.toggleTag = (tagText) => {
+    const slug = normalizeTag(tagText);
+    const { tags } = splitQuery(currentQuery());
+    const next = tags.includes(slug)
+      ? tags.filter((t) => t !== slug)
+      : [...tags, slug];
+    const query = buildQuery(next);
+    updateUrl(query);
     runSearch(query);
   };
+
+  // switch between OR ("any") and AND ("all") tag matching
+  window.setMatchMode = (matchMode) => {
+    updateUrl(currentQuery(), matchMode);
+    runSearch(currentQuery());
+  };
+
+  // search based on url param
+  const searchFromUrl = () => runSearch(currentQuery());
 
   // return func that runs after delay
   const debounce = (callback, delay = 250) => {
@@ -204,9 +259,17 @@
 
   // when user clears search box with button
   window.onSearchClear = () => {
+    updateUrl("");
     runSearch();
-    updateUrl();
   };
+
+  // intercept tag clicks so they toggle (multi-select) instead of navigating
+  document.addEventListener("click", (event) => {
+    const tag = event.target.closest(".tag");
+    if (!tag) return;
+    event.preventDefault();
+    toggleTag(tag.innerText);
+  });
 
   // after page loads
   window.addEventListener("load", searchFromUrl);

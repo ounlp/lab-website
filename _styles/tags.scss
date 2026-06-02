@@ -26,11 +26,11 @@
   transition: background var(--transition), color var(--transition);
 }
 
-.tag:hover {
-  background: var(--light-gray);
+.tag {
+  cursor: pointer;
 }
 
-.tag[data-active] {
+.tag:hover {
   background: var(--light-gray);
 }
 
@@ -42,8 +42,18 @@
   font-weight: var(--semi-bold);
 }
 
-.tag[data-theme]:hover,
-.tag[data-theme][data-active] {
+.tag[data-theme]:hover {
   background: var(--text);
   color: var(--background);
+}
+
+// selected tags: gold highlight so the active selection clearly stands out
+// from both plain chips and the filled theme chips. Declared last and with
+// higher specificity so it wins over the theme-chip fill above.
+.tag[data-active],
+.tag[data-theme][data-active] {
+  background: var(--highlight);
+  color: #1a1d24;
+  font-weight: var(--semi-bold);
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--highlight);
 }

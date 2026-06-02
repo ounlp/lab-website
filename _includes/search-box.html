@@ -13,4 +13,9 @@
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
+  <div class="match-toggle" style="display:none" role="group" aria-label="tag match mode">
+    <span class="match-label">Match</span>
+    <button type="button" data-mode="any" data-active onclick="setMatchMode('any')">Any</button>
+    <button type="button" data-mode="all" onclick="setMatchMode('all')">All</button>
+  </div>
 </div>

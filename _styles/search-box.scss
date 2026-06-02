@@ -12,15 +12,61 @@
   padding-right: 40px;
 }
 
-.search-box button {
+.search-box {
+  // allow the match toggle to sit below the input
+  height: auto;
+}
+
+.search-box .search-input {
+  height: 40px;
+}
+
+.search-box > button {
   position: absolute;
-  inset: 0 0 0 auto;
+  top: 0;
+  inset: 0 0 auto auto;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
+  height: 40px;
   aspect-ratio: 1 / 1;
   background: none;
   color: var(--black);
   border: none;
+}
+
+.match-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 0.82rem;
+}
+
+.match-toggle .match-label {
+  color: var(--gray);
+  font-weight: var(--semi-bold);
+}
+
+.match-toggle button {
+  padding: 3px 12px;
+  border: 1px solid var(--light-gray);
+  border-radius: 999px;
+  background: var(--background);
+  color: var(--text);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+
+.match-toggle button:hover {
+  background: var(--light-gray);
+}
+
+.match-toggle button[data-active] {
+  background: var(--primary);
+  color: var(--background);
+  border-color: var(--primary);
+  font-weight: var(--semi-bold);
 }

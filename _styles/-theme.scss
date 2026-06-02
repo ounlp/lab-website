@@ -12,6 +12,7 @@
   --gray: #6b7280;
   --dark-gray: #374151;
   --overlay: #0b121e1a;
+  --highlight: #C9A46A; /* gold — selected/active tag accent */
 }
 [data-dark="true"] {
   --primary: #8b93c4;   /* lifted storm for dark mode */
@@ -23,6 +24,7 @@
   --gray: #9aa3af;
   --dark-gray: #c2cad4;
   --overlay: #00000040;
+  --highlight: #d8b87f; /* gold — selected/active tag accent (lifted for dark) */
 }
 
 :root {
