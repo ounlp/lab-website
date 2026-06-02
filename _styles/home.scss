@@ -36,8 +36,9 @@ header.home-header {
 }
 header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 30px -22px rgba(31,36,48,.5); }
 .home-header .nav-row { display:flex; align-items:center; justify-content:space-between; gap:24px; height:74px; }
+.home-header .hp-wrap { max-width:1180px; margin:0 auto; padding:0 40px; }
 .home-header .brand { display:flex; align-items:center; gap:13px; text-decoration:none; }
-.home-header .brand .mk { height:36px; }
+.home-header .brand .mk { display:inline-block; width:auto; height:40px; vertical-align:middle; }
 .home-header .b-word { display:block; font-family:"Jost",sans-serif; font-weight:300; font-size:20px; letter-spacing:.26em; margin-right:-.26em; color:var(--ink); line-height:1; }
 .home-header .b-sub { display:block; font-family:"Jost",sans-serif; font-weight:400; text-transform:uppercase; letter-spacing:.12em; font-size:8.5px; color:var(--sage); margin-top:3px; }
 .home-header .hp-nav { display:flex; gap:6px; align-items:center; }
