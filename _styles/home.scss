@@ -39,7 +39,7 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 .home-header .hp-wrap { max-width:1180px; margin:0 auto; padding:0 40px; }
 .home-header .brand { display:flex; align-items:center; gap:13px; text-decoration:none; }
 .home-header .brand .mk { display:inline-block; width:auto; height:40px; vertical-align:middle; }
-.home-header .b-word { display:block; font-family:"Jost",sans-serif; font-weight:300; font-size:20px; letter-spacing:.26em; margin-right:-.26em; color:var(--ink); line-height:1; }
+.home-header .b-word { display:block; font-family:"Jost",sans-serif; font-weight:400; font-size:20px; letter-spacing:.18em; margin-right:-.18em; color:var(--ink); line-height:1; }
 .home-header .b-sub { display:block; font-family:"Jost",sans-serif; font-weight:400; text-transform:uppercase; letter-spacing:.12em; font-size:8.5px; color:var(--sage); margin-top:3px; }
 .home-header .hp-nav { display:flex; gap:6px; align-items:center; }
 .home-header .hp-nav a { font-family:"Manrope",sans-serif; font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink); text-decoration:none; padding:9px 13px; border-radius:9px; transition:.15s ease; white-space:nowrap; }
@@ -65,7 +65,7 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 .hp-hero { text-align:center; padding:84px 0 78px; }
 .hp-hero .eyebrow { font-family:"Jost",sans-serif; text-transform:uppercase; letter-spacing:.28em; font-size:12px; color:var(--sage); margin-bottom:30px; }
 .hp-hero .mk { height:84px; margin:0 auto 26px; }
-.hp-hero .word { font-family:"Jost",sans-serif; font-weight:300; font-size:66px; letter-spacing:.30em; margin-right:-.30em; color:var(--ink); line-height:.9; }
+.hp-hero .word { font-family:"Jost",sans-serif; font-weight:400; font-size:66px; letter-spacing:.20em; margin-right:-.20em; color:var(--ink); line-height:.9; }
 .hp-hero .tag { font-family:"Jost",sans-serif; font-weight:400; text-transform:uppercase; letter-spacing:.20em; font-size:15px; color:var(--sage); margin:16px 0 0; margin-right:-.20em; }
 .hp-hero h1 { font-family:"Manrope",sans-serif; font-weight:700; font-size:30px; line-height:1.32; letter-spacing:-.015em; max-width:760px; margin:34px auto 0; color:var(--ink); text-align:center; text-wrap:balance; border:none; padding:0; }
 .hp-hero h1 .accent { color:var(--storm); }
@@ -126,7 +126,7 @@ footer.home-footer { display:block; background:var(--ink); color:#c9c9c4; paddin
 .home-footer .foot-top { display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap; align-items:flex-start; }
 .home-footer .foot-brand { display:flex; align-items:center; gap:13px; }
 .home-footer .foot-brand .mk { height:38px; }
-.home-footer .fw { display:block; font-family:"Jost",sans-serif; font-weight:300; font-size:22px; letter-spacing:.26em; margin-right:-.26em; color:#fff; }
+.home-footer .fw { display:block; font-family:"Jost",sans-serif; font-weight:400; font-size:22px; letter-spacing:.18em; margin-right:-.18em; color:#fff; }
 .home-footer .fs { display:block; font-family:"Jost",sans-serif; text-transform:uppercase; letter-spacing:.12em; font-size:9px; color:#9aa0b3; margin-top:3px; }
 .home-footer .foot-addr { max-width:340px; margin:20px 0 0; font-size:14px; color:#9b9b95; line-height:1.6; }
 .home-footer .foot-links { display:flex; gap:48px; flex-wrap:wrap; }
@@ -138,6 +138,39 @@ footer.home-footer { display:block; background:var(--ink); color:#c9c9c4; paddin
 .home-footer .socials a { display:flex; width:34px; height:34px; border-radius:9px; border:1px solid rgba(255,255,255,.16); align-items:center; justify-content:center; color:#c9c9c4; transition:.15s; }
 .home-footer .socials a:hover { background:rgba(255,255,255,.1); color:#fff; }
 .home-footer .socials i, .home-footer .socials svg { width:17px; height:17px; }
+
+/* dark/light toggle, restyled to read on the dark footer */
+.home-footer .foot-controls { display:flex; align-items:center; gap:18px; }
+.home-footer .dark-toggle { background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.2); }
+.home-footer .dark-toggle:after { color:#e7eaf0; }
+.home-footer .dark-toggle:checked { background:var(--gold); }
+.home-footer .dark-toggle:checked:after { color:#1F2430; }
+
+/* ============================================================
+   Dark mode for the homepage body. The toggle (in the shared
+   footer) sets html[data-dark="true"]; the page tokens are fixed
+   hex, so remap them here and override the few literal-white rules.
+   The footer is intentionally dark in both modes.
+   ============================================================ */
+[data-dark="true"] .home-page {
+  --ink:#e7eaf0; --btext:#aab2c0; --sage:#9fb6a6;
+  --paper:#141922; --paper-2:#1d2431; --line:#2a3140;
+  --storm:#9aa2d4; --storm-deep:#828bc6;
+  background:#0f1218; color:var(--ink);
+}
+[data-dark="true"] .home-page header.home-header { background:rgba(15,18,24,.82); }
+[data-dark="true"] .home-page header.home-header.scrolled { box-shadow:0 8px 30px -22px rgba(0,0,0,.7); }
+[data-dark="true"] .home-page .home-header .nav-toggle { background:#1d2431; border-color:var(--line); }
+[data-dark="true"] .home-page .home-header .nav-toggle::after { color:var(--ink); }
+[data-dark="true"] .home-page .area { background:#141922; }
+[data-dark="true"] .home-page .person { background:#141922; }
+[data-dark="true"] .home-page .btn { background:#454d78; border-color:#454d78; color:#fff; }
+[data-dark="true"] .home-page .btn:hover { background:#525c8e; border-color:#525c8e; }
+[data-dark="true"] .home-page .btn.ghost { background:transparent; color:var(--ink); border-color:var(--line); }
+[data-dark="true"] .home-page .btn.ghost:hover { border-color:var(--storm); color:var(--storm); background:transparent; }
+@media (max-width:900px){
+  [data-dark="true"] .home-page .home-header .hp-nav { background:#141922; border-color:var(--line); box-shadow:0 18px 40px -22px rgba(0,0,0,.7); }
+}
 
 @media (max-width:900px){
   .home-header .nav-toggle { display:block; }

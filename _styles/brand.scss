@@ -16,15 +16,15 @@
 
 .title-text .title {
   font-family: var(--logotype, "Jost", sans-serif);
-  font-weight: 300;
-  letter-spacing: 0.26em;
-  margin-right: -0.26em; /* absorb trailing tracking so it stays centered */
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  margin-right: -0.18em; /* absorb trailing tracking so it stays centered */
 }
 
-/* larger, tighter tracking for the big home-page header */
+/* larger, slightly tighter tracking for the big home-page header */
 header[data-big] .title-text .title {
-  letter-spacing: 0.18em;
-  margin-right: -0.18em;
+  letter-spacing: 0.16em;
+  margin-right: -0.16em;
 }
 
 .title-text .subtitle {
