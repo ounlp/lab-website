@@ -15,11 +15,15 @@
         </a>
         <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
         <nav class="hp-nav">
-          <a href="{{ "/research" | relative_url }}">Research</a>
-          <a href="{{ "/team" | relative_url }}">Team</a>
-          <a href="{{ "/projects" | relative_url }}">Projects</a>
-          <a href="{{ "/news" | relative_url }}">News</a>
-          <a href="#join" class="cta">Join the lab</a>
+          {% assign pages = site.pages
+            | where_exp: "page", "page.nav"
+            | sort: "nav.order"
+          %}
+          {% for page in pages %}
+            {% if page.nav %}
+              <a href="{{ page.dir | relative_url | uri_escape }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
         </nav>
       </div>
     </header>
@@ -51,12 +55,12 @@
           <p>Building robust, interpretable AI systems that support human learning, communication, and collaboration.</p>
         </div>
         <div class="areas">
-          <div class="area"><div class="ic"><i data-lucide="messages-square"></i></div><h3>Dialogue &amp; Discourse</h3><p>Multi-party and multi-modal dialogue systems and discourse-aware modeling.</p></div>
-          <div class="area"><div class="ic"><i data-lucide="network"></i></div><h3>Structured Prediction</h3><p>Discourse-aware representation learning and structured prediction over language.</p></div>
-          <div class="area"><div class="ic"><i data-lucide="bot"></i></div><h3>LLM Alignment &amp; Agents</h3><p>Large-language-model alignment and agentic systems that act and collaborate.</p></div>
-          <div class="area"><div class="ic"><i data-lucide="layers"></i></div><h3>Multimodal Interaction</h3><p>Grounded, multi-modal communication across speech, vision, and text.</p></div>
-          <div class="area"><div class="ic"><i data-lucide="search"></i></div><h3>Retrieval-Augmented Generation</h3><p>Retrieval-augmented and grounded generative models for reliable answers.</p></div>
-          <div class="area"><div class="ic"><i data-lucide="shield-check"></i></div><h3>Trustworthy AI</h3><p>Reliable, interpretable AI for education and healthcare contexts.</p></div>
+          <a class="area" href='{{ "/research/?search=%22tag%3A+dialogue-and-discourse%22+%22tag%3A+discourse-analysis%22+%22tag%3A+discourse-parsing%22+%22tag%3A+dialogue%22" | relative_url }}'><div class="ic"><i data-lucide="messages-square"></i></div><h3>Dialogue &amp; Discourse</h3><p>Multi-party and multi-modal dialogue systems and discourse-aware modeling.</p></a>
+          <a class="area" href='{{ "/research/?search=%22tag%3A+structured-prediction%22+%22tag%3A+structure-aware-modeling%22+%22tag%3A+semantic-parsing%22" | relative_url }}'><div class="ic"><i data-lucide="network"></i></div><h3>Structured Prediction</h3><p>Discourse-aware representation learning and structured prediction over language.</p></a>
+          <a class="area" href='{{ "/research/?search=%22tag%3A+llm-agents%22+%22tag%3A+language-agents%22+%22tag%3A+large-language-models%22" | relative_url }}'><div class="ic"><i data-lucide="bot"></i></div><h3>LLM Alignment &amp; Agents</h3><p>Large-language-model alignment and agentic systems that act and collaborate.</p></a>
+          <a class="area" href='{{ "/research/?search=%22tag%3A+multi-modal-llm%22+%22tag%3A+vision-llm%22+%22tag%3A+speech-recognition%22" | relative_url }}'><div class="ic"><i data-lucide="layers"></i></div><h3>Multimodal Interaction</h3><p>Grounded, multi-modal communication across speech, vision, and text.</p></a>
+          <a class="area" href='{{ "/research/?search=%22tag%3A+information-retrieval%22+%22tag%3A+automatic-data-retrieval%22+%22tag%3A+query-augmentation%22" | relative_url }}'><div class="ic"><i data-lucide="search"></i></div><h3>Retrieval-Augmented Generation</h3><p>Retrieval-augmented and grounded generative models for reliable answers.</p></a>
+          <a class="area" href='{{ "/research/?search=%22tag%3A+trustworthy-ai%22+%22tag%3A+interpretability%22+%22tag%3A+model-calibration%22+%22tag%3A+robustness%22" | relative_url }}'><div class="ic"><i data-lucide="shield-check"></i></div><h3>Trustworthy AI</h3><p>Reliable, interpretable AI for education and healthcare contexts.</p></a>
         </div>
       </div>
     </section>
@@ -71,22 +75,6 @@
             <h2>Reliable human–AI language systems</h2>
             <p>From multi-party dialogue and LLM agents to structured prediction and trustworthy deployment, our projects span the path from research models to real-world use in education and healthcare.</p>
             <a class="btn bare" href="{{ "/research" | relative_url }}">See our publications <i data-lucide="arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- JOIN -->
-    <section id="join" class="hp-sec">
-      <div class="hp-wrap">
-        <div class="join">
-          <div>
-            <h2>We're recruiting researchers</h2>
-            <p>Dr. Cao is actively recruiting motivated Ph.D., Master's, and undergraduate researchers interested in language technology, human-AI teaming, and interactive learning systems.</p>
-          </div>
-          <div class="actions">
-            <a class="btn" href="mailto:{{ site.links.email }}"><i data-lucide="mail"></i> Get in touch</a>
-            <a class="btn ghost" href="{{ "/contact" | relative_url }}">Contact</a>
           </div>
         </div>
       </div>
@@ -116,7 +104,7 @@
               <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
               <a href="{{ site.links.github }}">GitHub</a>
               <a href="https://scholar.google.com/citations?user={{ site.links.google-scholar }}">Google Scholar</a>
-              <a href="#join">Join the lab</a>
+              <a href="{{ "/contact" | relative_url }}">Join the lab</a>
             </div>
           </div>
         </div>

@@ -81,7 +81,7 @@ header.home-header.scrolled { border-bottom-color:var(--line); box-shadow:0 8px 
 
 /* ---------- research grid ---------- */
 .areas { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-.area { background:#fff; border:1px solid var(--line); border-radius:16px; padding:26px 24px; transition:.18s ease; }
+.area { display:block; color:inherit; text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:16px; padding:26px 24px; transition:.18s ease; }
 .area:hover { border-color:var(--storm); transform:translateY(-3px); box-shadow:0 24px 50px -30px rgba(31,36,48,.45); }
 .area .ic { width:46px; height:46px; border-radius:12px; background:var(--paper-2); display:flex; align-items:center; justify-content:center; color:var(--storm); margin-bottom:18px; }
 .area .ic i, .area .ic svg { width:23px; height:23px; }
