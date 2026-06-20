@@ -1,73 +1,95 @@
-# OUNLP logo PNGs
+# OUNLP logo package
 
-Raster (PNG) exports of the OUNLP logo, generated from the source SVGs in
-`images/` (`logo.svg`, `ounlp-mark-navy.svg`, `ounlp-mark-white.svg`,
-`logo-currentcolor.svg`, `favicon.svg`, `favicon-light.svg`). The lab-name
-lockups are composed from the mark plus the brand wordmark (Jost) — they have
-no source SVG.
+The official OUNLP logo set — modeled on university brand packages (CU Boulder,
+Utah). Organized as **{layout} × {color} × {format}** so there's a correct file
+for every context: slides, posters, print, web, merch, email.
 
-**For the web/site itself, prefer the SVGs** in `images/` (sharper, smaller).
-These PNGs are for places that can't use SVG: slide decks, posters, social
-cards, email signatures, third-party profiles, etc.
+**For the website itself, prefer the SVGs in `../` (`logo.svg`, etc.).** This
+folder is for everything *outside* the site.
 
-All files have transparent backgrounds **except** the favicons (which carry
-their own rounded-square background tile).
+## Pick a file in three steps
 
-## Brand colors
+1. **Layout** — how much text you need.
+2. **Color** — driven by the background it sits on.
+3. **Format** — vector for print/scale, PNG for convenience.
 
-| Name         | Hex       | Used for                          |
-| ------------ | --------- | --------------------------------- |
-| Navy         | `#2A3150` | mark + wordmark on light bg       |
-| Slate        | `#3D4468` | `logo.svg` mark, currentColor PNG |
-| White        | `#ffffff` | mark + wordmark on dark bg        |
-| Prairie Sage | `#708977` | tagline (lockups, light bg)       |
+File name pattern: **`ounlp-<layout>-<color>[-<px>].<ext>`**
+(e.g. `ounlp-lockup-horizontal-navy.pdf`, `ounlp-mark-white-512.png`).
 
-Wordmark typeface: **Jost** (weight 400), matching `--logotype` in
-`_styles/-theme.scss`.
+### 1. Layouts
 
-## Files
+| Layout | Contents | Use for |
+| --- | --- | --- |
+| `mark` | swirl mark only | favicons, avatars, watermarks, stickers |
+| `wordmark-horizontal` | mark + **OUNLP**, side by side | headers, slide footers, narrow spaces |
+| `wordmark-stacked` | mark over **OUNLP** | square spots, social avatars, merch |
+| `lockup-horizontal` | mark + **OUNLP** + full tagline, side by side | the default — letterhead, slide title, posters |
+| `lockup-stacked` | mark over **OUNLP** over tagline | portrait/centered spots, poster headers |
 
-### Standalone marks — `ounlp-mark-*-{256,512,1024}.png`
-The tornado mark only, no text. Pick by background:
+The `lockup-*` files carry the **OU NATURAL LANGUAGE PROCESSING LAB** tagline;
+the `wordmark-*` files drop it (use when the tagline would be too small to read).
 
-- `ounlp-mark-navy-*` — navy mark, for light backgrounds.
-- `ounlp-mark-white-*` — white mark, for dark backgrounds / photos.
-- `ounlp-mark-slate-*` — slate mark (from `logo.svg`).
-- `ounlp-mark-currentcolor-slate-*` — raster of `logo-currentcolor.svg`. The
-  source inherits the surrounding text color; since a PNG can't do that, this is
-  rendered in slate as a fixed fallback.
+### 2. Colors — choose by background
 
-### Favicons — `favicon-{16,32,180,192,512}.png` and `favicon-light-*`
-App/browser icons with a rounded-square tile baked in.
+| Color | Hex | Use on |
+| --- | --- | --- |
+| **`navy`** *(primary, full-color — sage tagline)* | `#2A3150` | white / light backgrounds |
+| `white` *(reverse)* | `#FFFFFF` | **dark backgrounds & photos** |
+| `black` *(mono)* | `#000000` | one-color print, fax, laser, engraving |
+| `gray` *(grayscale)* | `#595959` | grayscale documents |
+| `storm` | `#3D4468` | light bg, softer than navy |
+| `sage` | `#708977` | light bg, accent |
+| `dusk` | `#5A4A7A` | light bg, accent |
+| `gold` | `#C9A46A` | dark bg, accent |
+| `ink` | `#1F2430` | light bg, near-black |
+| `crimson` | `#841617` | OU co-branded materials |
+
+> **The "white logo looks invisible" gotcha:** the `white` files are a *reverse*
+> knockout — pure white art on transparency, meant **only for dark backgrounds**.
+> On a white slide they vanish (nothing for white to show against). On light
+> backgrounds use `navy` (or any non-white color); reach for `white` only when
+> the background is dark.
+
+Every color exists for every layout. The **only** difference between `navy` and
+the rest: `navy` is the full-color primary and renders its tagline in Prairie
+Sage; all other colors are single-color throughout.
+
+### 3. Formats
+
+| Format | Scalable? | Use for |
+| --- | --- | --- |
+| **`.svg`** | ∞ vector | web, Figma/Illustrator, anything that accepts SVG |
+| **`.pdf`** | ∞ vector | **posters, print shops, LaTeX, Office insert** — scales to any size with no blur |
+| `-256/-512/-1024.png` | raster | `mark` sizes — icons, avatars |
+| `-1024/-2048.png` | raster | lockup/wordmark sizes — slides, web, social |
+
+**For slides:** the `-1024` / `-2048` PNGs (or the SVG) are plenty.
+**For posters / large print:** use the **`.pdf` or `.svg`** — they're resolution-
+independent (a 10 KB PDF renders crisp at any size). Don't scale up a PNG.
+
+## Favicons — `favicon-{16,32,180,192,512}.png` and `favicon-light-*`
+
+App/browser icons with a rounded-square tile baked in (the only files here that
+*aren't* transparent).
 
 - `favicon-*` — white mark on navy tile (default).
 - `favicon-light-*` — navy mark on white tile.
+- Sizes: 16/32 (tab), 180 (Apple touch), 192/512 (PWA / Android).
 
-Sizes: 16/32 (browser tab), 180 (Apple touch icon), 192/512 (PWA / Android).
+## Minimum sizes (legibility)
 
-### Lab-name lockups — `ounlp-lockup-{horizontal,stacked}-{navy,white}-{1024,2048}.png`
-Mark + "OUNLP" wordmark + "OU NATURAL LANGUAGE PROCESSING LAB" tagline.
-
-- `horizontal` — mark left, wordmark/tagline stacked to the right.
-- `stacked` — mark on top, wordmark/tagline centered below.
-- `navy` — navy mark + navy wordmark + sage tagline, for **light** backgrounds.
-- `white` — white mark + white wordmark + light-sage tagline, for **dark**
-  backgrounds.
-
-Trimmed to the artwork with even transparent padding.
-
-### Wordmark lockups (no tagline) — `ounlp-wordmark-{horizontal,stacked}-{navy,white}-{1024,2048}.png`
-Same as the lockups above but **without** the "OU NATURAL LANGUAGE PROCESSING
-LAB" tagline — just the mark + "OUNLP". Use where the tagline would be too small
-to read or is redundant (favicon-adjacent spots, headers, merch, watermarks).
-
-- `horizontal` — mark left, "OUNLP" centered to the right.
-- `stacked` — mark on top, "OUNLP" centered below.
-- `navy` for **light** backgrounds, `white` for **dark** backgrounds.
+- `mark` — ≥ **24 px** / 0.25 in
+- `wordmark-*` — ≥ **120 px** / 1.25 in wide
+- `lockup-*` (with tagline) — ≥ **220 px** / 2.3 in wide (below this, use a
+  `wordmark-*` instead — the tagline turns to mush)
 
 ## Regenerating
 
-Not part of the Jekyll build. To re-export after the source SVGs or wordmark
-change, re-run the one-off render pipeline (Node `@resvg/resvg-js` for SVG→PNG
-with the Jost font, then Pillow to trim/pad/resize the lockups). Ask Claude
-Code to "regenerate the OUNLP logo PNGs" if the script is no longer around.
+Not part of the Jekyll build. The whole package is produced by a one-off Python
+script (`fonttools` to outline the Jost wordmark → pure-vector SVG, `cairosvg`
+for SVG→PDF and SVG→PNG). Ask Claude Code to *"regenerate the OUNLP logo
+package"* — colors, layouts, and sizes are defined at the top of the generator.
+
+Wordmark typeface: **Jost** (Google Fonts, OFL), weights 300 (OUNLP) / 400
+(tagline) — matching `--logotype` in `_styles/-theme.scss`. The text is outlined
+to paths, so the files carry **no font dependency**.
