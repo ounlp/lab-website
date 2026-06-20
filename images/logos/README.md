@@ -56,6 +56,15 @@ Mark + "OUNLP" wordmark + "OU NATURAL LANGUAGE PROCESSING LAB" tagline.
 
 Trimmed to the artwork with even transparent padding.
 
+### Wordmark lockups (no tagline) — `ounlp-wordmark-{horizontal,stacked}-{navy,white}-{1024,2048}.png`
+Same as the lockups above but **without** the "OU NATURAL LANGUAGE PROCESSING
+LAB" tagline — just the mark + "OUNLP". Use where the tagline would be too small
+to read or is redundant (favicon-adjacent spots, headers, merch, watermarks).
+
+- `horizontal` — mark left, "OUNLP" centered to the right.
+- `stacked` — mark on top, "OUNLP" centered below.
+- `navy` for **light** backgrounds, `white` for **dark** backgrounds.
+
 ## Regenerating
 
 Not part of the Jekyll build. To re-export after the source SVGs or wordmark
