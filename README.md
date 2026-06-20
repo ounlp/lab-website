@@ -25,6 +25,18 @@ Use this guide to update team information, projects, and citations.
 - ... and much more!
 ---
 
+## 🎨 Logo & Brand Assets
+
+📦 **[Download the OUNLP logo package](https://github.com/ounlp/lab-website/raw/main/images/logos/OUNLP-Logo-Package.zip)** (zip, ~4.6 MB)
+
+The official OUNLP logo in every layout, color, and format — for slides, posters,
+print, and merch. Organized by color treatment (full-color, reverse, mono,
+grayscale, OU crimson, brand alternates), each with **SVG + PDF** (scalable
+vector, poster-ready) and **PNG**. See [`images/logos/README.md`](images/logos/README.md)
+for which file to use on which background.
+
+---
+
 ## 📝 How to Update Website Content
 
 ### Adding/Updating Team Members
