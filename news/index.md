@@ -14,6 +14,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 <div markdown="1" style="text-align: left">
 
 ## 2026
+- **06/2026** — Our paper "[Rethinking On-policy Optimization for Query Augmentation](https://openreview.net/forum?id=mmqbjhz5Br)" is accepted to [TMLR](https://jmlr.org/tmlr/)!
 - **06/2026** — A paper on dialogue clarificaiton on discourse parsing has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Congratulations to Yiming!
 - **05/2026** — Awarded an [ICAST](https://www.ou.edu/icast/news-events/2026/icast-2026-seed-grant-opportunity) seed grant ($20K).
 - **05/2026** — New [preprint](https://arxiv.org/abs/2605.17792v1): "HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL".
@@ -54,6 +55,5 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 - **10/2024** — Invited talk "Modularized Conversational Modeling" at the [OU DISC](https://www.ou.edu/disc).
 - **09/2024** — Talk with students on the "History of NLP" at the [OU AI/ML Club](https://www.instagram.com/ou.artificial/).
 - **07/2024** — Our paper on dialogue classification via LLM fine-tuning is accepted to [L@S 2024](https://dl.acm.org/doi/10.1145/3657604.3664664).
-- **02/2024** — Invited talk "Modularized Conversational Modeling" at Emory University and Georgia State University.
 
 </div>
