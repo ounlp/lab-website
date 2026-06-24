@@ -12,6 +12,19 @@
   - interpretability
   - hydrology
 - id: doi:10.48550/arXiv.2510.17139
+  publisher: Transactions on Machine Learning Research
+  date: '2026-06-01'
+  link: https://openreview.net/forum?id=mmqbjhz5Br
+  authors:
+  - Zhichao Xu
+  - Shengyao Zhuang
+  - Xueguang Ma
+  - Bingsen Chen
+  - Yijun Tian
+  - Fengran Mo
+  - Tao Li
+  - Jie Cao
+  - Vivek Srikumar
   image: images/papers/opqe2510.jpg
   type: paper
   tags:
