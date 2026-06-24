@@ -16,13 +16,13 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 ## 2026
 - **06/2026** — Our paper "[Rethinking On-policy Optimization for Query Augmentation](https://openreview.net/forum?id=mmqbjhz5Br)" is accepted to [TMLR](https://jmlr.org/tmlr/)!
 - **06/2026** — A paper on dialogue clarificaiton on discourse parsing has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Congratulations to Yiming!
-- **05/2026** — Awarded an [ICAST](https://www.ou.edu/icast/news-events/2026/icast-2026-seed-grant-opportunity) seed grant ($20K).
+- **05/2026** — Awarded an [ICAST](https://www.ou.edu/icast/news-events/2026/icast-2026-seed-grant-opportunity) seed grant.
 - **05/2026** — New [preprint](https://arxiv.org/abs/2605.17792v1): "HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL".
-- **05/2026** — Two collaborative projects funded by [NSF ART: InTRO Scoping Translational Research](https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps) ($15K each).
+- **05/2026** — Two collaborative projects funded by [NSF ART: InTRO Scoping Translational Research](https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps).
 - **05/2026** — Congratulations to the Undergraduate Research Opportunities Program (UROP) awardees Brendan Richards, Cuong Huynh, and Santiago Leon!
 - **05/2026** — Congratulations to the Honors Research Apprenticeship Program (HRAP) awardees Nicholas Immenschuh and Addison Lin!
 - **05/2026** — Thanks to [Modal](https://modal.com/) for their kind computing-credits support.
-- **05/2026** — Our proposal was awarded by the Association of Counselor Education and Supervision ([ACES](https://acesonline.net/)) 2026 Small Grants ($15,000) for studies of AI–client simulations.
+- **05/2026** — Our proposal was awarded by the Association of Counselor Education and Supervision ([ACES](https://acesonline.net/)) 2026 Small Grants for studies of AI–client simulations.
 - **04/2026** — Our paper "LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing" is accepted to [ICCCN 2026](http://www.icccn.org/index.html).
 - **04/2026** — Our multimodal LLM for materials science, [MatterChat](https://www.nature.com/articles/s42256-026-01214-y), is accepted to [Nature Machine Intelligence](https://www.nature.com/natmachintell/)!
 - **02/2026** — Congratulations to Cuong and Masiko for receiving UROP fellowships for Spring 2026!
