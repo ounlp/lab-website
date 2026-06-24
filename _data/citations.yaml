@@ -188,6 +188,33 @@
   image: images/papers/talkmove-coling-2024.jpg
   plugin: sources.py
   file: sources.yaml
+- title: 'AI Agent for Hydrologic Modeling: Definition, Development and Application'
+  authors:
+  - Songkun Yan
+  - Mengye Chen
+  - Zhi Li
+  - Yixin Wen
+  - Siyu Zhu
+  - Mofan Zhang
+  - Di Liu
+  - Jie Cao
+  - Xiaodong Chen
+  - Chengbin Deng
+  - Tiantian Yang
+  - Yang Hong
+  publisher: Geophysical Research Letters
+  date: '2026-06-01'
+  link: https://doi.org/10.22541/essoar.176894821.13120988/v1
+  type: paper
+  tags:
+  - AI for Science
+  - LLM Agents
+  - hydrology
+  - language agents
+  - hydrologic modeling
+  - flood forecasting
+  plugin: sources.py
+  file: sources.yaml
 - title: 'HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic
     Model Calibration via Simulator-Grounded RL'
   authors:
