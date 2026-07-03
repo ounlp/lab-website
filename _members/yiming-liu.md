@@ -1,5 +1,7 @@
 ---
 name: Yiming (Steven) Liu
+aliases:
+  - Yiming Liu
 image: images/yiming-liu.jpg
 description: Ph.D., CS
 role: phd

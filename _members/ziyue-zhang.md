@@ -1,5 +1,7 @@
 ---
 name: Ziyue Zhang(Zoe)
+aliases:
+  - Ziyue Zhang
 image: images/ziyue-zhang.jpg
 description: Ph.D., DSA
 role: phd

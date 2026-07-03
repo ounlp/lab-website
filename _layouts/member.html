@@ -20,6 +20,16 @@ layout: default
 
 {{ content }}
 
+{%- comment -%} Inline list of this member's papers, matched by author name (page.aliases or name) against the shared citations data. {%- endcomment -%}
+{%- assign pub_names = page.aliases | default: page.name | join: "|" | split: "|" -%}
+{%- capture names_lit -%}{%- for n in pub_names -%}{%- unless forloop.first -%},{%- endunless -%}"{{ n | replace: '"', '\"' }}"{%- endfor -%}{%- endcapture -%}
+{%- capture pub_filter -%}authors and (authors & [{{ names_lit }}]).any?{%- endcapture -%}
+{%- assign my_papers = site.data.citations | data_filter: pub_filter -%}
+{%- if my_papers.size > 0 -%}
+<h2>{% include icon.html icon="fa-solid fa-book" %}Publications</h2>
+{% include list.html data="citations" component="citation" style="rich" filter=pub_filter %}
+{%- endif -%}
+
 {% assign aliases = page.aliases
   | default: page.name
   | default: page.title
