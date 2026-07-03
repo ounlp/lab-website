@@ -12,6 +12,18 @@
   publisher: Journal of Hydrology
   date: '2025-12-01'
   link: https://doi.org/g977xq
+  bibtex: |
+    @article{ZHANG2025134145,
+      title = {A {{Mamba-type}} of Deep State Space Model for Reservoir Release Simulation with a Large-Scale Verification over 441 Dams across {{CONUS}}},
+      author = {Zhang, Jiaorui and Yue, Haowen and Basirifard, Milad and Cao, Jie and Yang, Tiantian},
+      year = {2025},
+      journal = {Journal of Hydrology},
+      pages = {134145},
+      issn = {0022-1694},
+      doi = {10.1016/j.jhydrol.2025.134145},
+      url = {https://www.sciencedirect.com/science/article/pii/S0022169425014830},
+      keywords = {Large scale,Release simulation,SHAP,Structured State Space Model,Water management}
+    }
   desciption: Integrating deep learning with reservoir simulation for interpretable
     water management in hydrology
   image: images/papers/jhydrol2025.jpg
@@ -40,6 +52,16 @@
   publisher: Transactions on Machine Learning Research
   date: '2026-06-01'
   link: https://openreview.net/forum?id=mmqbjhz5Br
+  bibtex: |
+    @article{xu2025rethinking,
+      title={Rethinking On-policy Optimization for Query Augmentation},
+      author={Xu, Zhichao and Zhuang, Shengyao and Ma, Xueguang and Chen, Bingsen and Tian, Yijun and Mo, Fengran and Li, Tao and Cao, Jie and Srikumar, Vivek},
+      journal={Transactions on Machine Learning Research},
+      issn={2835-8856},
+      year={2026},
+      month={June},
+      url={https://openreview.net/forum?id=mmqbjhz5Br},
+    }
   image: images/papers/opqe2510.jpg
   type: paper
   tags:
@@ -64,6 +86,14 @@
   publisher: arXiv
   date: '2025-01-01'
   link: https://doi.org/g977zr
+  bibtex: |
+    @article{songkun2025sea,
+      title={AQUAH: Automatic Quantification and Unified Agent in Hydrology},
+      author={Yan, Songkun and Li, Zhi and Zhu, Siyu and Wen, Yixin and Zhang, Mofan and Chen, Mengye and Cao, Jie and Hong, Yang},
+      journal={1st Workshop on Sustainability with Earth observation and AI (co-located with ICCV), 2025 (To Appear)},
+      url={https://arxiv.org/abs/2508.02936}, 
+      year={2025}
+    }
   type: paper
   tags:
   - AI for Science
@@ -124,6 +154,17 @@
   publisher: IEEE Transactions on Visualization and Computer Graphics
   date: '2025-09-01'
   link: https://doi.org/g977zt
+  bibtex: |
+    @article{vis-pruning2024,
+      title={"Understanding Robustness Lottery": A Geometric Visual Comparative
+        Analysis of Neural Network Pruning Approaches},
+      author={Li, Zhimin and Liu, Shusen and Yu, Xin and Bhavya, Kailkhura and
+        Cao, Jie and Daniel, Diffenderfer James and Bremer, Peer-Timo and
+          Pascucci, Valerio},
+      url={https://doi.org/10.1109/tvcg.2024.3514996},
+      journal={IEEE Transactions on Visualization and Computer Graphics},
+      year={2024}
+    }
   image: images/papers/vis-pruning.jpg
   type: paper
   tags:
@@ -148,6 +189,19 @@
   publisher: International Educational Data Mining Society
   date: '2025-07-12'
   link: https://doi.org/g977zp
+  bibtex: |
+    @inproceedings{naim2025edm,
+      title = {Towards Actionable Pedagogical Feedback: A Multi- Perspective Analysis of Mathematics Teaching and Tutoring Dialogue},
+      booktitle = {Proceedings of the 18th International Conference on Educational Data Mining},
+      author = {Naim, Jannatun and Cao, Jie and Tasneem, Fareen and Jacobs, Jennifer and Milne, Brent and Martin, James and Sumner, Tamara},
+      year = {2025},
+      month = jul,
+      pages = {328--341},
+      publisher = {International Educational Data Mining Society},
+      doi = {10.5281/zenodo.15870177},
+      venue = {Palermo, Italy},
+      url = "https://educationaldatamining.org/EDM2025/proceedings/2025.EDM.long-papers.201/index.html"
+    }
   type: paper
   tags:
   - AI for Education
@@ -177,6 +231,14 @@
   publisher: arXiv
   date: '2024-01-01'
   link: https://doi.org/g977zq
+  bibtex: |
+    @inproceedings{talkmove-coling-2024,
+      title={Enhancing Talk Moves Analysis in Mathematics Tutoring through Classroom
+        Teaching Discourse},
+      author={Cao, Jie and Suresh, Abhijit and Jacobs, Jennifer and Clevenger, Charis and Howard, Amanda and Brown, Chelsea and Milne, Brent and Fischaber, Tom and Sumner, Tamara and Martin, James H.},
+      booktitle={The 31st International Conference on Computational Linguistics},
+      year={2025}
+    }
   type: paper
   tags:
   - AI for Education
@@ -186,6 +248,28 @@
   - pretraining
   - dialogue context
   image: images/papers/talkmove-coling-2024.jpg
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Beyond Supervised Clarification: Input Rewriting with LLMs for Dialogue Discourse
+    Parsing'
+  authors:
+  - Yiming Liu
+  - Ziyue Zhang
+  - Zhichao Xu
+  - Xin Yu
+  - Yingheng Tang
+  - Tianyu Jiang
+  - Jie Cao
+  publisher: SIGDIAL 2026
+  date: '2026-06-01'
+  link: https://arxiv.org/abs/2607.01964
+  image: images/papers/clarify-sigdial2026.jpg
+  type: paper
+  tags:
+  - Dialogue and Discourse
+  - discourse parsing
+  - dialogue clarification
+  - large language models
   plugin: sources.py
   file: sources.yaml
 - title: 'AI Agent for Hydrologic Modeling: Definition, Development and Application'
@@ -205,6 +289,15 @@
   publisher: Geophysical Research Letters
   date: '2026-06-01'
   link: https://doi.org/10.22541/essoar.176894821.13120988/v1
+  bibtex: |
+    @article{yan2026grl,
+      title={AI Agent for Hydrologic Modeling: Definition, Development and Application},
+      author={Yan, Songkun and Chen, Mengye and Li, Zhi and Wen, Yixin and Zhu, Siyu and Zhang, Mofan and Liu, Di and Cao, Jie and Chen, Xiaodong and Deng, Chengbin and Yang, Tiantian and Hong, Yang},
+      journal={Geophysical Research Letters},
+      year={2026},
+      month={June},
+      url={https://essopenarchive.org/doi/full/10.22541/essoar.176894821.13120988/v1},
+    }
   image: images/papers/aiagent-grl2026.jpg
   type: paper
   tags:
@@ -229,6 +322,16 @@
   publisher: arXiv
   date: '2026-05-01'
   link: https://arxiv.org/abs/2605.17792
+  bibtex: |
+    @misc{li2026hydroagentclosinggapfrontier,
+          title={HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL}, 
+          author={Li, Zhi and Yan, Songkun and Cao, Jie and Zhang, Mofan and Wei, Anjiang and Yoo, Jinwoong and Hong, Yang},
+          year={2026},
+          eprint={2605.17792},
+          archivePrefix={arXiv},
+          primaryClass={cs.LG},
+          url={https://arxiv.org/abs/2605.17792}, 
+    }
   image: images/papers/hydroagent2026.jpg
   type: paper
   tags:
@@ -285,6 +388,17 @@
   publisher: EMNLP 2025
   date: '2025-11-01'
   link: https://aclanthology.org/2025.emnlp-main.1499/
+  bibtex: |
+    @inproceedings{jayanth2025emnlp,
+      title = {Do LLMs Encode Frame Semantics? Evidence from Frame Identification},
+      booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+      author = {Chundru, Jayanth Krishna and Poddar, Rudrashis and Cao, Jie and Jiang, Tianyu},
+      year = {2025},
+      month = Nov,
+      publisher = "Association for Computational Linguistics",
+      venue = {Suzhou, China},
+      url = "https://aclanthology.org/2025.emnlp-main.1499/"
+    }
   type: paper
   tags:
   - Structured Prediction
@@ -308,6 +422,22 @@
   publisher: Learning @ Scale (L@S) 2024
   date: '2024-07-01'
   link: https://doi.org/10.1145/3657604.3664664
+  bibtex: |
+    @inproceedings{talkmove-llm-2024,
+    author = {Moreau-Pernet, Baptiste and Tian, Yu and Sawaya, Sandra and Foltz, Peter and Cao, Jie and Milne, Brent and Christie, Thomas},
+    title = {Classifying Tutor Discursive Moves at Scale in Mathematics Classrooms with Large Language Models},
+    year = {2024},
+    isbn = {9798400706332},
+    publisher = {Association for Computing Machinery},
+    url = {https://doi.org/10.1145/3657604.3664664},
+    doi = {10.1145/3657604.3664664},
+    booktitle = {Proceedings of the Eleventh ACM Conference on Learning @ Scale},
+    pages = {361–365},
+    numpages = {5},
+    keywords = {discourse analysis, llm classification, math tutor training},
+    location = {Atlanta, GA, USA},
+    series = {L@S '24}
+    }
   type: paper
   tags:
   - AI for Education
@@ -347,6 +477,14 @@
   publisher: ACL 2023
   date: '2023-07-01'
   link: https://aclanthology.org/2023.acl-short.156/
+  bibtex: |
+    @article{ananya-acl23,
+      title={Mind the Gap between the Application Track and the Real World},
+      author={Ganesh, Ananya and Cao, Jie and Perkoff, E. Magerate and Southwell, Rosy and Palmer, Martha and Kann, Katharina},
+      journal={Proceedings of the 61th Annual Meeting of the Association for
+        Computational Linguistics, 2023},
+      year={2023}
+    }
   type: paper
   tags:
   - Trustworthy AI
@@ -372,6 +510,15 @@
   publisher: UMAP 2023
   date: '2023-06-01'
   link: https://dl.acm.org/doi/10.1145/3565472.3595606
+  bibtex: |
+    @article{cao-umap23,
+      title={A Comparative Analysis of Automatic Speech Recognition Errors in Small
+      Group Classroom Discourse},
+      author={Cao, Jie and Ganesh, Ananya and Cai, Jon and Southwell, Rosy and Perkoff, Magerate and Regan, Michael and Kann, Katharina and Martin, James and Palmer, Martha and D'Mello, Sideny},
+      journal={Proceedings of the 31st ACM Conference on User Modeling Adaptation
+        and Personalization},
+      year={2023}
+    }
   type: paper
   tags:
   - AI for Education
@@ -394,6 +541,13 @@
   publisher: AIAIC 2023 (Workshop)
   date: '2023-06-01'
   link: https://aichildinteraction.github.io/preprint/AIAIC23_paper_7399.pdf
+  bibtex: |
+    @article{cao-jigsaw23,
+      title={Designing an AI Partner for Jigsaw Classrooms},
+      author={Cao, Jie and Dickler, Rachel and Grace, Marie and Roncone, Alessandro and Hirshfield, Leanne and Walker, Marilyn and Palmer, Martha},
+      journal={Workshop on Language-Based AI Character Interation with Children},
+      year={2023}
+    }
   type: paper
   tags:
   - AI for Education
@@ -422,6 +576,14 @@
   publisher: IWSDS 2023
   date: '2023-02-01'
   link: https://arxiv.org/abs/2302.12944
+  bibtex: |
+    @article{jon-dda2022,
+      title={Dependency Dialogue Acts — Annotation Scheme and Case Study},
+      author={Cai, Jon, and King, Brendan D. and Perkoff, Margaret and Dudy, Shiran and Cao, Jie,
+        and Grace, Marie and Wojarnik, Natalia and Ganesh Ananya and Martin, James and Palmer, Martha and Walker, Marilyn and Flanigan, Jeffrey},
+      journal={The 13th International Workshop on Spoken Dialogue Systems Technology},
+      year={2022}
+    }
   type: paper
   tags:
   - Dialogue and Discourse
@@ -438,6 +600,15 @@
   publisher: PhD Dissertation, University of Utah
   date: '2022-05-01'
   link: https://www.proquest.com/docview/2777357718
+  bibtex: |
+    @article{dissertation-proquest,
+      title={Inductive Biases for Deep Linguistic Structured Prediction with
+        Independent Factorization},
+      author={Cao, Jie},
+      journal={Available from ProQuest Dissertations & Theses A&I;ProQuest
+        Dissertations & Theses Global. (2777357718)},
+      year={2022}
+    }
   type: paper
   tags:
   - Structured Prediction
@@ -456,6 +627,17 @@
   publisher: PVLDB (VLDB 2022)
   date: '2021-12-01'
   link: https://dl.acm.org/doi/10.14778/3503585.3503600
+  bibtex: |
+    @article{cao2021dbqencoder,
+      title={Database Workload Characterization with Query Plan Encoders},
+      author={{Debjyoti Paul}* and {Jie Cao}* and Li, Feifei and Srikumar, Vivek},
+      journal={Proceedings of the VLDB Endowment},
+      volume={15},
+      number={4},
+      pages={923--935},
+      year={2021},
+      publisher={VLDB Endowment}
+    }
   type: paper
   tags:
   - Structured Prediction
@@ -472,6 +654,14 @@
   publisher: NAACL 2021
   date: '2021-06-01'
   link: https://aclanthology.org/2021.naacl-main.62/
+  bibtex: |
+    @inproceedings{cao2021comparative,
+        title={A Comparative Study on Schema-Guided Dialogue State Tracking},
+        author={Cao, Jie and Zhang, Yi},
+        booktitle={Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+        pages={782--796},
+        year={2021}
+    }
   type: paper
   tags:
   - Dialogue and Discourse
@@ -490,6 +680,17 @@
   publisher: CoNLL 2019 (MRP Shared Task)
   date: '2019-11-01'
   link: https://aclanthology.org/K19-2013/
+  bibtex: |
+    @inproceedings{cao2019amazon,
+      title={Amazon at MRP 2019: Parsing Meaning Representations with Lexical and
+        Phrasal Anchoring},
+      author={Cao, Jie and Zhang, Yi and Youssef, Adel and Srikumar, Vivek},
+      booktitle={Proceedings of the Shared Task on Cross-Framework Meaning
+        Representation Parsing at the Conference on Natural Language
+          Learning},
+      pages={138--148},
+      year={2019}
+    }
   type: paper
   tags:
   - Structured Prediction
@@ -510,6 +711,14 @@
   publisher: ACL 2019
   date: '2019-07-01'
   link: https://aclanthology.org/P19-1563/
+  bibtex: |
+    @inproceedings{cao2019observing,
+      title={Observing Dialogue in Therapy: Categorizing and Forecasting Behavioral Codes},
+      author={Cao, Jie and Tanana, Michael and Imel, Zac and Poitras, Eric and Atkins, David and Srikumar, Vivek},
+      booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+      year={2019},
+      location={Florence, Italy}
+    }
   type: paper
   tags:
   - Dialogue and Discourse
@@ -532,6 +741,14 @@
   publisher: ACL 2019
   date: '2019-07-01'
   link: https://aclanthology.org/P19-1192/
+  bibtex: |
+    @inproceedings{rhetorical-poetry2019,
+      title={Rhetorically Controlled Encoder-Decoder for Modern Chinese Poetry Generation},
+      author={Liu, Zhiqiang and Fu, Zuohui and Cao, Jie and {de Melo}, Gerard and Tam, Yik-Cheung and Niu, Cheng and Zhou, Jie},
+      booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+      year={2019},
+      location={Florence, Italy}
+    }
   type: paper
   tags:
   - Structured Prediction
@@ -552,6 +769,14 @@
   publisher: AAAI DSTC7 Workshop 2019
   date: '2019-01-01'
   link: http://workshop.colips.org/dstc7/papers/13.pdf
+  bibtex: |
+    @inproceedings{jie2019dstc,
+      title={End-to-end Gated Self-attentive Memory Network for Dialog Response Selection},
+      author={{Shuo, Sun}* and {Yik-Cheung Tam}* and {Jie Cao*} and {Canxiang Yan} and {Zuohui Fu} and {Cheng Niu} and {Jie Zhou}},
+      booktitle={AAAI DSTC7 Workshop (Equal Contribution)},
+      year={2019},
+      location = {Honolulu, American}
+    }
   type: paper
   tags:
   - Dialogue and Discourse
@@ -575,6 +800,15 @@
   - MapReduce
   - distributed learning
   image: images/papers/ke2015distributed.jpg
+  bibtex: |
+    @inproceedings{ke2015distributed,
+      title={A Distributed SVM Method Based on the Iterative MapReduce},
+      author={Ke, Xijiang and Jin, Hai and Xie, Xia and Cao, Jie},
+      booktitle={Semantic Computing (ICSC), IEEE International Conference on},
+      pages={116--119},
+      year={2015},
+      organization={IEEE}
+    }
   plugin: sources.py
   file: sources.yaml
 - title: 'JRBridge: A Framework of Large-Scale Statistical Computing for R'
@@ -592,5 +826,14 @@
   - distributed computing
   - statistical computing
   - R
+  bibtex: |
+    @inproceedings{xie2012jrbridge,
+      title={JRBridge: A framework of large-scale statistical computing for R},
+      author={Xie, Xia and Cao, Jie and Jin, Hai and Ke, Xijiang and Cao, Wenzhi},
+      booktitle={Services Computing Conference (APSCC), IEEE Asia-Pacific},
+      pages={27--34},
+      year={2012},
+      organization={IEEE}
+    }
   plugin: sources.py
   file: sources.yaml

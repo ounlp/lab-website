@@ -67,6 +67,7 @@ The cite pipeline (`_cite/cite.py`) uses **Manubot** to fetch metadata from an `
 Rules:
 - **Date format is `'YYYY-MM-01'`** — always day `01`. The display drops the day (`citation.html` formats with `%b %Y`), and sorting needs a valid `YYYY-MM-DD`. Do NOT use bare `YYYY-MM` (it fails `format_date` and becomes blank).
 - **Tags**: reuse slugs from `_data/themes.yaml` where possible so they render as theme chips.
+- **BibTeX (optional, lossless export)**: `citation.html` auto-synthesizes a minimal BibTeX (title/author/venue/year/url, year-only). To make the "Copy BibTeX" button lossless, add a verbatim `bibtex: |` block (standard fields only — drop `abstract`/`shorttitle`), placed after `link:`. The canonical source is `mlciv.com/_bibliography/references.bib` (match by title). `_includes/list.html` forwards `bibtex` to the component, so it works in the "All" list too.
 
 ## Step 4 — Mirror into `_data/citations.yaml`
 `citations.yaml` is generated (header says DO NOT EDIT) and CI's `update-citations.yaml` regenerates it from `sources.yaml`. But mirror the new entry so local previews and the live site are correct **before** that Action runs. Copy the same fields and append:
@@ -105,7 +106,10 @@ Existing thumbnails are hand-cropped figures/first pages (~850px wide, JPEG q90)
 
 Slug convention is loose (e.g. `matterchat.jpg`, `songkun2025sea.jpg`, `aiagent-grl2026.jpg`) — make it short and descriptive of paper+venue/year.
 
-## Step 6 — Verify & commit
+## Step 6 — Member pages
+`_layouts/member.html` auto-lists each member's papers (a "Publications" section) by matching the citation `authors` against the member's `page.aliases` (falling back to `page.name`). If a co-author is a lab member whose **display name is decorated** (e.g. `Yiming (Steven) Liu`, `Ziyue Zhang(Zoe)`) so it won't string-match the plain author name in the citation, add an `aliases:` list with the publication-form name to their `_members/*.md` front matter. Members whose display name already equals their author name need nothing.
+
+## Step 7 — Verify & commit
 - Optional sanity check: `python _cite/cite.py` (regenerates citations.yaml; must exit 0 — a hard error means an unresolvable `id`). Or preview with `bash .docker/run.sh`.
 - Stage `news/index.md`, `_data/sources.yaml`, `_data/citations.yaml`, and the new image.
 - **Rebase before pushing**: the news/cite GitHub Actions push to `main`, so `git fetch origin && git rebase origin/main` before `git push` to avoid non-fast-forward rejects.

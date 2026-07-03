@@ -16,7 +16,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 ## 2026
 - **06/2026** — Our paper "[AI Agent for Hydrologic Modeling: Definition, Development and Application](https://doi.org/10.22541/essoar.176894821.13120988/v1)" is accepted to [Geophysical Research Letters](https://agupubs.onlinelibrary.wiley.com/journal/19448007)!
 - **06/2026** — Our paper "[Rethinking On-policy Optimization for Query Augmentation](https://openreview.net/forum?id=mmqbjhz5Br)" is accepted to [TMLR](https://jmlr.org/tmlr/)!
-- **06/2026** — A paper on dialogue clarificaiton on discourse parsing has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Congratulations to Yiming!
+- **06/2026** — Yiming's paper "[Beyond Supervised Clarification: Input Rewriting with LLMs for Dialogue Discourse Parsing](https://arxiv.org/abs/2607.01964)" is accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Congratulations, Yiming!
 - **05/2026** — Awarded an [ICAST](https://www.ou.edu/icast/news-events/2026/icast-2026-seed-grant-opportunity) seed grant.
 - **05/2026** — New [preprint](https://arxiv.org/abs/2605.17792v1): "HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL".
 - **05/2026** — Two collaborative projects funded by [NSF ART: InTRO Scoping Translational Research](https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps).
