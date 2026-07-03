@@ -242,6 +242,14 @@
   publisher: SIGDIAL 2026
   date: '2026-06-01'
   link: https://arxiv.org/abs/2607.01964
+  bibtex: |
+    @inproceedings{liu2026beyond,
+      title = {Beyond Supervised Clarification: Input Rewriting with LLMs for Dialogue Discourse Parsing},
+      author = {Liu, Yiming and Zhang, Ziyue and Xu, Zhichao and Yu, Xin and Tang, Yingheng and Jiang, Tianyu and Cao, Jie},
+      booktitle = {Proceedings of the 27th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2026)},
+      year = {2026},
+      url = {https://arxiv.org/abs/2607.01964}
+    }
   image: images/papers/clarify-sigdial2026.jpg
   type: paper
   tags:
@@ -324,6 +332,14 @@
   publisher: EACL 2026
   date: '2026-03-01'
   link: https://aclanthology.org/2026.eacl-long.285/
+  bibtex: |
+    @inproceedings{li2026translation,
+      title = {Translation via Annotation: A Computational Study of Translating Classical Chinese into Japanese},
+      author = {Li, Zilong and Cao, Jie},
+      booktitle = {Proceedings of the 2026 Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)},
+      year = {2026},
+      url = {https://aclanthology.org/2026.eacl-long.285/}
+    }
   image: images/papers/translation-eacl2026.jpg
   type: paper
   tags:
@@ -341,6 +357,14 @@
   publisher: TSAR 2025 (EMNLP Workshop)
   date: '2025-11-01'
   link: https://aclanthology.org/2025.tsar-1.19/
+  bibtex: |
+    @inproceedings{huynh2025ounlp,
+      title = {OUNLP at TSAR 2025 Shared Task: Multi-Round Text Simplifier via Code Generation},
+      author = {Huynh, Cuong and Cao, Jie},
+      booktitle = {Proceedings of the Workshop on Text Simplification, Accessibility and Readability (TSAR 2025)},
+      year = {2025},
+      url = {https://aclanthology.org/2025.tsar-1.19/}
+    }
   type: paper
   tags:
   - AI for Education
@@ -420,6 +444,14 @@
   publisher: BEA 2023 (ACL Workshop)
   date: '2023-07-01'
   link: https://aclanthology.org/2023.bea-1.47/
+  bibtex: |
+    @inproceedings{perkoff2023comparing,
+      title = {Comparing Neural Question Generation Architectures for Reading Comprehension},
+      author = {Perkoff, E. Margaret and Bhattacharyya, Abhidip and Cai, Jon and Cao, Jie},
+      booktitle = {Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)},
+      year = {2023},
+      url = {https://aclanthology.org/2023.bea-1.47/}
+    }
   type: paper
   tags:
   - AI for Education
