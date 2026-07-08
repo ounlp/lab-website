@@ -91,8 +91,8 @@
   bibtex: "@article{songkun2025sea,\n  title = {AQUAH: Automatic Quantification and\
     \ Unified Agent in Hydrology},\n  author = {Yan, Songkun and Li, Zhi and Zhu,\
     \ Siyu and Wen, Yixin and Zhang, Mofan and Chen, Mengye and Cao, Jie and Hong,\
-    \ Yang},\n  journal = {1st Workshop on Sustainability with Earth observation and\
-    \ AI (co-located with ICCV), 2025 (To Appear)},\n  url = {https://arxiv.org/abs/2508.02936},\n\
+    \ Yang},\n  journal = {1st Workshop on Sustainability with Earth Observation and\
+    \ AI (co-located with ICCV 2025)},\n  url = {https://arxiv.org/abs/2508.02936},\n\
     \  year = {2025}\n}\n"
   plugin: sources.py
   file: sources.yaml
@@ -600,8 +600,8 @@
   date: '2021-12-01'
   link: https://dl.acm.org/doi/10.14778/3503585.3503600
   bibtex: "@article{cao2021dbqencoder,\n  title = {Database Workload Characterization\
-    \ with Query Plan Encoders},\n  author = {{Debjyoti Paul}* and {Jie Cao}* and\
-    \ Li, Feifei and Srikumar, Vivek},\n  journal = {Proceedings of the VLDB Endowment},\n\
+    \ with Query Plan Encoders},\n  author = {Paul, Debjyoti and Cao, Jie and Li,\
+    \ Feifei and Srikumar, Vivek},\n  journal = {Proceedings of the VLDB Endowment},\n\
     \  volume = {15},\n  number = {4},\n  pages = {923--935},\n  year = {2021},\n\
     \  publisher = {VLDB Endowment}\n}\n"
   type: paper
@@ -724,10 +724,10 @@
   date: '2019-01-01'
   link: http://workshop.colips.org/dstc7/papers/13.pdf
   bibtex: "@inproceedings{jie2019dstc,\n  title = {End-to-end Gated Self-attentive\
-    \ Memory Network for Dialog Response Selection},\n  author = {{Shuo, Sun}* and\
-    \ {Yik-Cheung Tam}* and {Jie Cao*} and {Canxiang Yan} and {Zuohui Fu} and {Cheng\
-    \ Niu} and {Jie Zhou}},\n  booktitle = {AAAI DSTC7 Workshop (Equal Contribution)},\n\
-    \  year = {2019},\n  location = {Honolulu, USA}\n}\n"
+    \ Memory Network for Dialog Response Selection},\n  author = {Sun, Shuo and Tam,\
+    \ Yik-Cheung and Cao, Jie and Yan, Canxiang and Fu, Zuohui and Niu, Cheng and\
+    \ Zhou, Jie},\n  booktitle = {AAAI DSTC7 Workshop (Equal Contribution)},\n  year\
+    \ = {2019},\n  location = {Honolulu, USA}\n}\n"
   type: paper
   tags:
   - Dialogue and Discourse

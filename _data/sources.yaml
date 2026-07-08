@@ -70,7 +70,7 @@
     @article{songkun2025sea,
       title = {AQUAH: Automatic Quantification and Unified Agent in Hydrology},
       author = {Yan, Songkun and Li, Zhi and Zhu, Siyu and Wen, Yixin and Zhang, Mofan and Chen, Mengye and Cao, Jie and Hong, Yang},
-      journal = {1st Workshop on Sustainability with Earth observation and AI (co-located with ICCV), 2025 (To Appear)},
+      journal = {1st Workshop on Sustainability with Earth Observation and AI (co-located with ICCV 2025)},
       url = {https://arxiv.org/abs/2508.02936},
       year = {2025}
     }
@@ -547,7 +547,7 @@
   bibtex: |
     @article{cao2021dbqencoder,
       title = {Database Workload Characterization with Query Plan Encoders},
-      author = {{Debjyoti Paul}* and {Jie Cao}* and Li, Feifei and Srikumar, Vivek},
+      author = {Paul, Debjyoti and Cao, Jie and Li, Feifei and Srikumar, Vivek},
       journal = {Proceedings of the VLDB Endowment},
       volume = {15},
       number = {4},
@@ -676,7 +676,7 @@
   bibtex: |
     @inproceedings{jie2019dstc,
       title = {End-to-end Gated Self-attentive Memory Network for Dialog Response Selection},
-      author = {{Shuo, Sun}* and {Yik-Cheung Tam}* and {Jie Cao*} and {Canxiang Yan} and {Zuohui Fu} and {Cheng Niu} and {Jie Zhou}},
+      author = {Sun, Shuo and Tam, Yik-Cheung and Cao, Jie and Yan, Canxiang and Fu, Zuohui and Niu, Cheng and Zhou, Jie},
       booktitle = {AAAI DSTC7 Workshop (Equal Contribution)},
       year = {2019},
       location = {Honolulu, USA}
