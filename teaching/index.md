@@ -15,7 +15,7 @@ Courses taught and assisted by members of the OUNLP Lab.
 
 {% capture text %}
 
-A graduate-level introduction to modern natural language processing.
+**Natural Language Processing** (CS 5293). A graduate-level introduction to modern natural language processing.
 
 {%
   include button.html
@@ -38,9 +38,9 @@ A graduate-level introduction to modern natural language processing.
 
 {% capture text %}
 
-Slashlisted C S 4713/5713. An introduction to the theory of machine learning: PAC learning and VC theory, distribution-specific learning and evolvability, online learning and mistake bounds, boosting, and learning under noise, statistical queries, poisoning attacks, and adversarial examples.
+**Computational Learning Theory.** An introduction to the theory of machine learning: PAC learning and VC theory, distribution-specific learning and evolvability, online learning and mistake bounds, boosting, and learning under noise, statistical queries, poisoning attacks, and adversarial examples.
 
-Prerequisite: C S 4413 or DSA 4413, or permission of instructor.
+Slashlisted C S 4713/5713. Prerequisite: C S 4413 or DSA 4413, or permission of instructor.
 
 {% endcapture %}
 
@@ -58,7 +58,7 @@ Courses taught and assisted before joining OU, at the University of Colorado Bou
 
 {% capture text %}
 
-Co-taught with Prof. James Martin, focusing on LLMs, in-context learning, and dialogue.
+**Natural Language Processing.** Co-taught with Prof. James Martin, focusing on LLMs, in-context learning, and dialogue.
 
 {%
   include button.html
@@ -81,7 +81,7 @@ Co-taught with Prof. James Martin, focusing on LLMs, in-context learning, and di
 
 {% capture text %}
 
-Teaching assistant for Prof. Vivek Srikumar's graduate Machine Learning course.
+**Machine Learning.** Teaching assistant for Prof. Vivek Srikumar's graduate Machine Learning course.
 
 {%
   include button.html
@@ -105,7 +105,7 @@ Teaching assistant for Prof. Vivek Srikumar's graduate Machine Learning course.
 
 {% capture text %}
 
-Teaching assistant for Prof. Vivek Srikumar's course on structured prediction.
+**Structured Prediction.** Teaching assistant for Prof. Vivek Srikumar's course on structured prediction.
 
 {%
   include button.html
