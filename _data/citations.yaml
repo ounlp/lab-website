@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- title: 'LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing'
+- title: LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing
   authors:
   - Yu Cai
   - Ziang He
@@ -10,16 +10,15 @@
   - Yuchen Liu
   - Zhengping Luo
   - Shangqing Zhao
-  publisher: IEEE International Conference on Computer Communications and Networks (ICCCN)
+  publisher: IEEE International Conference on Computer Communications and Networks
+    (ICCCN)
   date: '2026-04-01'
   link: http://www.icccn.org/index.html
-  bibtex: |
-    @inproceedings{cai2026llmpowered,
-      title = {LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing},
-      author = {Cai, Yu and He, Ziang and Luo, Yanyan and Zhang, Ziyue and Cao, Jie and Liu, Yuchen and Luo, Zhengping and Zhao, Shangqing},
-      booktitle = {Proceedings of the IEEE International Conference on Computer Communications and Networks (ICCCN)},
-      year = {2026}
-    }
+  bibtex: "@inproceedings{cai2026llmpowered,\n  title = {LLM-Powered Multi-Agent Attacks\
+    \ on Cooperative Spectrum Sensing},\n  author = {Cai, Yu and He, Ziang and Luo,\
+    \ Yanyan and Zhang, Ziyue and Cao, Jie and Liu, Yuchen and Luo, Zhengping and\
+    \ Zhao, Shangqing},\n  booktitle = {Proceedings of the IEEE International Conference\
+    \ on Computer Communications and Networks (ICCCN)},\n  year = {2026}\n}\n"
   type: paper
   tags:
   - LLM Agents
