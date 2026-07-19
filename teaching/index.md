@@ -128,7 +128,7 @@ Courses taught and assisted before joining OU, at the University of Colorado Bou
 
 ## Teaching Materials
 
-Open, hands-on Jupyter notebooks for learning natural language processing — used across the courses above.
+Open, hands-on Jupyter notebooks for learning natural language processing — used across the courses above. Their development was supported in part by an OU Alternative Textbook Grant.
 
 {%
   include button.html
