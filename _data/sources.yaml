@@ -1,3 +1,31 @@
+- title: 'LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing'
+  authors:
+  - Yu Cai
+  - Ziang He
+  - Yanyan Luo
+  - Ziyue Zhang
+  - Jie Cao
+  - Yuchen Liu
+  - Zhengping Luo
+  - Shangqing Zhao
+  publisher: IEEE International Conference on Computer Communications and Networks (ICCCN)
+  date: '2026-04-01'
+  link: http://www.icccn.org/index.html
+  bibtex: |
+    @inproceedings{cai2026llmpowered,
+      title = {LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing},
+      author = {Cai, Yu and He, Ziang and Luo, Yanyan and Zhang, Ziyue and Cao, Jie and Liu, Yuchen and Luo, Zhengping and Zhao, Shangqing},
+      booktitle = {Proceedings of the IEEE International Conference on Computer Communications and Networks (ICCCN)},
+      year = {2026}
+    }
+  type: paper
+  tags:
+  - LLM Agents
+  - Trustworthy AI
+  - multi-agent systems
+  - adversarial attacks
+  - cooperative spectrum sensing
+  - wireless security
 - id: doi:10.1016/j.jhydrol.2025.134145
   desciption: Integrating deep learning with reservoir simulation for interpretable
     water management in hydrology
