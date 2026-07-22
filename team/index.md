@@ -7,6 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
+{% capture prospective_notice %}
+🎓 **Prospective Students:** I will not be recruiting new Ph.D. students for Fall 2026. Thank you for your understanding, and best of luck in your academic journey. For OU students, if you are interested in doing research with me, please take CS 5293 or other machine learning related courses first.
+{% endcapture %}
+{% include alert.html type="info" content=prospective_notice %}
+
 Our team brings a mix of expertise in natural language processing, agent design, simulation
 and human–AI interaction. Get to know the people driving our research.
 
