@@ -10,7 +10,7 @@
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
-  {% assign home_page = member.links['home-page'] %}
+  {% assign home_page = member.links['home-page'] | default: member.links['website'] %}
   <a
     {% if home_page %}
       href="{{ home_page }}"
