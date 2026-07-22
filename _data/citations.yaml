@@ -636,7 +636,8 @@
   link: https://www.proquest.com/docview/2777357718
   bibtex: "@phdthesis{dissertation-proquest,\n  title = {Inductive Biases for Deep\
     \ Linguistic Structured Prediction with Independent Factorization},\n  author\
-    \ = {Cao, Jie},\n  school = {University of Utah},\n  year = {2022}\n}"
+    \ = {Cao, Jie},\n  school = {University of Utah},\n  year = {2022},\n  note =\
+    \ {ProQuest Dissertations \\& Theses (2777357718)}\n}"
   type: paper
   tags:
   - Structured Prediction
