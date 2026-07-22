@@ -18,7 +18,7 @@
     \ on Cooperative Spectrum Sensing},\n  author = {Cai, Yu and He, Ziang and Luo,\
     \ Yanyan and Zhang, Ziyue and Cao, Jie and Liu, Yuchen and Luo, Zhengping and\
     \ Zhao, Shangqing},\n  booktitle = {Proceedings of the IEEE International Conference\
-    \ on Computer Communications and Networks (ICCCN)},\n  year = {2026}\n}\n"
+    \ on Computer Communications and Networks (ICCCN)},\n  year = {2026}\n}"
   type: paper
   tags:
   - LLM Agents
@@ -59,7 +59,7 @@
     \ = {Journal of Hydrology},\n  pages = {134145},\n  issn = {0022-1694},\n  doi\
     \ = {10.1016/j.jhydrol.2025.134145},\n  url = {https://www.sciencedirect.com/science/article/pii/S0022169425014830},\n\
     \  keywords = {Large scale,Release simulation,SHAP,Structured State Space Model,Water\
-    \ management}\n}\n"
+    \ management}\n}"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2510.17139
@@ -86,7 +86,7 @@
     \ Xueguang and Chen, Bingsen and Tian, Yijun and Mo, Fengran and Li, Tao and Cao,\
     \ Jie and Srikumar, Vivek},\n  journal = {Transactions on Machine Learning Research},\n\
     \  issn = {2835-8856},\n  year = {2026},\n  month = {June},\n  url = {https://openreview.net/forum?id=mmqbjhz5Br}\n\
-    }\n"
+    }"
   image: images/papers/opqe2510.jpg
   type: paper
   tags:
@@ -121,12 +121,12 @@
   - automatic data retrieval
   - simulation
   image: images/papers/songkun2025sea.jpg
-  bibtex: "@article{songkun2025sea,\n  title = {AQUAH: Automatic Quantification and\
-    \ Unified Agent in Hydrology},\n  author = {Yan, Songkun and Li, Zhi and Zhu,\
+  bibtex: "@inproceedings{songkun2025sea,\n  title = {AQUAH: Automatic Quantification\
+    \ and Unified Agent in Hydrology},\n  author = {Yan, Songkun and Li, Zhi and Zhu,\
     \ Siyu and Wen, Yixin and Zhang, Mofan and Chen, Mengye and Cao, Jie and Hong,\
-    \ Yang},\n  journal = {1st Workshop on Sustainability with Earth Observation and\
-    \ AI (co-located with ICCV 2025)},\n  url = {https://arxiv.org/abs/2508.02936},\n\
-    \  year = {2025}\n}\n"
+    \ Yang},\n  booktitle = {1st Workshop on Sustainability with Earth Observation\
+    \ and AI (co-located with ICCV 2025)},\n  url = {https://arxiv.org/abs/2508.02936},\n\
+    \  year = {2025}\n}"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s42256-026-01214-y
@@ -153,7 +153,7 @@
     \ and Weilu Gao and Steve Farrell and Benjamin Erichson and Michael W. Mahoney\
     \ and Andy Nonaka and Zhi Yao},\n  journal = {Nature Machine Intelligence},\n\
     \  year = {2026},\n  doi = {10.1038/s42256-026-01214-y},\n  url = {https://doi.org/10.1038/s42256-026-01214-y},\n\
-    \  publisher = {Nature Publishing Group}\n}\n"
+    \  publisher = {Nature Publishing Group}\n}"
   image: images/papers/matterchat.jpg
   type: paper
   tags:
@@ -195,7 +195,7 @@
     \ Cao, Jie and Diffenderfer, James Daniel and Bremer, Peer-Timo and Pascucci,\
     \ Valerio},\n  url = {https://doi.org/10.1109/tvcg.2024.3514996},\n  journal =\
     \ {IEEE Transactions on Visualization and Computer Graphics},\n  year = {2024}\n\
-    }\n"
+    }"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.5281/zenodo.15870176
@@ -230,7 +230,7 @@
     \  year = {2025},\n  month = jul,\n  pages = {328--341},\n  publisher = {International\
     \ Educational Data Mining Society},\n  doi = {10.5281/zenodo.15870177},\n  venue\
     \ = {Palermo, Italy},\n  url = \"https://educationaldatamining.org/EDM2025/proceedings/2025.EDM.long-papers.201/index.html\"\
-    \n}\n"
+    \n}"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arxiv.2412.13395
@@ -264,7 +264,7 @@
     \ Jie and Suresh, Abhijit and Jacobs, Jennifer and Clevenger, Charis and Howard,\
     \ Amanda and Brown, Chelsea and Milne, Brent and Fischaber, Tom and Sumner, Tamara\
     \ and Martin, James H.},\n  booktitle = {The 31st International Conference on\
-    \ Computational Linguistics},\n  year = {2025}\n}\n"
+    \ Computational Linguistics},\n  year = {2025}\n}"
   plugin: sources.py
   file: sources.yaml
 - title: 'Beyond Supervised Clarification: Input Rewriting with LLMs for Dialogue
@@ -289,7 +289,7 @@
     \ Yiming and Zhang, Ziyue and Xu, Zhichao and Yu, Xin and Tang, Yingheng and Jiang,\
     \ Tianyu and Cao, Jie},\n  booktitle = {Proceedings of the 27th Annual Meeting\
     \ of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2026)},\n \
-    \ year = {2026},\n  url = {https://arxiv.org/abs/2607.01964}\n}\n"
+    \ year = {2026},\n  url = {https://arxiv.org/abs/2607.01964}\n}"
   image: images/papers/clarify-sigdial2026.jpg
   type: paper
   tags:
@@ -322,7 +322,7 @@
     \ and Chen, Xiaodong and Deng, Chengbin and Yang, Tiantian and Hong, Yang},\n\
     \  journal = {Geophysical Research Letters},\n  year = {2026},\n  month = {June},\n\
     \  url = {https://essopenarchive.org/doi/full/10.22541/essoar.176894821.13120988/v1}\n\
-    }\n"
+    }"
   image: images/papers/aiagent-grl2026.jpg
   type: paper
   tags:
@@ -352,7 +352,7 @@
     \ via Simulator-Grounded RL},\n  author = {Li, Zhi and Yan, Songkun and Cao, Jie\
     \ and Zhang, Mofan and Wei, Anjiang and Yoo, Jinwoong and Hong, Yang},\n  year\
     \ = {2026},\n  eprint = {2605.17792},\n  archivePrefix = {arXiv},\n  primaryClass\
-    \ = {cs.LG},\n  url = {https://arxiv.org/abs/2605.17792}\n}\n"
+    \ = {cs.LG},\n  url = {https://arxiv.org/abs/2605.17792}\n}"
   image: images/papers/hydroagent2026.jpg
   type: paper
   tags:
@@ -381,7 +381,7 @@
     \ = {Li, Zilong and Cao, Jie},\n  booktitle = {Proceedings of the 2026 Conference\
     \ of the European Chapter of the Association for Computational Linguistics (EACL\
     \ 2026)},\n  year = {2026},\n  url = {https://aclanthology.org/2026.eacl-long.285/}\n\
-    }\n"
+    }"
   image: images/papers/translation-eacl2026.jpg
   type: paper
   tags:
@@ -407,7 +407,7 @@
     \ Multi-Round Text Simplifier via Code Generation},\n  author = {Huynh, Cuong\
     \ and Cao, Jie},\n  booktitle = {Proceedings of the Workshop on Text Simplification,\
     \ Accessibility and Readability (TSAR 2025)},\n  year = {2025},\n  url = {https://aclanthology.org/2025.tsar-1.19/}\n\
-    }\n"
+    }"
   type: paper
   tags:
   - AI for Education
@@ -438,7 +438,7 @@
     \ {Chundru, Jayanth Krishna and Poddar, Rudrashis and Cao, Jie and Jiang, Tianyu},\n\
     \  year = {2025},\n  month = Nov,\n  publisher = \"Association for Computational\
     \ Linguistics\",\n  venue = {Suzhou, China},\n  url = \"https://aclanthology.org/2025.emnlp-main.1499/\"\
-    \n}\n"
+    \n}"
   type: paper
   tags:
   - Structured Prediction
@@ -471,7 +471,7 @@
     \  booktitle = {Proceedings of the Eleventh ACM Conference on Learning @ Scale},\n\
     \  pages = {361\u2013365},\n  numpages = {5},\n  keywords = {discourse analysis,\
     \ llm classification, math tutor training},\n  location = {Atlanta, GA, USA},\n\
-    \  series = {L@S '24}\n}\n"
+    \  series = {L@S '24}\n}"
   type: paper
   tags:
   - AI for Education
@@ -496,7 +496,7 @@
     \ Margaret and Bhattacharyya, Abhidip and Cai, Jon and Cao, Jie},\n  booktitle\
     \ = {Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational\
     \ Applications (BEA 2023)},\n  year = {2023},\n  url = {https://aclanthology.org/2023.bea-1.47/}\n\
-    }\n"
+    }"
   type: paper
   tags:
   - AI for Education
@@ -517,11 +517,11 @@
   publisher: ACL 2023
   date: '2023-07-01'
   link: https://aclanthology.org/2023.acl-short.156/
-  bibtex: "@article{ananya-acl23,\n  title = {Mind the Gap between the Application\
+  bibtex: "@inproceedings{ananya-acl23,\n  title = {Mind the Gap between the Application\
     \ Track and the Real World},\n  author = {Ganesh, Ananya and Cao, Jie and Perkoff,\
     \ E. Margaret and Southwell, Rosy and Palmer, Martha and Kann, Katharina},\n \
-    \ journal = {Proceedings of the 61st Annual Meeting of the Association for Computational\
-    \ Linguistics, 2023},\n  year = {2023}\n}\n"
+    \ booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational\
+    \ Linguistics},\n  year = {2023}\n}"
   type: paper
   tags:
   - Trustworthy AI
@@ -547,12 +547,12 @@
   publisher: UMAP 2023
   date: '2023-06-01'
   link: https://dl.acm.org/doi/10.1145/3565472.3595606
-  bibtex: "@article{cao-umap23,\n  title = {A Comparative Analysis of Automatic Speech\
-    \ Recognition Errors in Small Group Classroom Discourse},\n  author = {Cao, Jie\
-    \ and Ganesh, Ananya and Cai, Jon and Southwell, Rosy and Perkoff, Margaret and\
-    \ Regan, Michael and Kann, Katharina and Martin, James and Palmer, Martha and\
-    \ D'Mello, Sidney},\n  journal = {Proceedings of the 31st ACM Conference on User\
-    \ Modeling Adaptation and Personalization},\n  year = {2023}\n}\n"
+  bibtex: "@inproceedings{cao-umap23,\n  title = {A Comparative Analysis of Automatic\
+    \ Speech Recognition Errors in Small Group Classroom Discourse},\n  author = {Cao,\
+    \ Jie and Ganesh, Ananya and Cai, Jon and Southwell, Rosy and Perkoff, Margaret\
+    \ and Regan, Michael and Kann, Katharina and Martin, James and Palmer, Martha\
+    \ and D'Mello, Sidney},\n  booktitle = {Proceedings of the 31st ACM Conference\
+    \ on User Modeling Adaptation and Personalization},\n  year = {2023}\n}"
   type: paper
   tags:
   - AI for Education
@@ -575,11 +575,11 @@
   publisher: AIAIC 2023 (Workshop)
   date: '2023-06-01'
   link: https://aichildinteraction.github.io/preprint/AIAIC23_paper_7399.pdf
-  bibtex: "@article{cao-jigsaw23,\n  title = {Designing an AI Partner for Jigsaw Classrooms},\n\
-    \  author = {Cao, Jie and Dickler, Rachel and Grace, Marie and Roncone, Alessandro\
-    \ and Hirshfield, Leanne and Walker, Marilyn and Palmer, Martha},\n  journal =\
-    \ {Workshop on Language-Based AI Character Interaction with Children},\n  year\
-    \ = {2023}\n}\n"
+  bibtex: "@inproceedings{cao-jigsaw23,\n  title = {Designing an AI Partner for Jigsaw\
+    \ Classrooms},\n  author = {Cao, Jie and Dickler, Rachel and Grace, Marie and\
+    \ Roncone, Alessandro and Hirshfield, Leanne and Walker, Marilyn and Palmer, Martha},\n\
+    \  booktitle = {Workshop on Language-Based AI Character Interaction with Children},\n\
+    \  year = {2023}\n}"
   type: paper
   tags:
   - AI for Education
@@ -612,12 +612,12 @@
   - type: source
     text: Code
     link: https://github.com/NSF-iSAT/DDA-corpus
-  bibtex: "@article{jon-dda2022,\n  title = {Dependency Dialogue Acts \u2014 Annotation\
-    \ Scheme and Case Study},\n  author = {Cai, Jon and King, Brendan D. and Perkoff,\
-    \ Margaret and Dudy, Shiran and Cao, Jie and Grace, Marie and Wojarnik, Natalia\
-    \ and Ganesh, Ananya and Martin, James and Palmer, Martha and Walker, Marilyn\
-    \ and Flanigan, Jeffrey},\n  journal = {The 13th International Workshop on Spoken\
-    \ Dialogue Systems Technology},\n  year = {2022}\n}\n"
+  bibtex: "@inproceedings{jon-dda2022,\n  title = {Dependency Dialogue Acts \u2014\
+    \ Annotation Scheme and Case Study},\n  author = {Cai, Jon and King, Brendan D.\
+    \ and Perkoff, Margaret and Dudy, Shiran and Cao, Jie and Grace, Marie and Wojarnik,\
+    \ Natalia and Ganesh, Ananya and Martin, James and Palmer, Martha and Walker,\
+    \ Marilyn and Flanigan, Jeffrey},\n  booktitle = {The 13th International Workshop\
+    \ on Spoken Dialogue Systems Technology},\n  year = {2022}\n}"
   type: paper
   tags:
   - Dialogue and Discourse
@@ -634,10 +634,9 @@
   publisher: PhD Dissertation, University of Utah
   date: '2022-05-01'
   link: https://www.proquest.com/docview/2777357718
-  bibtex: "@article{dissertation-proquest,\n  title = {Inductive Biases for Deep Linguistic\
-    \ Structured Prediction with Independent Factorization},\n  author = {Cao, Jie},\n\
-    \  journal = {Available from ProQuest Dissertations & Theses A&I;ProQuest Dissertations\
-    \ & Theses Global. (2777357718)},\n  year = {2022}\n}\n"
+  bibtex: "@phdthesis{dissertation-proquest,\n  title = {Inductive Biases for Deep\
+    \ Linguistic Structured Prediction with Independent Factorization},\n  author\
+    \ = {Cao, Jie},\n  school = {University of Utah},\n  year = {2022}\n}"
   type: paper
   tags:
   - Structured Prediction
@@ -664,7 +663,7 @@
     \ with Query Plan Encoders},\n  author = {Paul, Debjyoti and Cao, Jie and Li,\
     \ Feifei and Srikumar, Vivek},\n  journal = {Proceedings of the VLDB Endowment},\n\
     \  volume = {15},\n  number = {4},\n  pages = {923--935},\n  year = {2021},\n\
-    \  publisher = {VLDB Endowment}\n}\n"
+    \  publisher = {VLDB Endowment}\n}"
   type: paper
   tags:
   - Structured Prediction
@@ -689,7 +688,7 @@
     \ Dialogue State Tracking},\n  author = {Cao, Jie and Zhang, Yi},\n  booktitle\
     \ = {Proceedings of the 2021 Conference of the North American Chapter of the Association\
     \ for Computational Linguistics: Human Language Technologies},\n  pages = {782--796},\n\
-    \  year = {2021}\n}\n"
+    \  year = {2021}\n}"
   type: paper
   tags:
   - Dialogue and Discourse
@@ -717,7 +716,7 @@
     \ Zhang, Yi and Youssef, Adel and Srikumar, Vivek},\n  booktitle = {Proceedings\
     \ of the Shared Task on Cross-Framework Meaning Representation Parsing at the\
     \ Conference on Natural Language Learning},\n  pages = {138--148},\n  year = {2019}\n\
-    }\n"
+    }"
   type: paper
   tags:
   - Structured Prediction
@@ -747,7 +746,7 @@
     \ Michael and Imel, Zac and Poitras, Eric and Atkins, David and Srikumar, Vivek},\n\
     \  booktitle = {Proceedings of the 57th Annual Meeting of the Association for\
     \ Computational Linguistics},\n  year = {2019},\n  location = {Florence, Italy}\n\
-    }\n"
+    }"
   type: paper
   tags:
   - Dialogue and Discourse
@@ -779,7 +778,7 @@
     \ and Fu, Zuohui and Cao, Jie and {de Melo}, Gerard and Tam, Yik-Cheung and Niu,\
     \ Cheng and Zhou, Jie},\n  booktitle = {Proceedings of the 57th Annual Meeting\
     \ of the Association for Computational Linguistics},\n  year = {2019},\n  location\
-    \ = {Florence, Italy}\n}\n"
+    \ = {Florence, Italy}\n}"
   type: paper
   tags:
   - Structured Prediction
@@ -804,7 +803,7 @@
     \ Memory Network for Dialog Response Selection},\n  author = {Sun, Shuo and Tam,\
     \ Yik-Cheung and Cao, Jie and Yan, Canxiang and Fu, Zuohui and Niu, Cheng and\
     \ Zhou, Jie},\n  booktitle = {AAAI DSTC7 Workshop (Equal Contribution)},\n  year\
-    \ = {2019},\n  location = {Honolulu, USA}\n}\n"
+    \ = {2019},\n  location = {Honolulu, USA}\n}"
   type: paper
   tags:
   - Dialogue and Discourse
@@ -832,7 +831,7 @@
     \ Based on the Iterative MapReduce},\n  author = {Ke, Xijiang and Jin, Hai and\
     \ Xie, Xia and Cao, Jie},\n  booktitle = {Semantic Computing (ICSC), IEEE International\
     \ Conference on},\n  pages = {116--119},\n  year = {2015},\n  organization = {IEEE}\n\
-    }\n"
+    }"
   plugin: sources.py
   file: sources.yaml
 - title: 'JRBridge: A Framework of Large-Scale Statistical Computing for R'
