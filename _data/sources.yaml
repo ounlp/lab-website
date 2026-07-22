@@ -55,6 +55,10 @@
   publisher: Transactions on Machine Learning Research
   date: '2026-06-01'
   link: https://openreview.net/forum?id=mmqbjhz5Br
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/BaleChen/RethinkQAug
   bibtex: |
     @article{xu2025rethinking,
       title = {Rethinking On-policy Optimization for Query Augmentation},
@@ -117,6 +121,10 @@
   publisher: Nature Machine Intelligence
   date: '2026-04-01'
   link: https://doi.org/10.1038/s42256-026-01214-y
+  buttons:
+    - type: source
+      text: Code
+      link: https://www.nature.com/articles/s42256-026-01214-y#code-availability
   bibtex: |
     @article{tang2026matterchat,
       title = {A Multimodal Large Language Model for Materials Science},
@@ -298,6 +306,10 @@
   publisher: EACL 2026
   date: '2026-03-01'
   link: https://aclanthology.org/2026.eacl-long.285/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/shiryusann/KanbunKundoku
   bibtex: |
     @inproceedings{li2026translation,
       title = {Translation via Annotation: A Computational Study of Translating Classical Chinese into Japanese},
@@ -321,6 +333,10 @@
   publisher: TSAR 2025 (EMNLP Workshop)
   date: '2025-11-01'
   link: https://aclanthology.org/2025.tsar-1.19/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/ounlp/Multi-Round-Text-Simplifier
   bibtex: |
     @inproceedings{huynh2025ounlp,
       title = {OUNLP at TSAR 2025 Shared Task: Multi-Round Text Simplifier via Code Generation},
@@ -347,6 +363,10 @@
   publisher: EMNLP 2025
   date: '2025-11-01'
   link: https://aclanthology.org/2025.emnlp-main.1499/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/cincynlp/FrameID
   bibtex: |
     @inproceedings{jayanth2025emnlp,
       title = {Do LLMs Encode Frame Semantics? Evidence from Frame Identification},
@@ -528,6 +548,10 @@
   publisher: IWSDS 2023
   date: '2023-02-01'
   link: https://arxiv.org/abs/2302.12944
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/NSF-iSAT/DDA-corpus
   bibtex: |
     @article{jon-dda2022,
       title = {Dependency Dialogue Acts — Annotation Scheme and Case Study},
@@ -572,6 +596,10 @@
   publisher: PVLDB (VLDB 2022)
   date: '2021-12-01'
   link: https://dl.acm.org/doi/10.14778/3503585.3503600
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/debjyoti385/workload_scripts
   bibtex: |
     @article{cao2021dbqencoder,
       title = {Database Workload Characterization with Query Plan Encoders},
@@ -597,6 +625,10 @@
   publisher: NAACL 2021
   date: '2021-06-01'
   link: https://aclanthology.org/2021.naacl-main.62/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/mlciv/sgd
   bibtex: |
     @inproceedings{cao2021comparative,
       title = {A Comparative Study on Schema-Guided Dialogue State Tracking},
@@ -621,6 +653,10 @@
   publisher: CoNLL 2019 (MRP Shared Task)
   date: '2019-11-01'
   link: https://aclanthology.org/K19-2013/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/utahnlp/lapa-mrp
   bibtex: |
     @inproceedings{cao2019amazon,
       title = {Amazon at MRP 2019: Parsing Meaning Representations with Lexical and Phrasal Anchoring},
@@ -647,6 +683,10 @@
   publisher: ACL 2019
   date: '2019-07-01'
   link: https://aclanthology.org/P19-1563/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/utahnlp/therapist-observer
   bibtex: |
     @inproceedings{cao2019observing,
       title = {Observing Dialogue in Therapy: Categorizing and Forecasting Behavioral Codes},
@@ -675,6 +715,10 @@
   publisher: ACL 2019
   date: '2019-07-01'
   link: https://aclanthology.org/P19-1192/
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/Lucien-qiang/Rhetoric-Generator
   bibtex: |
     @inproceedings{rhetorical-poetry2019,
       title = {Rhetorically Controlled Encoder-Decoder for Modern Chinese Poetry Generation},
