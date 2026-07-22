@@ -2,6 +2,15 @@
 layout: default
 ---
 
+{% comment %} If the member has a personal home page, redirect there instead of showing an internal page. {% endcomment %}
+{% assign home_page = page.links['home-page'] %}
+{% if home_page %}
+
+<script>window.location.replace({{ home_page | jsonify }})</script>
+<p class="center">Redirecting to <a href="{{ home_page }}">{{ page.name }}'s website</a>…</p>
+
+{% else %}
+
 {% capture floatcontent %}
 
 {% include portrait.html lookup=page.slug %}
@@ -59,3 +68,5 @@ layout: default
   </a>
 </p>
 -->
+
+{% endif %}
