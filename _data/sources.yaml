@@ -216,6 +216,10 @@
   publisher: SIGDIAL 2026
   date: '2026-06-01'
   link: https://arxiv.org/abs/2607.01964
+  buttons:
+    - type: source
+      text: Code
+      link: https://github.com/ounlp/Clarification-for-DDP
   bibtex: |
     @inproceedings{liu2026beyond,
       title = {Beyond Supervised Clarification: Input Rewriting with LLMs for Dialogue Discourse Parsing},
