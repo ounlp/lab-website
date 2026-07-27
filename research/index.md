@@ -27,5 +27,5 @@ Explore our publications by research theme:
 
 {% include search-info.html %}
 
-{% comment %} 2024+ (Dr. Cao's OUNLP faculty work) shown by year; older papers collapsed under "Earlier". {% endcomment %}
-{% include list.html data="citations" component="citation" style="rich" merge_before=2024 %}
+{% comment %} Show only 2024+ (Dr. Cao's OUNLP faculty work); earlier papers are hidden. {% endcomment %}
+{% include list.html data="citations" component="citation" style="rich" filter="date && date[0..3].to_i >= 2024" %}

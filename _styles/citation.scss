@@ -77,7 +77,12 @@ $wrap: 800px;
 }
 
 .citation-publisher {
-  text-transform: capitalize;
+  display: inline-block;
+  font-weight: var(--semi-bold);
+  color: var(--primary);
+  background: var(--secondary);
+  padding: 0.05em 0.5em;
+  border-radius: 6px;
 }
 
 .citation-description {

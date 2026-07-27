@@ -247,9 +247,9 @@
   - Tom Fischaber
   - Tamara Sumner
   - James H. Martin
-  publisher: arXiv
-  date: '2024-01-01'
-  link: https://doi.org/g977zq
+  publisher: COLING 2025
+  date: '2025-01-01'
+  link: https://aclanthology.org/2025.coling-main.513/
   type: paper
   tags:
   - AI for Education
@@ -263,8 +263,10 @@
     \ in Mathematics Tutoring through Classroom Teaching Discourse},\n  author = {Cao,\
     \ Jie and Suresh, Abhijit and Jacobs, Jennifer and Clevenger, Charis and Howard,\
     \ Amanda and Brown, Chelsea and Milne, Brent and Fischaber, Tom and Sumner, Tamara\
-    \ and Martin, James H.},\n  booktitle = {The 31st International Conference on\
-    \ Computational Linguistics},\n  year = {2025}\n}"
+    \ and Martin, James H.},\n  booktitle = {Proceedings of the 31st International\
+    \ Conference on Computational Linguistics},\n  pages = {7671--7684},\n  year =\
+    \ {2025},\n  address = {Abu Dhabi, UAE},\n  publisher = {Association for Computational\
+    \ Linguistics},\n  url = {https://aclanthology.org/2025.coling-main.513/}\n}"
   plugin: sources.py
   file: sources.yaml
 - title: 'Beyond Supervised Clarification: Input Rewriting with LLMs for Dialogue
