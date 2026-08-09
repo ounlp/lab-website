@@ -14,6 +14,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 <div markdown="1" style="text-align: left">
 
 ## 2026
+- **08/2026** — Our paper "[A Hyperparameter Tuning Strategy for an LSTM Model to Simulate Reservoir Outflows: Large-Scale Evaluation across 441 Dams in the CONUS](https://doi.org/10.1016/j.jhydrol.2026.136204)" is accepted to [Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology)!
 - **08/2026** — Congratulations to Yiming for receiving a [SIGDIAL 2026](https://2026.sigdial.org/) student travel grant!
 - **06/2026** — Our paper "[AI Agent for Hydrologic Modeling: Definition, Development and Application](https://doi.org/10.22541/essoar.176894821.13120988/v1)" is accepted to [Geophysical Research Letters](https://agupubs.onlinelibrary.wiley.com/journal/19448007)!
 - **06/2026** — Our paper "[Rethinking On-policy Optimization for Query Augmentation](https://openreview.net/forum?id=mmqbjhz5Br)" is accepted to [TMLR](https://jmlr.org/tmlr/)!
