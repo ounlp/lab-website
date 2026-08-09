@@ -47,12 +47,24 @@
         {% endif %}
         tabindex="0"
       >
+        {%- comment -%} bold lab members; match first+last name from member filenames so nicknames in `name:` don't break matching {%- endcomment -%}
+        {%- capture member_keys -%}
+          {%- for member in site.members -%}
+            {%- assign name_parts = member.slug | split: "-" -%}
+            ;{{ name_parts | first }}~{{ name_parts | last }}
+          {%- endfor -%}
+        {%- endcapture -%}
+        {%- capture author_list -%}
+          {%- assign shown_authors = citation.authors | join: "," | split: "," | array_carve: 5 -%}
+          {%- for author in shown_authors -%}
+            {%- assign author_words = author | strip | downcase | remove: "." | split: " " -%}
+            {%- capture author_key -%};{{ author_words | first }}~{{ author_words | last }}{%- endcapture -%}
+            {%- if member_keys contains author_key -%}**{{ author | strip }}**{%- else -%}{{ author | strip }}{%- endif -%}
+            {%- unless forloop.last %}, {% endunless -%}
+          {%- endfor -%}
+        {%- endcapture -%}
         {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
+          author_list
           | markdownify
           | remove: "<p>" | remove: "</p>"
           | default: "[no author info]"
