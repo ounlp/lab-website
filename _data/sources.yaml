@@ -1,3 +1,27 @@
+- id: doi:10.1016/j.jhydrol.2026.136204
+  description: Large-scale hyperparameter tuning strategy for LSTM simulation of
+    reservoir outflows, evaluated across 441 dams in the CONUS
+  date: 2026-10-01
+  type: paper
+  tags:
+  - AI for Science
+  - reservoir simulation
+  - deep learning
+  - hyperparameter tuning
+  - water management
+  - hydrology
+  bibtex: |-
+    @article{BASIRIFARD2026136204,
+      title = {A Hyperparameter Tuning Strategy for an {{LSTM}} Model to Simulate Reservoir Outflows: Large-Scale Evaluation across 441 Dams in the {{CONUS}}},
+      author = {Basirifard, Milad and Zhang, Jiaorui and Cao, Jie and Liu, Xiaofeng and Hong, Yi and Yang, Tiantian},
+      year = {2026},
+      journal = {Journal of Hydrology},
+      volume = {679},
+      pages = {136204},
+      issn = {0022-1694},
+      doi = {10.1016/j.jhydrol.2026.136204},
+      url = {https://www.sciencedirect.com/science/article/pii/S0022169426013016}
+    }
 - title: 'LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing'
   authors:
   - Yu Cai
