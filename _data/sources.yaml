@@ -2,6 +2,7 @@
   description: Large-scale hyperparameter tuning strategy for LSTM simulation of
     reservoir outflows, evaluated across 441 dams in the CONUS
   date: 2026-10-01
+  image: images/papers/jhydrol2026.jpg
   type: paper
   tags:
   - AI for Science
