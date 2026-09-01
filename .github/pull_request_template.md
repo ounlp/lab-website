@@ -1,13 +1,14 @@
-STOP!!!
+## What does this PR change?
 
-You are about to open this pull request against THE TEMPLATE ITSELF. You probably meant to open it against your own website repo.
+<!-- e.g. "Adds me to the Team page", "Adds our ACL 2026 paper" -->
 
----
+## Which page(s) are affected?
 
-FOR THE TEMPLATE MAINTAINER(S)
+<!-- e.g. /team, /research, homepage -->
 
-New template version checklist:
+## Checklist
 
-- [ ] I have updated CITATION and CHANGELOG as appropriate.
-- [ ] I have updated lab-website-template-docs as appropriate.
-- [ ] I have checked the testbed as appropriate.
+- [ ] For visual changes: I previewed locally (`bash .docker/run.sh`) or attached a screenshot
+- [ ] I did not hand-edit `_data/citations.yaml` (it is auto-generated)
+
+<!-- New to contributing? See CONTRIBUTING.md at the repo root. -->

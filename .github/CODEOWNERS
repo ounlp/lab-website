@@ -1,0 +1,11 @@
+# Default: the PI reviews all changes.
+* @mlciv
+
+# Site infrastructure — admin review required.
+/.github/ @mlciv @SabrinAhmed1
+/_config.yaml @mlciv @SabrinAhmed1
+/_plugins/ @mlciv @SabrinAhmed1
+/_cite/ @mlciv @SabrinAhmed1
+/CNAME @mlciv @SabrinAhmed1
+/Gemfile @mlciv @SabrinAhmed1
+/Gemfile.lock @mlciv @SabrinAhmed1

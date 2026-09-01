@@ -1,0 +1,28 @@
+# Verifies the Jekyll site builds on every pull request, mirroring the build
+# step of jekyll.yml (the deploy workflow) without deploying.
+name: build-check
+run-name: PR build check
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          cache-version: 0
+      - name: Build with Jekyll
+        # Same flags as the deploy workflow: apex domain => empty baseurl.
+        run: bundle exec jekyll build --baseurl ""
+        env:
+          JEKYLL_ENV: production
