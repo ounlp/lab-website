@@ -1,6 +1,6 @@
 {{ " " }}
 <div class="award">
-  <div class="award-icon" {% if include.image %}data-logo="true"{% endif %}>
+  <div class="award-icon" {% if include.image %}data-logo="true"{% endif %} data-style="{{ include.style }}">
     {% if include.image %}
       <img
         src="{{ include.image | relative_url | uri_escape }}"
