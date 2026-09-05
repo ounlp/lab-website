@@ -50,6 +50,7 @@ Custom Liquid filters live in **`_plugins/*.rb`** (`data_filter`, `regex_*`, `ar
 - `_members/*.md` — one file per person; `role` (`pi`, `postdoc`, `phd`, `masters`, `undergrad`, `research-assistant`, `programmer`, `mascot`) and `alumni: true` drive the Team page filters.
 - `_data/sources.yaml` — publications you maintain (input to the cite pipeline).
 - `_data/projects.yaml` — projects; `group: featured` surfaces on homepage.
+- `_data/awards.yaml` — awards/grants/support shown on `/awards` (`awards/index.md`); `type` (`student`, `grant`, `support`) picks the section, `date` drives year grouping, `image` is the organization logo from `images/awards/` (wide lockup; falls back to `icon`). Rendered by `_includes/award.html` + `_styles/award.scss`. README has the field reference.
 - `_data/types.yaml` — maps roles/citation types to icons + labels.
 - `_data/themes.yaml` — research-cluster keyword slugs; tags matching these render as highlighted "theme" chips and power the theme filter bar.
 - `_layouts/` — `default`, `home`, `member`, `post` (assigned via `defaults` in `_config.yaml`).
@@ -58,5 +59,6 @@ Custom Liquid filters live in **`_plugins/*.rb`** (`data_filter`, `regex_*`, `ar
 
 - To add a publication: add an entry to `_data/sources.yaml` (minimally `- id: doi:...`); citation details are fetched automatically. README has the full field reference.
 - To add a team member: create `_members/firstname-lastname.md` with frontmatter (`name`, `image`, `role`, `links`); see `_members/` for examples.
+- To add an award or grant: append an entry to `_data/awards.yaml` (see README "Adding Awards"); reuse an existing logo in `images/awards/` or add a horizontal one. Usually also add a News line in `news/index.md`.
 - When tagging publications, reuse the slugs in `_data/themes.yaml` so they become filterable theme chips.
 - This is a fork of an upstream template — when editing shared template files, keep changes surgical and watch for the `greenelab/lab-website-template` repository guards that mark template-only behavior.

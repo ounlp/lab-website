@@ -134,6 +134,41 @@ Open `_data/projects.yaml` and add a new entry:
 
 ---
 
+### Adding Awards
+
+Awards, grants, and compute/industry support are listed on the **Awards** page (`/awards`) and defined in `_data/awards.yaml`. Entries are grouped into three sections by `type`, and within each section by year.
+
+**To add an award:**
+
+Open `_data/awards.yaml` and add a new entry under the matching section comment:
+
+```yaml
+- type: student            # student | grant | support
+  date: 2026-09-01         # YYYY-MM-DD; drives year grouping and order
+  title: STAR-D Mini-Grant
+  image: images/awards/ou.png
+  subtitle: Yiming Liu     # recipients, or the awarding body for grants
+  description: Departmental Stimulation & Translation of Academic Research (STAR-D).
+  link: https://example.org/program-page
+  icon: fa-solid fa-award  # fallback when no image is given
+```
+
+**Award fields:**
+- `type` (required): `student` (Student Awards), `grant` (Grants & Funding), or `support` (Compute & Industry Support)
+- `date` (required): Used for the year heading and sort order; the card shows month and year
+- `title` (required): Name of the award or program
+- `image` (optional): Organization logo, shown as a 120×48 badge; put new logos in `images/awards/` as horizontal (wide) lockups on a transparent or white background, about 480 px wide
+- `subtitle` (optional): Recipient names for student awards, awarding organization for grants and support
+- `description` (optional): One extra line, e.g. what the grant funds (markdown supported)
+- `link` (optional): Program or announcement page
+- `icon` (optional): Font Awesome 6 class used when no `image` is set
+
+Logos already available: `ou.png`, `nsf.png`, `access.png`, `aces.png`, `sigdial.png`, `nvidia.png`, `modal.png`.
+
+Most awards are also worth a one-line entry on the News page (`news/index.md`).
+
+---
+
 ### Adding Citations (Publications)
 
 Citations are managed through the `_data/sources.yaml` file. The system automatically generates full citation details from identifiers like DOI.
