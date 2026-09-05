@@ -42,11 +42,21 @@ Courses taught and assisted by members of the OUNLP Lab.
 
 Slashlisted C S 4713/5713. Prerequisite: C S 4413 or DSA 4413, or permission of instructor.
 
+{%
+  include button.html
+  link="/teaching/clt-course/"
+  text="Course page"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
 {% endcapture %}
 
 {%
   include feature.html
   image="images/teaching/clt-ou.svg"
+  link="/teaching/clt-course/"
   title="Fall 2026"
   flip=true
   text=text
