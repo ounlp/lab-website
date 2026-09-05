@@ -1,7 +1,15 @@
 {{ " " }}
 <div class="award">
-  <div class="award-icon">
-    {% include icon.html icon=include.icon %}
+  <div class="award-icon" {% if include.image %}data-logo="true"{% endif %}>
+    {% if include.image %}
+      <img
+        src="{{ include.image | relative_url | uri_escape }}"
+        alt=""
+        loading="lazy"
+      >
+    {% else %}
+      {% include icon.html icon=include.icon %}
+    {% endif %}
   </div>
 
   <div class="award-text">

@@ -4,13 +4,23 @@
 # type: student | grant | support   (drives which section an entry appears in)
 # date: used for year grouping and ordering (YYYY-MM-DD)
 # subtitle: recipients or awarding body
-# icon: Font Awesome 6 class
+# icon: Font Awesome 6 class (fallback when no image is given)
+# image: organization logo shown in place of the icon
 
 # ---------- Student awards ----------
 
 - type: student
+  date: 2026-09-01
+  title: STAR-D Mini-Grant
+  image: images/awards/ou.png
+  subtitle: Yiming Liu
+  description: Departmental Stimulation & Translation of Academic Research (STAR-D).
+  icon: fa-solid fa-award
+
+- type: student
   date: 2026-08-01
   title: SIGDIAL 2026 Student Travel Grant
+  image: images/awards/sigdial.png
   subtitle: Yiming Liu
   link: https://2026.sigdial.org/
   icon: fa-solid fa-plane
@@ -18,30 +28,35 @@
 - type: student
   date: 2026-05-01
   title: Undergraduate Research Opportunities Program (UROP) Fellowship
+  image: images/awards/ou.png
   subtitle: Brendan Richards, Cuong Huynh, Santiago Leon Garavito
   icon: fa-solid fa-award
 
 - type: student
   date: 2026-05-01
   title: Honors Research Apprenticeship Program (HRAP)
+  image: images/awards/ou.png
   subtitle: Nicholas Immenschuh, Addison Lin
   icon: fa-solid fa-award
 
 - type: student
   date: 2026-02-01
   title: Undergraduate Research Opportunities Program (UROP) Fellowship, Spring 2026
+  image: images/awards/ou.png
   subtitle: Cuong Huynh, Masiko Mamba
   icon: fa-solid fa-award
 
 - type: student
   date: 2025-08-01
   title: Undergraduate Engineering Research Fellowship, Fall 2025
+  image: images/awards/ou.png
   subtitle: Tiffany Nguyen, Ava Batson-Perez
   icon: fa-solid fa-medal
 
 - type: student
   date: 2025-05-01
   title: Undergraduate Engineering Research Fellowship, Summer 2025
+  image: images/awards/ou.png
   subtitle: Masiko Mamba
   icon: fa-solid fa-medal
 
@@ -50,6 +65,7 @@
 - type: grant
   date: 2026-05-01
   title: ICAST Seed Grant
+  image: images/awards/ou.png
   subtitle: OU Institute for Community and Society Transformation (ICAST)
   link: https://www.ou.edu/icast/news-events/2026/icast-2026-seed-grant-opportunity
   icon: fa-solid fa-seedling
@@ -57,6 +73,7 @@
 - type: grant
   date: 2026-05-01
   title: NSF ART InTRO Scoping Translational Research
+  image: images/awards/nsf.png
   subtitle: Two collaborative projects funded
   link: https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps
   icon: fa-solid fa-diagram-project
@@ -64,6 +81,7 @@
 - type: grant
   date: 2026-05-01
   title: ACES 2026 Small Grant
+  image: images/awards/aces.png
   subtitle: Association for Counselor Education and Supervision
   description: For studies of AI–client simulations in counselor education.
   link: https://acesonline.net/
@@ -72,6 +90,7 @@
 - type: grant
   date: 2025-04-01
   title: OU Alternative Textbook Grant
+  image: images/awards/ou.png
   subtitle: University of Oklahoma Libraries
   description: Open course materials on recent advances in LLMs and agentic AI.
   link: https://libraries.ou.edu/our-libraries/news/ou-libraries-awards-alternative-textbook-grants
@@ -82,6 +101,7 @@
 - type: support
   date: 2026-05-01
   title: Modal Computing Credits
+  image: images/awards/modal.svg
   subtitle: Modal
   link: https://modal.com/
   icon: fa-solid fa-cloud
@@ -96,6 +116,7 @@
 - type: support
   date: 2025-09-01
   title: NVIDIA Academic Grant
+  image: images/awards/nvidia.svg
   subtitle: NVIDIA
   description: Four Max-Q GPUs for a collaborative proposal on seismic simulation.
   icon: fa-solid fa-microchip
@@ -103,6 +124,7 @@
 - type: support
   date: 2025-09-01
   title: NSF ACCESS GPU Credits
+  image: images/awards/access.png
   subtitle: NSF ACCESS
   description: Compute allocation for a proposal on small language models.
   icon: fa-solid fa-server
