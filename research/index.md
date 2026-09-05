@@ -19,6 +19,8 @@ Explore our publications by research theme:
 
 {% include citation.html lookup="doi:10.1038/s42256-026-01214-y" style="rich" %}
 
+{% include citation.html lookup="Beyond Supervised Clarification" style="rich" %}
+
 {% include section.html %}
 
 ## All
