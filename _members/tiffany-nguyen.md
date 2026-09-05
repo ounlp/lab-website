@@ -3,6 +3,7 @@ name: Tiffany Nguyen
 image: images/tiffany-nguyen.jpg
 description: Undergrad, CS
 role: undergrad
+alumni: true
 links:
   email: tiffanybnguyen@ou.edu
   github: tiffanybnguyen
