@@ -1,0 +1,30 @@
+{{ " " }}
+<div class="award">
+  <div class="award-icon">
+    {% include icon.html icon=include.icon %}
+  </div>
+
+  <div class="award-text">
+    <span class="award-title">
+      {% if include.link %}
+        <a href="{{ include.link }}" target="_blank" rel="noopener">{{ include.title }}</a>
+      {% else %}
+        {{ include.title }}
+      {% endif %}
+    </span>
+
+    {% if include.subtitle %}
+      <span class="award-subtitle">{{ include.subtitle }}</span>
+    {% endif %}
+
+    {% if include.description %}
+      <span class="award-description">
+        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </span>
+    {% endif %}
+  </div>
+
+  {% if include.date %}
+    <span class="award-date">{{ include.date | date: "%b %Y" }}</span>
+  {% endif %}
+</div>

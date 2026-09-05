@@ -1,0 +1,108 @@
+# Awards, grants, and support received by the OUNLP Lab.
+# Rendered on /awards via _includes/award.html (through list.html, grouped by year).
+#
+# type: student | grant | support   (drives which section an entry appears in)
+# date: used for year grouping and ordering (YYYY-MM-DD)
+# subtitle: recipients or awarding body
+# icon: Font Awesome 6 class
+
+# ---------- Student awards ----------
+
+- type: student
+  date: 2026-08-01
+  title: SIGDIAL 2026 Student Travel Grant
+  subtitle: Yiming Liu
+  link: https://2026.sigdial.org/
+  icon: fa-solid fa-plane
+
+- type: student
+  date: 2026-05-01
+  title: Undergraduate Research Opportunities Program (UROP) Fellowship
+  subtitle: Brendan Richards, Cuong Huynh, Santiago Leon Garavito
+  icon: fa-solid fa-award
+
+- type: student
+  date: 2026-05-01
+  title: Honors Research Apprenticeship Program (HRAP)
+  subtitle: Nicholas Immenschuh, Addison Lin
+  icon: fa-solid fa-award
+
+- type: student
+  date: 2026-02-01
+  title: Undergraduate Research Opportunities Program (UROP) Fellowship, Spring 2026
+  subtitle: Cuong Huynh, Masiko Mamba
+  icon: fa-solid fa-award
+
+- type: student
+  date: 2025-08-01
+  title: Undergraduate Engineering Research Fellowship, Fall 2025
+  subtitle: Tiffany Nguyen, Ava Batson-Perez
+  icon: fa-solid fa-medal
+
+- type: student
+  date: 2025-05-01
+  title: Undergraduate Engineering Research Fellowship, Summer 2025
+  subtitle: Masiko Mamba
+  icon: fa-solid fa-medal
+
+# ---------- Grants & funding ----------
+
+- type: grant
+  date: 2026-05-01
+  title: ICAST Seed Grant
+  subtitle: OU Institute for Community and Society Transformation (ICAST)
+  link: https://www.ou.edu/icast/news-events/2026/icast-2026-seed-grant-opportunity
+  icon: fa-solid fa-seedling
+
+- type: grant
+  date: 2026-05-01
+  title: NSF ART InTRO Scoping Translational Research
+  subtitle: Two collaborative projects funded
+  link: https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps
+  icon: fa-solid fa-diagram-project
+
+- type: grant
+  date: 2026-05-01
+  title: ACES 2026 Small Grant
+  subtitle: Association for Counselor Education and Supervision
+  description: For studies of AI–client simulations in counselor education.
+  link: https://acesonline.net/
+  icon: fa-solid fa-comments
+
+- type: grant
+  date: 2025-04-01
+  title: OU Alternative Textbook Grant
+  subtitle: University of Oklahoma Libraries
+  description: Open course materials on recent advances in LLMs and agentic AI.
+  link: https://libraries.ou.edu/our-libraries/news/ou-libraries-awards-alternative-textbook-grants
+  icon: fa-solid fa-book-open
+
+# ---------- Compute & industry support ----------
+
+- type: support
+  date: 2026-05-01
+  title: Modal Computing Credits
+  subtitle: Modal
+  link: https://modal.com/
+  icon: fa-solid fa-cloud
+
+- type: support
+  date: 2025-11-01
+  title: Tinker Teaching Grant
+  subtitle: Thinking Machines
+  link: https://thinkingmachines.ai/blog/tinker-research-and-teaching-grants/
+  icon: fa-solid fa-chalkboard-user
+
+- type: support
+  date: 2025-09-01
+  title: NVIDIA Academic Grant
+  subtitle: NVIDIA
+  description: Four Max-Q GPUs for a collaborative proposal on seismic simulation.
+  icon: fa-solid fa-microchip
+
+- type: support
+  date: 2025-09-01
+  title: NSF ACCESS GPU Credits
+  subtitle: NSF ACCESS
+  description: Compute allocation for a proposal on small language models.
+  icon: fa-solid fa-server

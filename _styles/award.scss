@@ -1,0 +1,66 @@
+---
+---
+
+.award {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 12px 0;
+  padding: 14px 18px;
+  text-align: left;
+  background: var(--background);
+  border: solid 1px var(--light-gray);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow);
+}
+
+.award-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.award-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+}
+
+.award-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.award-subtitle {
+  color: var(--dark-gray);
+}
+
+.award-description {
+  color: var(--gray);
+  font-size: 0.95em;
+}
+
+.award-date {
+  flex-shrink: 0;
+  color: var(--gray);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .award {
+    flex-wrap: wrap;
+  }
+
+  .award-date {
+    width: 100%;
+    padding-left: 56px;
+  }
+}

@@ -1,5 +1,8 @@
 ---
 name: Ricky Huynh
+aliases:
+  - Cuong Huynh
+  - Ricky Huynh
 image: images/ricky-huynh.jpg
 description: Undergrad, CS
 role: undergrad
