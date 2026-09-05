@@ -75,6 +75,12 @@
   white-space: nowrap;
 }
 
+// small portraits (alumni) are too narrow for one-line names — let them wrap
+.portrait[data-style="small"] .portrait-name {
+  white-space: normal;
+  font-size: 0.85rem;
+}
+
 .portrait-description,
 .portrait-affiliation {
   font-size: 0.8rem;
