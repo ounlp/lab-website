@@ -1,7 +1,7 @@
 ---
 name: Masiko Mamba
 image: images/avatar-placeholder.svg
-description: Undergrad, CS
+description: B.S. 2026, CS
 role: undergrad
 alumni: true
 ---

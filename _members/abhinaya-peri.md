@@ -1,7 +1,7 @@
 ---
 name: Abhinaya Deepika Peri
 image: images/avatar-placeholder.svg
-description: Master, DSA
+description: M.S. 2026, DSA
 role: masters
 alumni: true
 ---

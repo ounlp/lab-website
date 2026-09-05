@@ -1,7 +1,7 @@
 ---
 name: Tiffany Nguyen
 image: images/tiffany-nguyen.jpg
-description: Undergrad, CS
+description: B.S. 2026, CS
 role: undergrad
 alumni: true
 links:
