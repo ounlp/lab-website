@@ -5,7 +5,7 @@
 # date: used for year grouping and ordering (YYYY-MM-DD)
 # subtitle: recipients or awarding body
 # icon: Font Awesome 6 class (fallback when no image is given)
-# image: organization logo shown in place of the icon
+# image: organization logo (wide wordmark) shown in place of the icon
 
 # ---------- Student awards ----------
 
@@ -21,7 +21,6 @@
   date: 2026-08-01
   title: SIGDIAL 2026 Student Travel Grant
   image: images/awards/sigdial.png
-  style: wide
   subtitle: Yiming Liu
   link: https://2026.sigdial.org/
   icon: fa-solid fa-plane
@@ -102,7 +101,7 @@
 - type: support
   date: 2026-05-01
   title: Modal Computing Credits
-  image: images/awards/modal.svg
+  image: images/awards/modal.png
   subtitle: Modal
   link: https://modal.com/
   icon: fa-solid fa-cloud
@@ -117,7 +116,7 @@
 - type: support
   date: 2025-09-01
   title: NVIDIA Academic Grant
-  image: images/awards/nvidia.svg
+  image: images/awards/nvidia.png
   subtitle: NVIDIA
   description: Four Max-Q GPUs for a collaborative proposal on seismic simulation.
   icon: fa-solid fa-microchip
