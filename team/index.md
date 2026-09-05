@@ -36,7 +36,7 @@ and human–AI interaction. Get to know the people driving our research.
 
 {% include section.html %}
 
-## Alumni
+## Alumni & Past Members
 
 {% include list.html data="members" component="portrait" filter="alumni == true" %}
 

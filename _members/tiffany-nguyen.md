@@ -10,4 +10,4 @@ links:
   linkedin: tiffanynguyenb4
 ---
 
-Tiffany Nguyen is an undergraduate student majoring in Computer Science at the University of Oklahoma. She was an Undergraduate Research Assistant in the OU Natural Language Processing (OUNLP) Lab from 2025 to 2026, and is a Kerber Ambassador in the School of Computer Science and the Outreach Director for OU AI/ML. Her research in the lab focused on multi-agent large language model (LLM) systems, with an emphasis on human-in-the-loop collaboration and prompt-time optimization. She brings in experience with backend development.
+Tiffany Nguyen is an undergraduate student majoring in Computer Science at the University of Oklahoma. She joined the OU Natural Language Processing (OUNLP) Lab as an Undergraduate Research Assistant in 2025, and is a Kerber Ambassador in the School of Computer Science and the Outreach Director for OU AI/ML. Her research in the lab focused on multi-agent large language model (LLM) systems, with an emphasis on human-in-the-loop collaboration and prompt-time optimization. She brings in experience with backend development.
