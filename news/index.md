@@ -27,7 +27,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 - **05/2026** — Congratulations to the Honors Research Apprenticeship Program (HRAP) awardees Nicholas Immenschuh and Addison Lin!
 - **05/2026** — Thanks to [Modal](https://modal.com/) for their kind computing-credits support.
 - **05/2026** — Our proposal was awarded by the Association of Counselor Education and Supervision ([ACES](https://acesonline.net/aces-research-grant-news/)) 2026 Small Grants for studies of AI–client simulations.
-- **04/2026** — Our paper "LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing" is accepted to [ICCCN 2026](http://www.icccn.org/index.html).
+- **04/2026** — Our paper "[LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing](https://mlciv.com/papers/cai2026icccn.pdf)" is accepted to [ICCCN 2026](http://www.icccn.org/index.html).
 - **04/2026** — Our multimodal LLM for materials science, [MatterChat](https://www.nature.com/articles/s42256-026-01214-y), is accepted to [Nature Machine Intelligence](https://www.nature.com/natmachintell/)!
 - **02/2026** — Congratulations to Cuong and Masiko for receiving UROP fellowships for Spring 2026!
 - **01/2026** — Our paper "Translation via Annotation: A Computational Study of Translating Classical Chinese into Japanese" is accepted to EACL 2026 (Main Conference).

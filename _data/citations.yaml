@@ -47,7 +47,8 @@
   publisher: IEEE International Conference on Computer Communications and Networks
     (ICCCN)
   date: '2026-04-01'
-  link: http://www.icccn.org/index.html
+  link: https://mlciv.com/papers/cai2026icccn.pdf
+  image: images/papers/cai2026icccn.jpg
   bibtex: "@inproceedings{cai2026llmpowered,\n  title = {LLM-Powered Multi-Agent Attacks\
     \ on Cooperative Spectrum Sensing},\n  author = {Cai, Yu and He, Ziang and Luo,\
     \ Yanyan and Zhang, Ziyue and Cao, Jie and Liu, Yuchen and Luo, Zhengping and\
