@@ -19,7 +19,7 @@ research-assistant:
   description: Research Assistant
 
 masters:
-  icon: fa-solid fa-user-tie
+  icon: fa-solid fa-user-graduate
   description: Master's Student
 
 undergrad:
