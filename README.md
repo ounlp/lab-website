@@ -163,7 +163,7 @@ Open `_data/awards.yaml` and add a new entry under the matching section comment:
 - `link` (optional): Program or announcement page
 - `icon` (optional): Font Awesome 6 class used when no `image` is set
 
-Logos already available: `ou.png`, `nsf.png`, `access.png`, `aces.png`, `sigdial.png`, `nvidia.png`, `modal.png`.
+Logos already available: `ou.png`, `icast.png`, `nsf.png`, `access.png`, `aces.png`, `sigdial.png`, `nvidia.png`, `modal.png`.
 
 Most awards are also worth a one-line entry on the News page (`news/index.md`).
 
