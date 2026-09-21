@@ -80,11 +80,10 @@
 
 - type: grant
   date: 2026-05-01
-  title: ACES 2026 Small Grant
+  title: "Do AI-Powered Client Simulations Improve Counselor Trainees’ Competence? A Randomized Controlled Trial"
   image: images/awards/aces.png
-  subtitle: Association for Counselor Education and Supervision
-  description: For studies of AI–client simulations in counselor education.
-  link: https://acesonline.net/aces-research-grant-news/
+  subtitle: Association for Counselor Education and Supervision (ACES) 2026 Small Grant
+  link: https://publichealth.ouhsc.edu/about/news-and-events/details/hudson-college-researcher-leads-interdisciplinary-team-awarded-aces-ai-research-grant
   icon: fa-solid fa-comments
 
 - type: grant
