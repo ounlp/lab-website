@@ -81,9 +81,10 @@
 
 - type: grant
   date: 2026-05-01
-  title: NSF ART InTRO Scoping Translational Research
+  title: Pairing Multimedia Content Informed by Adult Learning Pedagogical Principles with Multimodal LLMs for Personalized Health Education in Rare Pediatric Lung Disease
   image: images/awards/nsf.png
-  subtitle: Second collaborative project
+  subtitle: NSF ART InTRO Scoping Translational Research
+  description: "PIs: Ann Gettys, Jie Cao, Mohammad Shams"
   link: https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps
   icon: fa-solid fa-diagram-project
 
