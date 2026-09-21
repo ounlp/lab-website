@@ -72,9 +72,18 @@
 
 - type: grant
   date: 2026-05-01
+  title: AI-Supported Telehealth Simulation for Social Work Workforce Training
+  image: images/awards/nsf.png
+  subtitle: NSF ART InTRO Scoping Translational Research
+  description: "PIs: Patrick Ho Lam Lai, Jie Cao, Ze Shi Li"
+  link: https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps
+  icon: fa-solid fa-diagram-project
+
+- type: grant
+  date: 2026-05-01
   title: NSF ART InTRO Scoping Translational Research
   image: images/awards/nsf.png
-  subtitle: Two collaborative projects funded
+  subtitle: Second collaborative project
   link: https://www.ou.edu/research-norman/centers-institutes/cross-cutting-foundations/art-translational-research/rfps
   icon: fa-solid fa-diagram-project
 
