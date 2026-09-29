@@ -73,7 +73,18 @@
 
       <div class="citation-details">
         {% if citation.publisher %}
-          <span class="citation-publisher">{{- citation.publisher -}}</span>
+          {%- comment -%} venue color: first category in _data/venues.yaml whose pattern appears in the publisher {%- endcomment -%}
+          {%- assign _pub = citation.publisher | downcase -%}
+          {%- assign _venue = "" -%}
+          {%- for _cat in site.data.venues -%}
+            {%- if _venue == "" -%}
+              {%- for _pat in _cat.patterns -%}
+                {%- if _venue == "" and _pub contains _pat -%}{%- assign _venue = _cat.key -%}{%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if _venue == "" -%}{%- assign _venue = "other" -%}{%- endif -%}
+          <span class="citation-publisher" data-venue="{{ _venue }}">{{- citation.publisher -}}</span>
         {% endif %}
         {% if citation.publisher and citation.date %}&nbsp;·&nbsp;{% endif %}
         {% if citation.date %}

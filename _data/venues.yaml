@@ -1,0 +1,24 @@
+# Venue color categories for the publication list (mirrors mlciv.com's badge scheme).
+# citation.html lowercases the citation's `publisher` and picks the FIRST category
+# whose `patterns` substring matches; the category becomes data-venue="<key>" and
+# _styles/citation.scss colors it. Order matters: put specific categories first.
+# Nothing here touches the BibTeX — it is display-only.
+
+- key: workshop        # yellow — workshops, shared tasks, education venues
+  patterns: [workshop, shared task, "bea ", tsar, "edm ", educational data mining, dstc, learning @ scale, aiaic]
+- key: preprint        # gray — arXiv, dissertations
+  patterns: [arxiv, preprint, dissertation, thesis]
+- key: cl              # green — computational linguistics
+  patterns: [acl, emnlp, coling, conll, sigdial, iwsds, linguistics]
+- key: ml              # purple — machine learning
+  patterns: [neurips, icml, iclr, machine learning research]
+- key: ai              # orange — AI
+  patterns: [aaai, ijcai]
+- key: vision          # red — computer vision
+  patterns: [iccv, cvpr, eccv]
+- key: ieee            # dark gray — IEEE conferences and transactions
+  patterns: [ieee]
+- key: journal         # navy — other journals
+  patterns: [journal, letters, nature, transactions]
+- key: other           # blue — everything else (fallback)
+  patterns: []
