@@ -102,9 +102,9 @@
 
 - type: support
   date: 2026-09-01
-  title: NAIRR Pilot Computing Allocation
+  title: Input Rewriting for Dialog Act Tagging
   image: images/awards/nairr.png
-  subtitle: National Artificial Intelligence Research Resource (NAIRR) Pilot
+  subtitle: National Artificial Intelligence Research Resource (NAIRR) Pilot computing allocation
   link: https://nairrpilot.org/
   icon: fa-solid fa-server
 
