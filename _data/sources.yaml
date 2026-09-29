@@ -1,3 +1,36 @@
+- id: doi:10.48550/arXiv.2608.18473
+  title: A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting
+  authors:
+  - Yang Yan
+  - Zifan Zhou
+  - Xuan Wang
+  - Erum Hassan
+  - Bilguunzaya Mijiddorj
+  - Jie Cao
+  - Bin Li
+  - Binbin Weng
+  publisher: arXiv
+  date: '2026-08-01'
+  link: https://arxiv.org/abs/2608.18473
+  image: images/papers/methane-agents2026.jpg
+  type: paper
+  tags:
+  - AI for Science
+  - LLM Agents
+  - multi-agent systems
+  - tool use
+  - methane emissions
+  - environmental monitoring
+  bibtex: |-
+    @misc{yan2026methane,
+      title = {A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting},
+      author = {Yan, Yang and Zhou, Zifan and Wang, Xuan and Hassan, Erum and Mijiddorj, Bilguunzaya and Cao, Jie and Li, Bin and Weng, Binbin},
+      year = {2026},
+      eprint = {2608.18473},
+      archivePrefix = {arXiv},
+      primaryClass = {cs.MA},
+      url = {https://arxiv.org/abs/2608.18473}
+    }
 - id: doi:10.1016/j.jhydrol.2026.136204
   description: Large-scale hyperparameter tuning strategy for LSTM simulation of
     reservoir outflows, evaluated across 441 dams in the CONUS

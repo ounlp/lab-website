@@ -16,6 +16,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 ## 2026
 - **09/2026** — Our project "Input Rewriting for Dialog Act Tagging" was awarded a computing allocation through the [NAIRR Pilot](https://nairrpilot.org/)!
 - **09/2026** — Congratulations to Yiming on being awarded a STAR-D (Departmental Stimulation & Translation of Academic Research) mini-grant!
+- **08/2026** — New [preprint](https://arxiv.org/abs/2608.18473): "A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting".
 - **08/2026** — Our paper "[A Hyperparameter Tuning Strategy for an LSTM Model to Simulate Reservoir Outflows: Large-Scale Evaluation across 441 Dams in the CONUS](https://doi.org/10.1016/j.jhydrol.2026.136204)" is accepted to [Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology)!
 - **08/2026** — Congratulations to Yiming for receiving a [SIGDIAL 2026](https://2026.sigdial.org/) student travel grant!
 - **06/2026** — Our paper "[AI Agent for Hydrologic Modeling: Definition, Development and Application](https://doi.org/10.22541/essoar.176894821.13120988/v1)" is accepted to [Geophysical Research Letters](https://agupubs.onlinelibrary.wiley.com/journal/19448007)!
