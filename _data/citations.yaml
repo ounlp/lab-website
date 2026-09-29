@@ -1,7 +1,8 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: doi:10.48550/arXiv.2608.18473
-  title: A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting
+  title: A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating
+    Methane Emission Analysis and Reporting
   authors:
   - Yang Yan
   - Zifan Zhou
@@ -23,16 +24,12 @@
   - tool use
   - methane emissions
   - environmental monitoring
-  bibtex: |-
-    @misc{yan2026methane,
-      title = {A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting},
-      author = {Yan, Yang and Zhou, Zifan and Wang, Xuan and Hassan, Erum and Mijiddorj, Bilguunzaya and Cao, Jie and Li, Bin and Weng, Binbin},
-      year = {2026},
-      eprint = {2608.18473},
-      archivePrefix = {arXiv},
-      primaryClass = {cs.MA},
-      url = {https://arxiv.org/abs/2608.18473}
-    }
+  bibtex: "@misc{yan2026methane,\n  title = {A Locally Deployable Tool-Grounded LLM\
+    \ Multi-agent Framework for Automating Methane Emission Analysis and Reporting},\n\
+    \  author = {Yan, Yang and Zhou, Zifan and Wang, Xuan and Hassan, Erum and Mijiddorj,\
+    \ Bilguunzaya and Cao, Jie and Li, Bin and Weng, Binbin},\n  year = {2026},\n\
+    \  eprint = {2608.18473},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.MA},\n\
+    \  url = {https://arxiv.org/abs/2608.18473}\n}"
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.jhydrol.2026.136204
