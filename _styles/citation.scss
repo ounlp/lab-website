@@ -118,7 +118,14 @@ $wrap: 800px;
 .citation-text > .tags {
   display: inline-flex;
   justify-content: flex-start;
+  gap: 6px;
   margin: 0;
+}
+
+// tags inside a citation card are secondary to the venue badge — keep them compact
+.citation-text > .tags .tag {
+  padding: 2px 7px;
+  font-size: 0.7rem;
 }
 
 @container (max-width: #{$wrap}) {
