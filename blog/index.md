@@ -1,8 +1,9 @@
 ---
 title: Blog
-nav:
-  order: 6
-  tooltip: Musings and miscellany
+# nav entry hidden — re-add to show Blog in the menu again:
+# nav:
+#   order: 6
+#   tooltip: Musings and miscellany
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
