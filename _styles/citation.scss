@@ -17,6 +17,16 @@ $wrap: 800px;
   box-shadow: var(--shadow);
 }
 
+// archived (pre-cutoff) items stay hidden until search.js reveals them
+.citation[data-archive] {
+  display: none;
+}
+
+.archive-note {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
 .citation-image {
   position: relative;
   width: $thumb-size;

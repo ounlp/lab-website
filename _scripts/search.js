@@ -92,15 +92,47 @@
     let n = elements.length;
     let tags = parts.tags;
 
+    // archived elements (data-archive) only take part when something is
+    // being searched for — a tag, term, or phrase
+    const active =
+      parts.terms.length > 0 || parts.phrases.length > 0 || tags.length > 0;
+
     // filter elements
     for (const element of elements) {
+      const archived = "archive" in element.dataset;
+      if (archived && !active) {
+        element.style.display = "none";
+        continue;
+      }
       if (elementMatches(element, parts, matchMode)) {
-        element.style.display = "";
+        // archived items are hidden by stylesheet, so force them visible
+        element.style.display = archived ? "flex" : "";
         x++;
       } else element.style.display = "none";
     }
 
+    hideEmptyHeadings();
+
     return [x, n, tags];
+  };
+
+  // hide year headings (h3) whose group has no visible elements
+  const hideEmptyHeadings = () => {
+    for (const heading of document.querySelectorAll("main h3")) {
+      let visible = false;
+      let sibling = heading.nextElementSibling;
+      while (sibling && !["H2", "H3"].includes(sibling.tagName)) {
+        const items = sibling.matches(elementSelector)
+          ? [sibling]
+          : [...sibling.querySelectorAll(elementSelector)];
+        if (items.some((el) => getComputedStyle(el).display !== "none")) {
+          visible = true;
+          break;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      heading.style.display = visible ? "" : "none";
+    }
   };
 
   // highlight search terms

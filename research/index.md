@@ -3,6 +3,9 @@ title: Research
 nav:
   order: 1
   tooltip: Published works
+# publications dated before this year are rendered but hidden until a tag or
+# search term is active (see _includes/citation.html and _scripts/search.js)
+archive_before: 2024
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
@@ -29,5 +32,6 @@ Explore our publications by research theme:
 
 {% include search-info.html %}
 
-{% comment %} Show only 2024+ (Dr. Cao's OUNLP faculty work); earlier papers are hidden. {% endcomment %}
-{% include list.html data="citations" component="citation" style="rich" filter="date && date[0..3].to_i >= 2024" %}
+<p class="archive-note">Showing OUNLP publications since 2024. Select a theme or search to include earlier work.</p>
+
+{% include list.html data="citations" component="citation" style="rich" %}

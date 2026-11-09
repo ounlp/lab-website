@@ -8,8 +8,13 @@
   {% assign citation = include %}
 {% endif %}
 
+{%- assign _archive = false -%}
+{%- if page.archive_before and citation.date -%}
+  {%- assign _year = citation.date | date: "%Y" | plus: 0 -%}
+  {%- if _year < page.archive_before -%}{%- assign _archive = true -%}{%- endif -%}
+{%- endif -%}
 <div class="citation-container">
-  <div class="citation">
+  <div class="citation"{% if _archive %} data-archive="true"{% endif %}>
     {% if include.style == "rich" and citation.image %}
       <a
         {% if citation.link %}
