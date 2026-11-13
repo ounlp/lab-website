@@ -23,8 +23,6 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
-    {% comment %} alumni (the small tiles at the bottom of /team) are listed by name only {% endcomment %}
-    {% unless member.alumni and include.style == "small" %}
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
@@ -32,7 +30,6 @@
       loading="lazy"
       {% include fallback.html %}
     >
-    {% endunless %}
 
     {% if member.name %}
       <span class="portrait-name">
