@@ -95,21 +95,23 @@
   }
 }
 
-// alumni list on the Team page: one person per line (tiny portrait + name + years)
+// alumni list on the Team page: one person per line (name + years), no photos
 .alumni-list {
-  max-width: 520px;
-  margin: 0 auto;
+  text-align: left;
 }
 
 .alumni-list .portrait[data-style="tiny"] {
   display: flex;
   width: 100%;
   max-width: 100%;
-  margin: 6px 0;
+  gap: 10px;
+  margin: 4px 0;
+}
+
+.alumni-list .portrait[data-style="tiny"] .portrait-image {
+  display: none;
 }
 
 .alumni-list .portrait[data-style="tiny"] .portrait-description {
   display: inline;
-  margin-left: auto;
-  white-space: nowrap;
 }

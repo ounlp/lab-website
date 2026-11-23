@@ -30,12 +30,6 @@ and human–AI interaction. Get to know the people driving our research.
 
 {% include section.html %}
 
-## External Student Collaborators
-
-{% include list.html data="members" component="portrait" filter="role == 'research-assistant' and alumni != true" %}
-
-{% include section.html %}
-
 ## Alumni & Past Members
 
 <div class="alumni-list">
