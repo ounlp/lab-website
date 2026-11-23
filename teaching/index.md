@@ -32,7 +32,7 @@ Courses taught and assisted by members of the OUNLP Lab.
   include feature.html
   image="images/teaching/nlp-ou.svg"
   link="https://canvas.ou.edu/courses/388014/"
-  title="Spring & Fall 2025"
+  title="Spring 2025, Fall 2025, Spring 2026, Spring 2027"
   text=text
 %}
 
