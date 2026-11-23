@@ -24,6 +24,8 @@ Explore our publications by research theme:
 
 {% include citation.html lookup="Beyond Supervised Clarification" style="rich" %}
 
+{% include citation.html lookup="A Comparative Analysis of Automatic Speech Recognition Errors" style="rich" %}
+
 {% include section.html %}
 
 ## All
