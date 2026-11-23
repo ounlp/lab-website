@@ -2,7 +2,8 @@
 
 Thanks for helping maintain [ounlp.org](https://ounlp.org)! Most edits are small
 markdown/YAML changes and can be made entirely in the GitHub web interface — no
-cloning required.
+cloning required. The same guide, written for lab members, is on the site at
+[ounlp.org/contribute](https://ounlp.org/contribute).
 
 ## Workflow
 
@@ -22,7 +23,7 @@ Create or edit `_members/firstname-lastname.md`:
 ```yaml
 ---
 name: Your Name
-image: images/members/your-photo.jpg
+image: images/your-photo.jpg
 role: phd          # pi | postdoc | phd | masters | undergrad | research-assistant
 links:
   home-page: https://your-site.example.com
@@ -32,7 +33,7 @@ links:
 A short bio paragraph.
 ```
 
-Add your photo under `images/members/`. Set `alumni: true` when you leave the lab.
+Add your photo under `images/`. Set `alumni: true` when you leave the lab.
 
 ### Add a publication
 
@@ -46,9 +47,14 @@ Citation details (title, authors, venue) are fetched automatically by CI via
 Manubot. `arxiv:`, `pmid:`, and `pmcid:` IDs also work. Do **not** hand-edit
 `_data/citations.yaml` — it is generated.
 
-### Add a news post
+### Add a news item
 
-Create `_posts/YYYY-MM-DD-short-title.md` following an existing post's format.
+Add a dated bullet at the top of the current year in `news/index.md`, following
+the existing lines.
+
+### Add an award or grant
+
+Add an entry to `_data/awards.yaml` (see the README "Adding Awards" section).
 
 ## Previewing locally (optional)
 

@@ -40,6 +40,11 @@ and human–AI interaction. Get to know the people driving our research.
 
 {% include list.html data="members" component="portrait" filter="alumni == true" style="small" %}
 
+{% include section.html %}
+
+Lab members: to update your profile, add a paper, or post news, see the
+[Contribute page]({{ "/contribute" | relative_url }}).
+
 {% include section.html dark=true %}
 
 Moments from our work, research, and fun — snapshots of the OUNLP community in action.
