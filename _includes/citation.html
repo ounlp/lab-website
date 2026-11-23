@@ -9,7 +9,7 @@
 {% endif %}
 
 {% assign _archive = false %}
-{% if page.archive_before and citation.date %}
+{% if page.archive_before and citation.date and include.lookup == nil %}
   {% assign _year = citation.date | date: "%Y" | plus: 0 %}
   {% if _year < page.archive_before %}{% assign _archive = true %}{% endif %}
 {% endif %}
