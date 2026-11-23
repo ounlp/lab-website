@@ -35,7 +35,7 @@ layout: default
 {%- capture pub_filter -%}authors and (authors & [{{ names_lit }}]).any?{%- endcapture -%}
 {%- assign my_papers = site.data.citations | data_filter: pub_filter -%}
 {%- if my_papers.size > 0 -%}
-<h2>{% include icon.html icon="fa-solid fa-book" %}Publications</h2>
+<h2 style="clear: both">{% include icon.html icon="fa-solid fa-book" %}Publications</h2>
 {% include list.html data="citations" component="citation" style="rich" filter=pub_filter %}
 {%- endif -%}
 
