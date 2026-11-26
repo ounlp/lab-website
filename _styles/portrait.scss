@@ -15,6 +15,9 @@
   width: 150px;
   max-width: calc(100% - 18px - 18px);
   text-decoration: none;
+  // cards sit on a shared top edge even when one description wraps to two lines
+  vertical-align: top;
+  text-align: center;
 }
 
 .portrait[data-style="small"] {
