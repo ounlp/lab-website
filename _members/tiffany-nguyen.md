@@ -1,7 +1,7 @@
 ---
 name: Tiffany Nguyen
 image: images/tiffany-nguyen.jpg
-description: Undergraduate researcher, 2025–2026
+description: Undergrad, 2025–2026
 role: undergrad
 alumni: true
 links:

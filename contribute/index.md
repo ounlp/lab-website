@@ -64,7 +64,7 @@ and replace `description` with a one-line summary. The conventions are:
 ```yaml
 description: M.S. 2025 → Northrop Grumman        # graduated, next position known
 description: M.S. 2026, DSA                      # graduated, next position not yet known
-description: Undergraduate researcher, 2025–2026 # left before graduating (or "Graduate researcher")
+description: Undergrad, 2025–2026               # left before graduating (or "M.S., 2025–2026")
 ```
 
 Alumni appear under *Alumni & Past Members* on the Team page as name and summary only, so

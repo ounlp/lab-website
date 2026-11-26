@@ -1,7 +1,7 @@
 ---
 name: Arman Radmanesh
 image: images/arman-radmaenesh.jpg
-description: Graduate researcher, 2025–2026
+description: M.S., 2025–2026
 role: masters
 alumni: true
 links:
