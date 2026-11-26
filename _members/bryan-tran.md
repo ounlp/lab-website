@@ -1,7 +1,7 @@
 ---
 name: Bryan L. Tran
 image: images/avatar-placeholder.svg
-description: Master, CS
+description: M.S., CS
 role: masters
 links:
   email: bryan.l.tran-1@ou.edu
