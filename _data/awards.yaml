@@ -10,6 +10,13 @@
 # ---------- Student awards ----------
 
 - type: student
+  date: 2026-11-01
+  title: Undergraduate Research Opportunities Program (UROP) Fellowship, Spring 2027
+  image: images/awards/ou.png
+  subtitle: Addison Lin
+  icon: fa-solid fa-award
+
+- type: student
   date: 2026-09-01
   title: STAR-D Mini-Grant
   image: images/awards/ou.png
