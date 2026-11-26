@@ -1,5 +1,5 @@
 ---
-name: Ziyue Zhang(Zoe)
+name: Ziyue (Zoe) Zhang
 aliases:
   - Ziyue Zhang
 image: images/ziyue-zhang.jpg

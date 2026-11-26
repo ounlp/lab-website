@@ -34,7 +34,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 - **04/2026** — Our paper "[LLM-Powered Multi-Agent Attacks on Cooperative Spectrum Sensing](https://mlciv.com/papers/cai2026icccn.pdf)" is accepted to [ICCCN 2026](http://www.icccn.org/index.html).
 - **04/2026** — Our multimodal LLM for materials science, [MatterChat](https://www.nature.com/articles/s42256-026-01214-y), is accepted to [Nature Machine Intelligence](https://www.nature.com/natmachintell/)!
 - **02/2026** — Congratulations to Cuong and Masiko for receiving UROP fellowships for Spring 2026!
-- **01/2026** — Our paper "Translation via Annotation: A Computational Study of Translating Classical Chinese into Japanese" is accepted to EACL 2026 (Main Conference).
+- **01/2026** — Our paper "[Translation via Annotation: A Computational Study of Translating Classical Chinese into Japanese](https://aclanthology.org/2026.eacl-long.285/)" is accepted to [EACL 2026](https://2026.eacl.org/) (Main Conference).
 
 ## 2025
 
@@ -47,7 +47,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 - **09/2025** — Our collaborative proposal on seismic simulation was awarded by Nvidia (4 Max-Q GPUs).
 - **09/2025** — Our proposal on small language models was awarded NSF ACCESS GPU credits.
 - **08/2025** — Our paper using a state space model for [reservoir release](https://www.sciencedirect.com/science/article/abs/pii/S0022169425014830) is accepted in the Journal of Hydrology.
-- **08/2025** — One paper on frame semantics and LLMs is accepted to EMNLP 2025 (Main Conference)!
+- **08/2025** — Our paper "[Do LLMs Encode Frame Semantics? Evidence from Frame Identification](https://aclanthology.org/2025.emnlp-main.1499/)" is accepted to [EMNLP 2025](https://2025.emnlp.org/) (Main Conference)!
 - **08/2025** — Congratulations to Tiffany and Ava for receiving the Undergraduate Engineering Research Fellowship for Fall 2025!
 - **07/2025** — Our paper "AQUAH: Automatic Quantification and Unified Agent in Hydrology" is accepted to the [ICCV 2025 Workshop on Sustainability with Earth Observation and AI](https://sustain-eo-ai.github.io/).
 - **05/2025** — Congratulations to Masiko Mamba on the Undergraduate Engineering Research Fellowship for Summer 2025.
