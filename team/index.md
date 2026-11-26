@@ -32,8 +32,18 @@ and human–AI interaction. Get to know the people driving our research.
 
 ## Alumni & Past Members
 
+Former members are listed with their degree and year, and their next position when we know it.
+
+### Graduate
+
 <div class="alumni-list">
-{% include list.html data="members" component="portrait" filter="alumni == true" style="tiny" %}
+{% include list.html data="members" component="portrait" filter="alumni == true and role != 'undergrad'" style="tiny" %}
+</div>
+
+### Undergraduate
+
+<div class="alumni-list">
+{% include list.html data="members" component="portrait" filter="alumni == true and role == 'undergrad'" style="tiny" %}
 </div>
 
 {% include section.html %}

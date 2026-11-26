@@ -98,18 +98,24 @@
   }
 }
 
-// alumni list on the Team page: one person per line (name + years), no photos
+// alumni list on the Team page: compact grid of name + one-line summary, no photos
 .alumni-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0 32px;
+  margin: 0 0 16px 0;
   text-align: left;
 }
 
 .alumni-list .portrait[data-style="tiny"] {
-  display: flex;
-  justify-content: flex-start;   // base .portrait centers its content; keep rows flush left
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
   width: 100%;
   max-width: 100%;
-  gap: 10px;
-  margin: 4px 0;
+  margin: 0;
+  padding: 8px 0;
+  border-top: solid 1px var(--light-gray);
 }
 
 .alumni-list .portrait[data-style="tiny"] .portrait-image {
@@ -117,5 +123,5 @@
 }
 
 .alumni-list .portrait[data-style="tiny"] .portrait-description {
-  display: inline;
+  display: block;
 }

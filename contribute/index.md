@@ -56,6 +56,20 @@ your profile page automatically, matched by author name. If papers credit you un
 different form of your name, add `aliases:` with that form, for example
 `aliases: [Yiming Liu]`.
 
+### Leaving the lab
+
+Do not delete your profile: it keeps your publications linked. Instead add `alumni: true`
+and replace `description` with a one-line summary. The conventions are:
+
+```yaml
+description: M.S. 2025 → Northrop Grumman        # graduated, next position known
+description: M.S. 2026, DSA                      # graduated, next position not yet known
+description: Undergraduate researcher, 2025–2026 # left before graduating (or "Graduate researcher")
+```
+
+Alumni appear under *Alumni & Past Members* on the Team page as name and summary only, so
+the photo can stay. Tell us when you land somewhere so the line can be updated.
+
 ### A paper
 
 Add one entry to `_data/sources.yaml` for an accepted or published paper:
