@@ -36,3 +36,9 @@ $wrap: 600px;
     max-width: unset;
   }
 }
+
+// member bio: a block formatting context beside the floated portrait, so
+// text keeps one left edge instead of wrapping under the photo
+.member-bio {
+  display: flow-root;
+}

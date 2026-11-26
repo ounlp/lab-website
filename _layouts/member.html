@@ -27,7 +27,9 @@ layout: default
 
 {% include float.html content=floatcontent %}
 
+<div class="member-bio">
 {{ content }}
+</div>
 
 {%- comment -%} Inline list of this member's papers, matched by author name (page.aliases or name) against the shared citations data. {%- endcomment -%}
 {%- assign pub_names = page.aliases | default: page.name | join: "|" | split: "|" -%}
