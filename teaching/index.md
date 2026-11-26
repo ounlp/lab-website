@@ -32,7 +32,7 @@ Courses taught and assisted by members of the OUNLP Lab.
   include feature.html
   image="images/teaching/nlp-ou.svg"
   link="https://canvas.ou.edu/courses/388014/"
-  title="Spring 2025, Fall 2025, Spring 2026, Spring 2027"
+  title="SP’25 · FA’25 · SP’26 · SP’27"
   text=text
 %}
 
@@ -57,7 +57,7 @@ Slashlisted C S 4713/5713. Prerequisite: C S 4413 or DSA 4413, or permission of 
   include feature.html
   image="images/teaching/clt-ou.svg"
   link="/teaching/clt-course/"
-  title="Fall 2026"
+  title="FA’26"
   flip=true
   text=text
 %}
@@ -85,7 +85,7 @@ Courses taught and assisted before joining OU, at the University of Colorado Bou
   include feature.html
   image="images/teaching/nlp-cu.svg"
   link="https://canvas.colorado.edu/courses/95371/"
-  title="Fall 2023"
+  title="FA’23"
   text=text
 %}
 
@@ -108,7 +108,7 @@ Courses taught and assisted before joining OU, at the University of Colorado Bou
   include feature.html
   image="images/teaching/ml-utah.svg"
   link="https://svivek.com/teaching/machine-learning/spring2024/"
-  title="Fall 2016 & 2018"
+  title="FA’16 · FA’18"
   flip=true
   text=text
 %}
@@ -132,7 +132,7 @@ Courses taught and assisted before joining OU, at the University of Colorado Bou
   include feature.html
   image="images/teaching/sp-utah.svg"
   link="https://svivek.com/teaching/structured-prediction/spring2021/"
-  title="Spring 2019"
+  title="SP’19"
   text=text
 %}
 
