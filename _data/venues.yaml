@@ -19,6 +19,6 @@
 - key: ieee            # dark gray — IEEE conferences and transactions
   patterns: [ieee]
 - key: journal         # navy — other journals
-  patterns: [journal, letters, nature, transactions]
+  patterns: [journal, jmir, letters, nature, transactions]
 - key: other           # blue — everything else (fallback)
   patterns: []

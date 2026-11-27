@@ -1,5 +1,36 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.2196/101785
+  title: 'Large Language Models (LLMs) in Mental Health: Scoping Review of Clinical Promise, Human Factors, and Implementation Challenges'
+  authors:
+  - Reza Babaei
+  - Samuel Cheng
+  - Dan Li
+  - Jie Cao
+  - Shangqing Zhao
+  publisher: JMIR Mental Health
+  date: '2026-11-01'
+  link: https://doi.org/10.2196/101785
+  type: paper
+  tags:
+  - Trustworthy AI
+  - mental health
+  - large language models
+  - scoping review
+  - healthcare
+  bibtex: |-
+    @article{babaei2026jmir,
+      title = {Large Language Models ({LLMs}) in Mental Health: Scoping Review of Clinical Promise, Human Factors, and Implementation Challenges},
+      author = {Babaei, Reza and Cheng, Samuel and Li, Dan and Cao, Jie and Zhao, Shangqing},
+      journal = {JMIR Mental Health},
+      year = {2026},
+      volume = {13},
+      pages = {e101785},
+      doi = {10.2196/101785},
+      url = {https://doi.org/10.2196/101785}
+    }
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.48550/arXiv.2608.18473
   title: A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating
     Methane Emission Analysis and Reporting

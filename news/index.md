@@ -15,7 +15,7 @@ Grants, papers, talks, and milestones from the OUNLP Lab.
 
 ## 2026
 - **11/2026** — Congratulations to Addison Lin for receiving an Undergraduate Research Opportunities Program (UROP) Fellowship for Spring 2027!
-- **10/2026** — One paper is accepted to [JMIR Mental Health](https://mental.jmir.org/)!
+- **10/2026** — Our paper "[Large Language Models (LLMs) in Mental Health: Scoping Review of Clinical Promise, Human Factors, and Implementation Challenges](https://doi.org/10.2196/101785)" is accepted to [JMIR Mental Health](https://mental.jmir.org/)!
 - **09/2026** — Our project "Input Rewriting for Dialog Act Tagging" was awarded a computing allocation through the [NAIRR Pilot](https://nairrpilot.org/)!
 - **09/2026** — Congratulations to Yiming on being awarded a STAR-D (Departmental Stimulation & Translation of Academic Research) mini-grant!
 - **08/2026** — New [preprint](https://arxiv.org/abs/2608.18473): "A Locally Deployable Tool-Grounded LLM Multi-agent Framework for Automating Methane Emission Analysis and Reporting".
